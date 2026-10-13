@@ -1,11 +1,20 @@
-# TZH Sports Centre · Client wiki
+# TZH Sports Centre Wiki
 
-**[Start with the overview →](overview.md)**
+[Overview](overview.md) · [Website guides](website/README.md) · [MCP guides](mcp/README.md)
 
-Short guides for using the [TZH website](https://tzhsports.vercel.app) and its connected Codex assistant.
+## Changes by date
 
-- [Website guides](website/README.md) — public, member, administrator and staff tasks.
-- [MCP guides](mcp/README.md) — example prompts, approvals and function reference.
-- [Dated changes](changelog/README.md) — what changed and what to try.
+### 13 October 2026
 
-Screenshots show the local app with fictional demo records. Use English to match the screenshots; the site also offers Chinese and Malay. Available screens depend on your role and the deployed version. Use agreed test records for actions that save payments, invoices, attendance or cancellations.
+- [Correct paid manual invoices](guides/2026-10-12-13.md#4-correct-a-paid-manual-invoice--admin); return to the Invoices tab after editing.
+
+### 12 October 2026
+
+- [Approved bookings and month filters](guides/2026-10-12-13.md#1-find-approved-bookings--admin).
+- [Cancel approved bookings](guides/2026-10-12-13.md#2-cancel-an-approved-booking--admin).
+- [Create non-member invoices](guides/2026-10-12-13.md#3-create-an-invoice-for-a-non-member--admin).
+- [Monthly/lifetime rankings and admin-only full names](guides/2026-10-12-13.md#5-compare-leaderboard-rankings--everyone).
+- [Student rates and updated About Us photos](guides/2026-10-12-13.md#6-check-student-rates-and-updated-photos--everyone).
+- [Member/non-member MCP invoices](mcp/manual-invoices.md) — rollout pending verification.
+
+[All dated changes →](changelog/README.md)
