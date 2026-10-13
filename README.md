@@ -12,7 +12,7 @@
 - [Create non-member invoices](guides/2026-10-12-13.md#3-create-an-invoice-for-a-non-member--admin).
 - [Monthly/lifetime rankings and admin-only full names](guides/2026-10-12-13.md#5-compare-leaderboard-rankings--everyone).
 - [Student rates and updated About Us photos](guides/2026-10-12-13.md#6-check-student-rates-and-updated-photos--everyone).
-- [Member/non-member MCP invoices](mcp/manual-invoices.md) — rollout pending verification.
+- [Member/non-member MCP invoices](mcp/manual-invoices.md).
 
 ### Earlier weeks
 

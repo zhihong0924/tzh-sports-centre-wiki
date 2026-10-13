@@ -11,7 +11,7 @@
 - Create paid non-member invoices; keep the customer name first.
 - Compare monthly/lifetime rankings; full names are admin-only.
 - See student hourly rates and refreshed About Us photos.
-- Prepare member/non-member MCP invoices — rollout pending verification.
+- Prepare member/non-member MCP invoices.
 
 [Try these changes →](../guides/2026-10-12-13.md)
 

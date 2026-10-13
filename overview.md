@@ -44,7 +44,7 @@ MCP tools are for authorised administrators. Discovery and previews do not final
 | Award positive member points | [Point assignment](mcp/points.md) |
 | Change specific lesson durations or prices | [Lesson changes](mcp/lesson-management.md) |
 | Find missing attendance or record reviewed outcomes | [Attendance](mcp/attendance.md) |
-| Prepare an already-paid manual invoice | [Manual invoices — rollout pending verification](mcp/manual-invoices.md) |
+| Prepare an already-paid manual invoice | [Manual invoices](mcp/manual-invoices.md) |
 
 [All MCP function names and purposes](mcp/functions.md) · [Dated changes](changelog/README.md)
 

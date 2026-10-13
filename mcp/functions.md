@@ -2,7 +2,7 @@
 
 [← MCP guides](README.md)
 
-You can ask in ordinary language; the assistant chooses the function. This reference describes the current application catalog, not a claim that every function is deployed for your connection. Invoice workflows remain [pending verification](manual-invoices.md). Each function requires its listed permission and an active administrator.
+You can ask in ordinary language; the assistant chooses the function. All listed functions are deployed. Each function requires its listed permission and an active administrator.
 
 | Permission | Function | What it does | Effect |
 |---|---|---|---|
@@ -26,9 +26,9 @@ You can ask in ordinary language; the assistant chooses the function. This refer
 | Lesson management | `query_lesson_attendance` | Read recorded/missing/not-due attendance and summaries. | Read |
 | Lesson management | `preview_lesson_attendance_updates` | Show attendance and replacement/cancellation effects. | Preview |
 | Lesson management | `commit_lesson_attendance_updates` | Record the exact approved attendance batch atomically. | Confirmed write |
-| Manual invoices · pending | `search_invoice_members` | Find registered invoice owners. | Read |
-| Manual invoices · pending | `preview_manual_invoice` | Show an already-paid member/non-member invoice proposal. | Preview |
-| Manual invoices · pending | `commit_manual_invoice` | Create the approved invoice and applicable member points. | Confirmed write |
+| Manual invoices | `search_invoice_members` | Find registered invoice owners. | Read |
+| Manual invoices | `preview_manual_invoice` | Show an already-paid member/non-member invoice proposal. | Preview |
+| Manual invoices | `commit_manual_invoice` | Create the approved invoice and applicable member points. | Confirmed write |
 | Manual invoices · compatibility | `preview_non_member_invoice` | Show a legacy non-member-only proposal. | Preview |
 | Manual invoices · compatibility | `commit_non_member_invoice` | Create the approved legacy non-member invoice. | Confirmed write |
 

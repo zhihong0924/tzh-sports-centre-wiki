@@ -14,7 +14,7 @@
 | Member points | Member/policy lookup and positive point awards |
 | Lesson management | Concrete lesson duration/price changes and attendance query/recording |
 | Read admin attention | Read-only operational digest; other permissions do not imply it |
-| Manual invoices | Already-paid member/non-member invoices after verified rollout |
+| Manual invoices | Already-paid member/non-member invoices |
 
 **Expected:** Credentials are personal, expire when configured and can be revoked independently. Revocation stops clients using that token. A token does not bypass the active admin role or the approval required for each write.
 
