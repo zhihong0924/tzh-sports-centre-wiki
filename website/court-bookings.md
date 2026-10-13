@@ -11,3 +11,14 @@
 **Expected:** Uploading a receipt means pending review, not paid approval. An expired hold releases the court. Student rates reflect a 20% counter refund: pay the full online amount first. [Admin cancellation](admin-courts.md) releases the slot but records no refund.
 
 ![Standard and student rates](../images/2026-10-12-13/student-rates.png)
+
+## 30-minute gaps
+
+**Awaiting deployment:** Both badminton and pickleball normally require at least
+one hour per continuous booking. You can select a single 30-minute gap only when
+the slots immediately before and after are already occupied on that same court.
+Opening/closing boundaries do not qualify. Select the free gap, check the
+half-hour total and follow the normal payment steps. If a neighbouring booking
+changes before confirmation, refresh availability and select again.
+
+![Fictional 30-minute gap selected](../images/features/court-halfhour-gap.png)

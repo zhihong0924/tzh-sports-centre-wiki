@@ -14,3 +14,11 @@
 For receipt approval, counter settlement and automatic loyalty awards, follow [Recurring payments and points](recurring-payments-points.md#recurring-court-bookings).
 
 ![Approved booking review](../images/2026-10-12-13/booking-reviews.png)
+
+## 30-minute bookings
+
+**Awaiting deployment:** One-off court bookings require at least one hour for
+either sport unless the selected half-hour is surrounded by occupied slots on
+the same court/date. This check also applies to admin creation. Check the
+schedule before saving; opening and closing boundaries do not qualify. A paid
+half-hour member booking earns points from its actual half-hour payment.
