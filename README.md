@@ -2,13 +2,11 @@
 
 [Overview](overview.md) · [Website guides](website/README.md) · [MCP guides](mcp/README.md)
 
-## Changes by date
+## Weekly changes
 
-### 13 October 2026
+### 12–18 October 2026
 
 - [Correct paid manual invoices](guides/2026-10-12-13.md#4-correct-a-paid-manual-invoice--admin); return to the Invoices tab after editing.
-
-### 12 October 2026
 
 - [Approved bookings and month filters](guides/2026-10-12-13.md#1-find-approved-bookings--admin).
 - [Cancel approved bookings](guides/2026-10-12-13.md#2-cancel-an-approved-booking--admin).
@@ -17,4 +15,4 @@
 - [Student rates and updated About Us photos](guides/2026-10-12-13.md#6-check-student-rates-and-updated-photos--everyone).
 - [Member/non-member MCP invoices](mcp/manual-invoices.md) — rollout pending verification.
 
-[All dated changes →](changelog/README.md)
+[All weekly changes →](changelog/README.md)
