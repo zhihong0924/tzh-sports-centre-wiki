@@ -10,6 +10,8 @@ Open [Admin Shop](https://tzhsports.vercel.app/admin/shop). Maintain products, p
 
 Open [Points Management](https://tzhsports.vercel.app/admin/points). Maintain reusable policies or select members for policy/free-form awards or deductions. Review the calculated change before confirming. Use a reason so the member history explains the adjustment. Paid purchases earn points automatically; do not duplicate those awards manually. MCP supports positive awards only.
 
+See [Recurring payments and points](recurring-payments-points.md) for the court and lesson payment actions that award points automatically.
+
 ## Vouchers
 
 Open [Vouchers](https://tzhsports.vercel.app/admin/vouchers). Create a template with image/label, assign an active voucher to selected accounts, then check member claims in **Voucher Claims Pending Check**. **Available to claim** supports **Claim for user** at the counter; **Checked history** retains completed claims.

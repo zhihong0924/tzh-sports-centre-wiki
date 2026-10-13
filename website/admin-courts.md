@@ -11,4 +11,6 @@
 
 **Expected:** Conflicts and operating-hours checks can prevent saving. Deactivation stops the rule; cancelling one occurrence affects the selected date/scope. Review scope and payment state before confirming.
 
+For receipt approval, counter settlement and automatic loyalty awards, follow [Recurring payments and points](recurring-payments-points.md#recurring-court-bookings).
+
 ![Approved booking review](../images/2026-10-12-13/booking-reviews.png)

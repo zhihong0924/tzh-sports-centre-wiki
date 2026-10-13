@@ -14,6 +14,8 @@
 
 **Expected:** Schedule, Enrollment and Attendance keep the selected date. Missing attendance is not proof of absence, and billing is based on enrollment. Eligible absence/centre cancellation can issue or restore replacement entitlements while retaining the original billable treatment. Replacement-funded sessions remain free.
 
+For recurring lesson-fee payments and automatic loyalty awards, follow [Recurring payments and points](recurring-payments-points.md#recurring-lessons).
+
 ![Lesson management workspace](../images/features/lesson-management.png)
 
 ![Attendance review](../images/features/attendance.png)
