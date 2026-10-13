@@ -1,3 +1,5 @@
 # Client wiki
 
 Keep README.md brief, with a visible Weekly changes section grouping specific updates into Monday–Sunday ranges (for example, 12–18 October 2026), newest week first. Use overview.md as the role/task map. Maintain current website/ and mcp/ guides separately from dated guides linked by changelog/README.md. Preserve dated guide URLs. Keep each task guide brief: required role, actual page link, clicks/inputs, expected results and important approval/payment effects. Save real application screenshots under images/ using fictional demo data; never commit credentials, real contact details, receipts or private customer records. Label rollout limitations accurately and do not invent client screens or MCP capabilities. Keep developer implementation notes in the application repository and customer MCP setup/skills in tzh-sports-centre-mcp.
+
+Client-facing pages describe features and usage only. Omit writing-process notes, coverage commentary, task requirements, and statements about periods with no changes.

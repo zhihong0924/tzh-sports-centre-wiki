@@ -2,8 +2,6 @@
 
 [← Wiki home](../README.md)
 
-Covers 13 August–13 October 2026. Earlier weeks link to current guides and demo screenshots; dates do not confirm production availability.
-
 ## 12–18 October 2026
 
 - Correct issued manual invoice names, date, items and amounts, with a reason and retained PDF history.
@@ -30,4 +28,3 @@ Covers 13 August–13 October 2026. Earlier weeks link to current guides and dem
 | [24–30 August](2026-08-24.md) | Mobile navigation, rewards and social games |
 | [17–23 August](2026-08-17.md) | Recurring schedules and account retirement |
 
-No new client-facing changes recorded for 13–16 August, the start of this two-month window.

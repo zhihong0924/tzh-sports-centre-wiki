@@ -56,4 +56,4 @@ MCP tools are for authorised administrators. Discovery and previews do not final
 - WhatsApp Cloud API ingestion/replies are an operator pilot with no inbox screen or MCP integration. The separate WhatsApp Reminders screen prepares messages for manual sending.
 - Revenue reporting currently has no client dashboard. Background cleanup and renewal run automatically; clients do not manually trigger them here.
 
-If a control is missing or a guide's screenshot differs, confirm your account role and the deployed version with the centre owner. No production deployment was verified while preparing these guides.
+If a control is missing or a guide's screenshot differs, confirm your account role and the deployed version with the centre owner.
