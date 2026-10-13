@@ -4,7 +4,7 @@
 
 ## Weekly changes
 
-### 12–18 October 2026
+### [12–18 October 2026](changelog/2026-10-12.md)
 
 - [Correct paid manual invoices](guides/2026-10-12-13.md#4-correct-a-paid-manual-invoice--admin); return to the Invoices tab after editing.
 - [Approved bookings and month filters](guides/2026-10-12-13.md#1-find-approved-bookings--admin).
@@ -12,7 +12,7 @@
 - [Create non-member invoices](guides/2026-10-12-13.md#3-create-an-invoice-for-a-non-member--admin).
 - [Monthly/lifetime rankings and admin-only full names](guides/2026-10-12-13.md#5-compare-leaderboard-rankings--everyone).
 - [Student rates and updated About Us photos](guides/2026-10-12-13.md#6-check-student-rates-and-updated-photos--everyone).
-- [Member/non-member MCP invoices](mcp/manual-invoices.md).
+- [Member/non-member MCP invoices](mcp/manual-invoices.md); [all MCP functions deployed](mcp/functions.md).
 
 ### Earlier weeks
 
