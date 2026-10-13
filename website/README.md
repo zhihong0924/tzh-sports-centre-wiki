@@ -1,0 +1,23 @@
+# Website guides
+
+[← Overview](../overview.md)
+
+## Public and member
+
+- [Getting started](getting-started.md)
+- [Court bookings](court-bookings.md)
+- [Social games](social-games.md)
+- [Lessons and replacements](lessons.md)
+- [Payments and invoices](payments-invoices.md)
+- [Shop and orders](shop.md)
+- [Rewards and development](rewards-development.md)
+
+## Administrator and staff
+
+- [Court operations](admin-courts.md)
+- [Lesson Management](admin-lessons.md)
+- [Student Accounts and audits](student-accounts.md)
+- [Player Development](player-development.md)
+- [Admin invoices](admin-invoices.md)
+- [People and follow-up](people-follow-up.md)
+- [Commerce and rewards](commerce-rewards.md)

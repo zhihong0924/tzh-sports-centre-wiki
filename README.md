@@ -1,11 +1,11 @@
-# TZH Sports Centre · Client guide
+# TZH Sports Centre · Client wiki
 
-Short walkthroughs to help you try the latest features.
+**[Start with the overview →](overview.md)**
 
-**[Try the October 12–13, 2026 updates →](guides/2026-10-12-13.md)**
+Short guides for using the [TZH website](https://tzhsports.vercel.app) and its connected Codex assistant.
 
-Open the [TZH website](https://tzhsports.vercel.app), then follow the guide using your own account. Admin steps require an administrator account. Use agreed test records for actions that save invoices or cancel bookings.
+- [Website guides](website/README.md) — public, member, administrator and staff tasks.
+- [MCP guides](mcp/README.md) — example prompts, approvals and function reference.
+- [Dated changes](changelog/README.md) — what changed and what to try.
 
-Screenshots show the latest local app with fictional demo records. Website availability depends on the deployed version; if a control is missing, ask the centre owner to confirm the update is available.
-
-For the separately configured Codex assistant, see the [customer MCP workspace](https://github.com/zhihong0924/tzh-sports-centre-mcp).
+Screenshots show the local app with fictional demo records. Use English to match the screenshots; the site also offers Chinese and Malay. Available screens depend on your role and the deployed version. Use agreed test records for actions that save payments, invoices, attendance or cancellations.
