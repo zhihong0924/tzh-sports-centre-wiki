@@ -4,7 +4,7 @@
 
 | Week (2026) | Changes |
 |---|---|
-| [12–18 October](2026-10-12.md) | Bookings, invoices, rankings and MCP; two features coming soon |
+| [12–18 October](2026-10-12.md) | Bookings, invoices, rankings and MCP; two features in testing |
 | [5–11 October](2026-10-05.md) | Phone number entry |
 | [28 September–4 October](2026-09-28.md) | Student fees and MCP lesson tools |
 | [21–27 September](2026-09-21.md) | WhatsApp pilot |

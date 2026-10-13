@@ -22,4 +22,4 @@ In My Lessons, choose **Request Absence** when offered. Eligible admin-assigned 
 
 ![Trial request form](../images/features/trial-request.png)
 
-**Awaiting deployment:** Off-site lesson cards and statements show the external location. See [Off-site lessons](offsite-lessons.md) for how admins and coaches arrange these classes.
+**Testing (local only; awaiting production deployment):** Off-site lesson cards and statements show the external location. See [Off-site lessons](offsite-lessons.md) for how admins and coaches arrange these classes.

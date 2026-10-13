@@ -17,8 +17,10 @@ For receipt approval, counter settlement and automatic loyalty awards, follow [R
 
 ## 30-minute bookings
 
-**Awaiting deployment:** One-off court bookings require at least one hour for
+**Testing (local only; awaiting production deployment):** One-off court bookings require at least one hour for
 either sport unless the selected half-hour is surrounded by occupied slots on
 the same court/date. This check also applies to admin creation. Check the
 schedule before saving; opening and closing boundaries do not qualify. A paid
 half-hour member booking earns points from its actual half-hour payment.
+
+Try the [30-minute court booking test guide](30-minute-court-bookings.md).
