@@ -17,6 +17,7 @@
 - [Court operations](admin-courts.md)
 - [Recurring payments and points](recurring-payments-points.md)
 - [Lesson Management](admin-lessons.md)
+- [Off-site lessons](offsite-lessons.md)
 - [Student Accounts and audits](student-accounts.md)
 - [Player Development](player-development.md)
 - [Admin invoices](admin-invoices.md)

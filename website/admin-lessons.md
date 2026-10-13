@@ -23,3 +23,5 @@ For recurring lesson-fee payments and automatic loyalty awards, follow [Recurrin
 ![One-off lesson creation](../images/features/lesson-create.png)
 
 ![Replacement administration](../images/features/replacements-admin.png)
+
+For external venues and times outside centre operating hours, see [Off-site lessons](offsite-lessons.md) (**awaiting deployment**).
