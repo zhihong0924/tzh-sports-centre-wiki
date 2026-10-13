@@ -15,5 +15,6 @@
 | [31 August–6 September](changelog/2026-08-31.md) | Student Accounts and attendance |
 | [24–30 August](changelog/2026-08-24.md) | Mobile navigation, rewards and social games |
 | [17–23 August](changelog/2026-08-17.md) | Recurring schedules and account retirement |
+| Before 17 August | Available upon request |
 
 [All weekly changes →](changelog/README.md)
