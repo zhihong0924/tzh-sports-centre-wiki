@@ -14,7 +14,13 @@
 
 ![Fictional off-site lesson form](../images/features/offsite-lesson-create.png)
 
+For example, a weekly **7:00–8:00 AM** lesson from **15–29 October 2026** creates three occurrences: **15, 22 and 29 October**. Each carries the external venue and enrolled students.
+
 ![Fictional recurring off-site form](../images/features/offsite-recurring-create.png)
+
+After creation, the selected date lists both lessons under **Off-site lessons**. Use **Details** to inspect or edit an occurrence. These entries reserve no centre court.
+
+![Fictional saved one-off and recurring off-site lessons](../images/features/offsite-lessons-saved.png)
 
 ## Expected results and points
 
