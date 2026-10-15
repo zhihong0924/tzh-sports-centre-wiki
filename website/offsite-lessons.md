@@ -1,6 +1,6 @@
 # Arrange off-site lessons
 
-[← Overview](../overview.md) · **Who:** Administrators and coaches
+[← Overview](../overview.md) · **Who:** Administrators (including coaches using admin accounts)
 
 **Status: Testing** — available on the local test website; awaiting production deployment.
 
@@ -13,15 +13,6 @@
 5. In Lesson Management, find the occurrence under **Off-site lessons**, then **Details** for later changes. Use the normal Enrollment, Attendance and Member Fees tabs for student administration and payments.
 
 ![Fictional off-site lesson form](../images/features/offsite-lesson-create.png)
-
-## Coach
-
-1. Open **Account → Off-site Lessons**, or [Off-site Lessons](http://localhost:3000/coach/lessons), and choose the date.
-2. Select **Create Lesson** or **Create Recurring Lesson**. These are the same lesson forms with no centre court selector.
-3. Enter the external location, lesson type, time, duration and applicable fee/seats. Search for registered students in your assigned coach roster, or enter named guest students.
-4. Review the complete form and create the lesson. Check your own off-site lesson list for the selected date.
-
-Ask an admin to manage later changes, attendance, assistant assignments and payments. If a registered student does not appear, ask the admin to check their student role and your coach roster assignment.
 
 ![Fictional recurring off-site form](../images/features/offsite-recurring-create.png)
 
