@@ -27,6 +27,10 @@ Clicking next to an existing block extends it by half an hour. Removing a slot f
 
 ![Fictional separate one-hour blocks selected](../images/features/court-separate-blocks.png)
 
+Changing the calendar date clears all selected slots immediately. Wait for the new date’s availability, then select your times again; returning to the previous date does not restore its selection.
+
+![Fictional Thursday past slots with the Friday selection cleared](../images/features/court-date-reset.png)
+
 Half-hour payments use their actual amount for invoices and automatic member points. Uploading proof earns no points; admin payment approval finalizes the award.
 
 ![Fictional isolated half-hour selected](../images/features/court-halfhour-gap.png)
