@@ -10,7 +10,7 @@
 2. In **Court / venue**, choose **Off-site — no centre court**.
 3. Enter **Off-site location**, for example **Demo School Hall**. Choose the lesson type, start time and duration. Off-site times can be outside centre operating hours; the lesson must finish by midnight on the same date.
 4. Check the fee and seats, add students and any assistants, then create the lesson. For recurring lessons, also check the recurrence and start/end dates.
-5. In Lesson Management, find the occurrence under **Off-site lessons**, then **Details** for later changes. Use the normal Enrollment, Attendance and Member Fees tabs for student administration and payments.
+5. In Lesson Management, find the occurrence in the **Off-site** timetable column next to **Time**, then click its venue card for later changes. Use the normal Enrollment, Attendance and Member Fees tabs for student administration and payments.
 
 ![Fictional off-site lesson form](../images/features/offsite-lesson-create.png)
 
@@ -18,9 +18,9 @@ For example, a weekly **7:00–8:00 AM** lesson from **15–29 October 2026** cr
 
 ![Fictional recurring off-site form](../images/features/offsite-recurring-create.png)
 
-After creation, the selected date lists both lessons under **Off-site lessons**. Use **Details** to inspect or edit an occurrence. These entries reserve no centre court.
+After creation, the selected date shows the lessons in the **Off-site** column beside the court timetable. Each card shows its venue, time and enrollment count; click it to inspect or edit. Early or late lessons extend the displayed hours, while centre courts outside operating hours show **Closed**. Overlapping off-site lessons at different venues remain visible together. These entries reserve no centre court.
 
-![Fictional saved one-off and recurring off-site lessons](../images/features/offsite-lessons-saved.png)
+![Fictional off-site timetable with overlapping external venues](../images/features/offsite-lessons-saved.png)
 
 ## Expected results and points
 
