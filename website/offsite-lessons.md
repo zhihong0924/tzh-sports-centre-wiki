@@ -2,11 +2,11 @@
 
 [← Overview](../overview.md) · **Who:** Administrators (including coaches using admin accounts)
 
-**Status: Testing** — available on the local test website; awaiting production deployment.
+**Status: Available** — released on 16 October 2026 at [TZH Sports Centre](https://tzhsports.vercel.app/).
 
 ## Administrator
 
-1. Open [Lesson Management](http://localhost:3000/admin/lesson-fees), choose the date and select **Create Lesson** or **Create Recurring Lesson**. The same forms are available in [Schedule → Lessons](http://localhost:3000/admin/schedule?tab=lessons).
+1. Open [Lesson Management](https://tzhsports.vercel.app/admin/lesson-fees), choose the date and select **Create Lesson** or **Create Recurring Lesson**. The same forms are available in [Schedule → Lessons](https://tzhsports.vercel.app/admin/schedule?tab=lessons).
 2. In **Court / venue**, choose **Off-site — no centre court**.
 3. Enter **Off-site location**, for example **Demo School Hall**. Choose the lesson type, start time and duration. Off-site times can be outside centre operating hours; the lesson must finish by midnight on the same date.
 4. Check the fee and seats, add students and any assistants, then create the lesson. For recurring lessons, also check the recurrence and start/end dates.
@@ -28,7 +28,7 @@ The lesson shows its external location and reserves **no centre court**. Generat
 
 Off-site lessons use the normal enrollment-based fees. Creating or renewing them awards **no points**. When an admin approves a registered member's lesson-fee receipt or records received payment, the member earns **1 point per complete RM received** automatically. Follow [Recurring payments and points](recurring-payments-points.md#recurring-lessons); do not add the same points manually.
 
-Enrolled members can check the external location in [My Lessons](http://localhost:3000/my-lessons) and their charges in [My Lesson Fees](http://localhost:3000/my-lesson-fees).
+Enrolled members can check the external location in [My Lessons](https://tzhsports.vercel.app/my-lessons) and their charges in [My Lesson Fees](https://tzhsports.vercel.app/my-lesson-fees).
 
 ## Check attendance, student history and payments
 

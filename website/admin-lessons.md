@@ -24,4 +24,4 @@ For recurring lesson-fee payments and automatic loyalty awards, follow [Recurrin
 
 ![Replacement administration](../images/features/replacements-admin.png)
 
-For external venues and times outside centre operating hours, see [Off-site lessons](offsite-lessons.md) (**Testing — local only; awaiting production deployment**).
+For external venues and times outside centre operating hours, see [Off-site lessons](offsite-lessons.md).

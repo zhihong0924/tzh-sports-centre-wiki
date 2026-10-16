@@ -6,7 +6,7 @@
 
 - [Getting started](getting-started.md)
 - [Court bookings](court-bookings.md)
-- [30-minute court bookings — Testing](30-minute-court-bookings.md)
+- [30-minute court bookings](30-minute-court-bookings.md)
 - [Social games](social-games.md)
 - [Lessons and replacements](lessons.md)
 - [Payments and invoices](payments-invoices.md)
@@ -18,7 +18,7 @@
 - [Court operations](admin-courts.md)
 - [Recurring payments and points](recurring-payments-points.md)
 - [Lesson Management](admin-lessons.md)
-- [Off-site lessons — Testing](offsite-lessons.md)
+- [Off-site lessons](offsite-lessons.md)
 - [Student Accounts and audits](student-accounts.md)
 - [Player Development](player-development.md)
 - [Admin invoices](admin-invoices.md)

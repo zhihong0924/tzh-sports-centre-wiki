@@ -14,7 +14,7 @@
 
 ## 30-minute gaps
 
-**Testing (local only; awaiting production deployment):** Both badminton and pickleball normally require at least
+**Available:** Both badminton and pickleball normally require at least
 one hour per continuous booking. You can select a single 30-minute gap only when
 the slots immediately before and after are already occupied on that same court.
 Opening/closing boundaries do not qualify. Select the free gap, check the

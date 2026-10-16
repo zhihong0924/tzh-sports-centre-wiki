@@ -22,4 +22,4 @@ In My Lessons, choose **Request Absence** when offered. Eligible admin-assigned 
 
 ![Trial request form](../images/features/trial-request.png)
 
-**Testing (local only; awaiting production deployment):** Eligible absences stay visible in My Lessons with an Absent badge and replacement-token message. Off-site lesson cards and statements show the external location. See [Off-site lessons](offsite-lessons.md) for how admins arrange these classes.
+**Available:** Eligible absences stay visible in My Lessons with an Absent badge and replacement-token message. Off-site lesson cards and statements show the external location. See [Off-site lessons](offsite-lessons.md) for how admins arrange these classes.

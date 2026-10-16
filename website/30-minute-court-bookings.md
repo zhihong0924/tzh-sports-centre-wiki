@@ -1,15 +1,15 @@
-# Test 30-minute court bookings
+# Book a 30-minute court slot
 
 [← Overview](../overview.md) · **Who:** Members; administrators can also create bookings
 
-**Status: Testing** — available on the local test website; awaiting production deployment.
+**Status: Available** — released on 16 October 2026 at [TZH Sports Centre](https://tzhsports.vercel.app/).
 
 ## Book an isolated half-hour
 
-1. Open [local Book a Court](http://localhost:3000/booking), sign in and choose the date and sport.
+1. Open [Book a Court](https://tzhsports.vercel.app/booking), sign in and choose the date and sport.
 2. Find a free 30-minute slot with occupied slots immediately before and after it on the same court. For example: **5:30–6:00 PM booked**, **6:00–6:30 PM free**, **6:30–7:00 PM booked**.
 3. Select the free gap. Check that only the half-hour is selected and the summary charges the half-hour rate.
-4. If testing the complete payment flow, use fictional test proof, submit the booking and let an admin review it through [local Schedule → Bookings](http://localhost:3000/admin/schedule?tab=bookings).
+4. Complete payment, upload your receipt and submit the booking. An admin reviews it through [Schedule → Bookings](https://tzhsports.vercel.app/admin/schedule?tab=bookings).
 
 **Expected:** Both badminton and pickleball allow that isolated half-hour. Otherwise each continuous booking needs at least one hour. Opening/closing boundaries do not count as occupied slots. If neighbouring availability changes before confirmation, refresh and select again.
 

@@ -10,7 +10,7 @@ Choose a task below. Each guide contains the page link, steps and expected resul
 |---|---|
 | Explore Home and About Us, sign in, register or edit your profile | [Getting started](website/getting-started.md) |
 | Reserve a court, pay and see your bookings | [Court bookings](website/court-bookings.md) |
-| Try the isolated 30-minute court booking rule (Testing) | [30-minute court bookings](website/30-minute-court-bookings.md) |
+| Try the isolated 30-minute court booking rule | [30-minute court bookings](website/30-minute-court-bookings.md) |
 | Choose social-game dates and contact the organiser | [Social games](website/social-games.md) |
 | Browse lessons, request a trial, check classes or request absence | [Lessons and replacements](website/lessons.md) |
 | Pay outstanding charges, check lesson fees or download invoices | [Payments and invoices](website/payments-invoices.md) |
@@ -26,7 +26,7 @@ Sign in, then open [Admin Dashboard](https://tzhsports.vercel.app/admin). Its sh
 | Create/review court bookings and manage recurring court sessions | [Court operations](website/admin-courts.md) |
 | Settle recurring court/lesson payments and award automatic points | [Recurring payments and points](website/recurring-payments-points.md) |
 | Create lessons, enroll students, record attendance and settle fees | [Lesson Management](website/admin-lessons.md) |
-| Arrange lessons at an external venue without a centre court (Testing) | [Off-site lessons](website/offsite-lessons.md) |
+| Arrange lessons at an external venue without a centre court | [Off-site lessons](website/offsite-lessons.md) |
 | Review a student's account or reconcile historical records | [Student Accounts and audits](website/student-accounts.md) |
 | Assign coaches and complete Foundation, Level and Skill Tree reviews | [Player Development](website/player-development.md) |
 | Review/manual-create/correct invoices | [Admin invoices](website/admin-invoices.md) |
