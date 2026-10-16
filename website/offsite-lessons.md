@@ -18,7 +18,13 @@ For example, a weekly **7:00–8:00 AM** lesson from **15–29 October 2026** cr
 
 ![Fictional recurring off-site form](../images/features/offsite-recurring-create.png)
 
-After creation, the selected date shows the lessons in the **Off-site** column at the right of the court timetable. Each card shows its venue, time and enrollment count; click it to inspect or edit. Early or late lessons extend the displayed hours, while centre courts outside operating hours show **Closed**. Overlapping off-site lessons at different venues remain visible together. These entries reserve no centre court.
+## View off-site lessons in the timetable
+
+1. Open [Lesson Management](https://tzhsports.vercel.app/admin/lesson-fees), select **Schedule** and choose the lesson date.
+2. Find the **Off-site** column after the centre court columns. Each venue card shows the time and enrollment count; all lesson columns have equal widths.
+3. Click a venue card to inspect or edit that occurrence.
+
+Early or late lessons extend the displayed hours, while centre courts outside operating hours show **Closed**. Overlapping off-site lessons at different venues remain visible together. These entries reserve no centre court.
 
 ![Fictional off-site timetable with overlapping external venues](../images/features/offsite-lessons-saved.png)
 

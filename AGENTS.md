@@ -5,3 +5,5 @@ Keep README.md brief, with a Weekly changes table linking Monday–Sunday change
 Client-facing pages describe features and usage only. Omit writing-process notes, coverage commentary, task requirements, and statements about periods with no changes.
 
 Use `https://tzhsports.vercel.app/` for client website links; never use localhost URLs in published guides.
+
+Weekly changelog pages are a single list with one update per bullet. Each bullet links to its relevant step-by-step guide or guide section. Keep screenshots and walkthroughs in those guides, not as standalone images or walkthrough links on the weekly page.

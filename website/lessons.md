@@ -22,4 +22,12 @@ In My Lessons, choose **Request Absence** when offered. Eligible admin-assigned 
 
 ![Trial request form](../images/features/trial-request.png)
 
-**Available:** Eligible absences stay visible in My Lessons with an Absent badge and replacement-token message. Off-site lesson cards and statements show the external location. See [Off-site lessons](offsite-lessons.md) for how admins arrange these classes.
+## View lesson history
+
+1. Sign in and open [My Lessons](https://tzhsports.vercel.app/my-lessons).
+2. Find the lesson under **Upcoming** or **Past**. Check its venue, date, duration and fee. Off-site cards show the external location.
+3. An eligible absence stays in the list with an **Absent** badge and replacement-token message. Open **My Replacement Tokens** to view the entitlement.
+
+![Fictional student history with an eligible absence](../images/features/lesson-comparison-student-history.png)
+
+See [Off-site lessons](offsite-lessons.md) for how admins arrange external classes.
