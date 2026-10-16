@@ -6,7 +6,7 @@
 
 | Week (2026) | Changes |
 |---|---|
-| [12–18 October](changelog/2026-10-12.md) | Website and MCP updates; 16 October release |
+| [12–18 October](changelog/2026-10-12.md) | Website and MCP updates |
 | [5–11 October](changelog/2026-10-05.md) | Phone number entry |
 | [28 September–4 October](changelog/2026-09-28.md) | Student fees and MCP lesson tools |
 | [21–27 September](changelog/2026-09-21.md) | WhatsApp pilot |
