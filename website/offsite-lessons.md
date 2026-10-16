@@ -29,3 +29,18 @@ The lesson shows its external location and reserves **no centre court**. Generat
 Off-site lessons use the normal enrollment-based fees. Creating or renewing them awards **no points**. When an admin approves a registered member's lesson-fee receipt or records received payment, the member earns **1 point per complete RM received** automatically. Follow [Recurring payments and points](recurring-payments-points.md#recurring-lessons); do not add the same points manually.
 
 Enrolled members can check the external location in [My Lessons](http://localhost:3000/my-lessons) and their charges in [My Lesson Fees](http://localhost:3000/my-lesson-fees).
+
+## Check attendance, student history and payments
+
+1. After a lesson ends, use **Lesson Management → Attendance**. Record **Attended**, **Eligible absence** or **Absent · no replacement** as appropriate. Existing fees remain payable; an eligible absence issues one replacement token.
+2. The student checks **My Lessons** for the venue, date, duration and fee. Eligible absences remain in their history with an **Absent** badge and a replacement-token message. **My Replacement Tokens** shows the entitlement.
+3. Use **My Lesson Fees** and the fee statement to check the balance. A submitted receipt stays pending until an admin reviews it. Pending or rejected receipts do not reduce the balance or award points.
+4. When an admin records received payment or approves the receipt, **My Points** shows the award and **My Invoices** contains the payment invoice. For example, two finalized RM90 payments earn 180 points in total.
+
+![Fictional admin attendance for centre and off-site lessons](../images/features/lesson-comparison-admin-attendance.png)
+
+![Fictional student history retaining an eligible absence](../images/features/lesson-comparison-student-history.png)
+
+![Fictional student points after two finalized payments](../images/features/lesson-comparison-student-points.png)
+
+![Fictional student fee balance after payment](../images/features/lesson-comparison-student-fees.png)
