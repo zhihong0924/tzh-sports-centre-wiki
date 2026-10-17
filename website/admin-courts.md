@@ -11,6 +11,12 @@
 
 **Expected:** Conflicts and operating-hours checks can prevent saving. Deactivation stops the rule; cancelling one occurrence affects the selected date/scope. Review scope and payment state before confirming.
 
+**Closing-time selection (awaiting deployment):** Check the schedule's
+**Operating** line before creating a booking. An 11:00 PM close allows
+11:00 PM as the end time, but excludes 11:30 PM and midnight. To book later,
+use **Edit Operating Hours** to extend the selected date's closing time first.
+A midnight close offers 11:00 PM, 11:30 PM and 12:00 AM as end times.
+
 For receipt approval, counter settlement and automatic loyalty awards, follow [Recurring payments and points](recurring-payments-points.md#recurring-court-bookings).
 
 ![Approved booking review](../images/2026-10-12-13/booking-reviews.png)
