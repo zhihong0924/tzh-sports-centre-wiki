@@ -2,7 +2,7 @@
 
 [← Website guides](README.md)
 
-**Role:** Administrator. **Availability:** Awaiting deployment; this preview covers contacts, rackets and unpaid jobs only.
+**Role:** Administrator. **Availability:** Awaiting deployment; this preview covers contacts, rackets, jobs and full-payment recording.
 
 After deployment, open [Admin → Stringing](https://tzhsports.vercel.app/admin/stringing).
 
@@ -14,10 +14,25 @@ After deployment, open [Admin → Stringing](https://tzhsports.vercel.app/admin/
 
 Contact/racket edits preserve earlier job details. If another administrator changed a record, refresh before trying again. Progress does not record payment, award points or issue an invoice.
 
-Payment recording, timetable, WhatsApp templates, per-racket reminders and private feedback links are not available in this preview. Do not use this page to record money received yet. Existing Shop ordering remains available separately.
+Timetable, WhatsApp templates, per-racket reminders and private feedback links are not available in this preview. Existing Shop ordering remains available separately.
 
 Fictional examples:
 
 ![Desktop stringing workspace](../images/stringing/workspace-desktop.jpg)
 
 ![Mobile unpaid job editor](../images/stringing/job-mobile.jpg)
+
+
+## Record full payment
+
+1. Find the racket job and select **Mark Paid**. Check the linked member, both fees, total and points. Choose the actual payment date (today or earlier, Malaysia time).
+2. **Cancel** leaves the job unpaid. Select **Confirm payment received** only after the full amount has been received. Deposits and partial payments are not supported.
+3. The job becomes **Paid**, earns the displayed points once, and shows its invoice link. The invoice also appears under **Stringing** in Admin Invoices and the member's My Invoices.
+4. If the PDF could not be prepared, the job stays Paid and shows **Retry invoice**. Use that action; do not record another payment. Retrying does not award more points or resend the payment email.
+5. Check the cards: distinct customers, received money this Malaysia month by payment date, and all unpaid fees excluding cancelled jobs. Changing the customer filter does not change these totals.
+
+Paid fees cannot be edited or reversed, and paid jobs cannot be cancelled. Normal forward progress remains available, and an unpaid collected job can still be settled. Payment emails are best-effort; email failure never reverses a payment.
+
+![Review full payment on mobile](../images/stringing/payment-confirmation-mobile.jpg)
+
+![Paid job and received-money summaries](../images/stringing/payment-desktop.jpg)
