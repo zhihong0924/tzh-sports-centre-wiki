@@ -2,7 +2,7 @@
 
 [← Website guides](README.md)
 
-**Role:** Administrator. **Availability:** Awaiting deployment; this preview covers contacts, rackets, jobs and full-payment recording.
+**Role:** Administrator. **Availability:** Awaiting deployment; this preview covers contacts, rackets, jobs, full-payment recording and the timetable.
 
 After deployment, open [Admin → Stringing](https://tzhsports.vercel.app/admin/stringing).
 
@@ -14,7 +14,7 @@ After deployment, open [Admin → Stringing](https://tzhsports.vercel.app/admin/
 
 Contact/racket edits preserve earlier job details. If another administrator changed a record, refresh before trying again. Progress does not record payment, award points or issue an invoice.
 
-Timetable, WhatsApp templates, per-racket reminders and private feedback links are not available in this preview. Existing Shop ordering remains available separately.
+WhatsApp templates, per-racket reminders and private feedback links are not available in this preview. Existing Shop ordering remains available separately.
 
 Fictional examples:
 
@@ -36,3 +36,18 @@ Paid fees cannot be edited or reversed, and paid jobs cannot be cancelled. Norma
 ![Review full payment on mobile](../images/stringing/payment-confirmation-mobile.jpg)
 
 ![Paid job and received-money summaries](../images/stringing/payment-desktop.jpg)
+
+
+## Plan pickup deadlines
+
+1. In **Timetable**, use **Daily agenda** and choose a date, or open **Month calendar** and select a day. All times are Malaysia time. Multiple rackets may share a pickup time.
+2. In **Unscheduled open jobs**, select **Edit job / pickup** on an unpaid open job. Fill both pickup date and time, then **Save**. It moves into the selected day's agenda and calendar.
+3. Clear both pickup fields to return it to the unscheduled queue. Paid and closed job details remain locked; eligible forward progress is still available.
+4. **Overdue work** means a Received/In progress job has passed its pickup deadline. **Awaiting pickup** means the racket is ready. Unscheduled jobs have no deadline.
+5. Enable **Include collected / cancelled** to see scheduled history. Lists have page controls; a busy month may show several pages. Select a day for its full agenda, and use **Refresh timetable** to see other administrators' changes.
+
+Scheduling does not record payment or contact completion. The unscheduled list scrolls independently so other workspace controls remain reachable.
+
+![Month timetable with fictional jobs](../images/stringing/timetable-desktop.png)
+
+![Mobile daily agenda with fictional overdue work](../images/stringing/timetable-mobile.png)
