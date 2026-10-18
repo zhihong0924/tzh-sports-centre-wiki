@@ -24,3 +24,4 @@
 - [Admin invoices](admin-invoices.md)
 - [People and follow-up](people-follow-up.md)
 - [Commerce and rewards](commerce-rewards.md)
+- [Stringing jobs](stringing.md) (awaiting deployment)

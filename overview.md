@@ -32,6 +32,7 @@ Sign in, then open [Admin Dashboard](https://tzhsports.vercel.app/admin). Its sh
 | Review/manual-create/correct invoices | [Admin invoices](website/admin-invoices.md) |
 | Manage users, trials, assistant salary and manual reminders | [People and follow-up](website/people-follow-up.md) |
 | Maintain products, orders, points, vouchers and promotions | [Commerce and rewards](website/commerce-rewards.md) |
+| Track member rackets and unpaid stringing jobs (awaiting deployment) | [Stringing jobs](website/stringing.md) |
 | Connect the Codex assistant and manage its permissions | [MCP access and setup](mcp/getting-started.md) |
 
 Coaches use their assigned-player workspace. Assistants use [My Salary](https://tzhsports.vercel.app/my-salary). These links appear in Account only when the role is active.
