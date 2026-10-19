@@ -2,7 +2,7 @@
 
 [← Website guides](README.md)
 
-**Role:** Administrator. **Availability:** Awaiting deployment; this preview covers contacts, rackets, jobs, full-payment recording and the timetable.
+**Role:** Administrator. **Availability:** Awaiting deployment; this preview covers contacts, rackets, jobs, full-payment recording, the timetable, manual messages and racket follow-ups.
 
 After deployment, open [Admin → Stringing](https://tzhsports.vercel.app/admin/stringing).
 
@@ -14,7 +14,7 @@ After deployment, open [Admin → Stringing](https://tzhsports.vercel.app/admin/
 
 Contact/racket edits preserve earlier job details. If another administrator changed a record, refresh before trying again. Progress does not record payment, award points or issue an invoice.
 
-WhatsApp templates, per-racket reminders and private feedback links are not available in this preview. Existing Shop ordering remains available separately.
+Private feedback links are not available in this preview. Existing Shop ordering remains available separately.
 
 Fictional examples:
 
@@ -51,3 +51,20 @@ Scheduling does not record payment or contact completion. The unscheduled list s
 ![Month timetable with fictional jobs](../images/stringing/timetable-desktop.png)
 
 ![Mobile daily agenda with fictional overdue work](../images/stringing/timetable-mobile.png)
+
+
+## Prepare WhatsApp messages and follow-ups
+
+1. Open a job’s **Messages / follow-up**, or choose **Manage follow-up** in the **Racket follow-ups** panel.
+2. Choose a message stage and English, 中文 or Bahasa Melayu. Check the separate stringing contact number and the racket details. Edit the **One-off message preview** for this contact; resolve or deliberately remove any missing placeholders.
+3. **Copy message** copies the draft. **Open WhatsApp** prepares it for you to send yourself. Neither action records a sent message or changes payment/progress. A missing/invalid contact number disables WhatsApp; correct it using **Edit contact**.
+4. To reuse different wording, expand **Edit shared template**, edit the template, tick the replacement confirmation and select **Save shared template**. This changes that stage/language for all admins. One-off edits do not change the shared template.
+5. After completing the contact yourself, tick the confirmation and select **Record contact done**. The record is labelled manually recorded, not delivery verified. For a restring reminder this closes the follow-up; it does not send anything.
+6. Set **Days after collection** (default 45, zero allowed), or disable this job’s reminder, then save. No date is due until the racket is collected. A newer collection replaces only that physical racket’s old pending reminder, even if the new reminder is disabled. Completed contact remains history.
+7. Use **Follow-up filter** for due/overdue, all pending, contact done, superseded or disabled reminders. Use page controls and **Refresh follow-ups** as needed.
+
+Feedback requests stay unavailable until private feedback links are released. There are no automatic WhatsApp messages.
+
+![Racket follow-up controls on desktop](../images/stringing/followup-desktop.jpg)
+
+![Manual message and contact confirmation on mobile](../images/stringing/followup-mobile.jpg)
