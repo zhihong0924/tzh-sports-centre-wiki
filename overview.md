@@ -30,6 +30,7 @@ Sign in, then open [Admin Dashboard](https://tzhsports.vercel.app/admin). Its sh
 | Review a student's account or reconcile historical records | [Student Accounts and audits](website/student-accounts.md) |
 | Assign coaches and complete Foundation, Level and Skill Tree reviews | [Player Development](website/player-development.md) |
 | Review/manual-create/correct invoices | [Admin invoices](website/admin-invoices.md) |
+| Find a member and review bookings, lessons, payments and rewards (awaiting deployment confirmation) | [Member Activity](website/member-activity.md) |
 | Manage users, trials, assistant salary and manual reminders | [People and follow-up](website/people-follow-up.md) |
 | Maintain products, orders, points, vouchers and promotions | [Commerce and rewards](website/commerce-rewards.md) |
 | Track member rackets and unpaid stringing jobs (awaiting deployment) | [Stringing jobs](website/stringing.md) |

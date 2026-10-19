@@ -22,6 +22,7 @@
 - [Student Accounts and audits](student-accounts.md)
 - [Player Development](player-development.md)
 - [Admin invoices](admin-invoices.md)
+- [Member Activity](member-activity.md) (awaiting deployment confirmation)
 - [People and follow-up](people-follow-up.md)
 - [Commerce and rewards](commerce-rewards.md)
 - [Stringing jobs](stringing.md) (awaiting deployment)
