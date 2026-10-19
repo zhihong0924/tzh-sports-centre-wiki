@@ -14,7 +14,7 @@ After deployment, open [Admin → Stringing](https://tzhsports.vercel.app/admin/
 
 Contact/racket edits preserve earlier job details. If another administrator changed a record, refresh before trying again. Progress does not record payment, award points or issue an invoice.
 
-Private feedback links are not available in this preview. Existing Shop ordering remains available separately.
+Private feedback links are available for collected jobs in this preview. Existing Shop ordering remains available separately.
 
 Fictional examples:
 
@@ -63,8 +63,39 @@ Scheduling does not record payment or contact completion. The unscheduled list s
 6. Set **Days after collection** (default 45, zero allowed), or disable this job’s reminder, then save. No date is due until the racket is collected. A newer collection replaces only that physical racket’s old pending reminder, even if the new reminder is disabled. Completed contact remains history.
 7. Use **Follow-up filter** for due/overdue, all pending, contact done, superseded or disabled reminders. Use page controls and **Refresh follow-ups** as needed.
 
-Feedback requests stay unavailable until private feedback links are released. There are no automatic WhatsApp messages.
+Feedback requests use the private link created for the collected job below. There are no automatic WhatsApp messages.
 
 ![Racket follow-up controls on desktop](../images/stringing/followup-desktop.jpg)
 
 ![Manual message and contact confirmation on mobile](../images/stringing/followup-mobile.jpg)
+
+
+## Request and review private feedback
+
+**Awaiting deployment.** Admins manage links; customers need only their private link,
+with no account or login required.
+
+1. Open **Messages / follow-up** on a **Collected** job. In **Private feedback**,
+   tick **Invalidate any previous link for this job**, then **Create new private link**.
+2. Select **Feedback request** and English, 中文 or Bahasa Melayu. Check the preview
+   and **Copy message** or prepare it with **Open WhatsApp**. Send it yourself.
+   Copy the request before closing: reopening requires creating a new link if you
+   did not keep the original message. The new link replaces the previous one.
+3. The customer opens the link, chooses a language, gives 1–5-star ratings for
+   string feel, tension and service, optionally comments, then submits. A confirmation
+   replaces the form; repeat visits cannot submit or edit another response.
+4. In the admin dialog, select **Reload saved details** to see ratings, comment and
+   submission time. Use the workspace **Feedback** filter for received or awaiting
+   responses across collected jobs. Respondent identity is not verified.
+5. To stop access, confirm invalidation and select **Revoke link**. Links have no
+   automatic expiry. Revocation preserves feedback; creating a replacement link
+   never allows a second response.
+
+Opening/copying a request does not record contact done or feedback received.
+Feedback does not change payment, points, invoices or racket progress.
+
+![Customer feedback form in Malay](../images/stringing/feedback-desktop.jpg)
+
+![Chinese feedback form on mobile](../images/stringing/feedback-mobile.jpg)
+
+![Admin ratings from a fictional response](../images/stringing/feedback-admin.jpg)
