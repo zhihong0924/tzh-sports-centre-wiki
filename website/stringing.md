@@ -2,7 +2,7 @@
 
 [← Website guides](README.md)
 
-**Role:** Administrator. **Availability:** Awaiting deployment; this preview covers contacts, rackets, jobs, full-payment recording, the timetable, manual messages and racket follow-ups.
+**Role:** Administrator. **Availability:** Awaiting deployment; this preview covers contacts, rackets, jobs, full-payment recording, the timetable, manual messages, racket follow-ups and private customer feedback.
 
 After deployment, open [Admin → Stringing](https://tzhsports.vercel.app/admin/stringing).
 
@@ -40,7 +40,7 @@ Paid fees cannot be edited or reversed, and paid jobs cannot be cancelled. Norma
 
 ## Plan pickup deadlines
 
-1. In **Timetable**, use **Daily agenda** and choose a date, or open **Month calendar** and select a day. All times are Malaysia time. Multiple rackets may share a pickup time.
+1. In **Timetable**, use **Daily agenda**, enter a date and select **Go to date**, or open **Month calendar** and select a day. All times are Malaysia time. Multiple rackets may share a pickup time.
 2. In **Unscheduled open jobs**, select **Edit job / pickup** on an unpaid open job. Fill both pickup date and time, then **Save**. It moves into the selected day's agenda and calendar.
 3. Clear both pickup fields to return it to the unscheduled queue. Paid and closed job details remain locked; eligible forward progress is still available.
 4. **Overdue work** means a Received/In progress job has passed its pickup deadline. **Awaiting pickup** means the racket is ready. Unscheduled jobs have no deadline.
@@ -48,9 +48,9 @@ Paid fees cannot be edited or reversed, and paid jobs cannot be cancelled. Norma
 
 Scheduling does not record payment or contact completion. The unscheduled list scrolls independently so other workspace controls remain reachable.
 
-![Month timetable with fictional jobs](../images/stringing/timetable-desktop.png)
+![Dense month timetable with fictional jobs](../images/stringing/timetable-dense-desktop.png)
 
-![Mobile daily agenda with fictional overdue work](../images/stringing/timetable-mobile.png)
+![Mobile timetable date controls](../images/stringing/timetable-date-mobile.png)
 
 
 ## Prepare WhatsApp messages and follow-ups
@@ -94,8 +94,8 @@ with no account or login required.
 Opening/copying a request does not record contact done or feedback received.
 Feedback does not change payment, points, invoices or racket progress.
 
-![Customer feedback form in Malay](../images/stringing/feedback-desktop.jpg)
+![Customer feedback form on desktop](../images/stringing/feedback-desktop-verified.png)
 
-![Chinese feedback form on mobile](../images/stringing/feedback-mobile.jpg)
+![Customer feedback form on mobile](../images/stringing/feedback-mobile-verified.png)
 
-![Admin ratings from a fictional response](../images/stringing/feedback-admin.jpg)
+![Admin ratings from a fictional response](../images/stringing/feedback-admin-verified.png)
