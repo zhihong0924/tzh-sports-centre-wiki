@@ -2,7 +2,7 @@
 
 [← Website guides](README.md)
 
-**Role:** Administrator. **Availability:** Awaiting deployment; this preview covers contacts, rackets, jobs, full-payment recording, the timetable, manual messages, racket follow-ups and private customer feedback.
+**Role:** Administrator. **Availability:** Awaiting production database update and deployment; this preview covers contacts, rackets, jobs, full-payment recording, the timetable, manual messages, racket follow-ups and private customer feedback.
 
 After deployment, open [Admin → Stringing](https://tzhsports.vercel.app/admin/stringing).
 
@@ -31,7 +31,7 @@ Fictional examples:
 4. If the PDF could not be prepared, the job stays Paid and shows **Retry invoice**. Use that action; do not record another payment. Retrying does not award more points or resend the payment email.
 5. Check the cards: distinct customers, received money this Malaysia month by payment date, and all unpaid fees excluding cancelled jobs. Changing the customer filter does not change these totals.
 
-Paid fees cannot be edited or reversed, and paid jobs cannot be cancelled. Normal forward progress remains available, and an unpaid collected job can still be settled. Payment emails are best-effort; email failure never reverses a payment.
+Paid fees cannot be edited or reversed, and paid jobs cannot be cancelled. Stringing invoices do not offer manual Edit or Regenerate PDF; recover a missing PDF from the job using **Retry invoice**. Normal forward progress remains available, and an unpaid collected job can still be settled. Payment emails are best-effort; email failure never reverses a payment.
 
 ![Review full payment on mobile](../images/stringing/payment-confirmation-mobile.jpg)
 
@@ -99,3 +99,19 @@ Feedback does not change payment, points, invoices or racket progress.
 ![Customer feedback form on mobile](../images/stringing/feedback-mobile-verified.png)
 
 ![Admin ratings from a fictional response](../images/stringing/feedback-admin-verified.png)
+
+## Preview examples
+
+The job below is collected and paid. Its received feedback remains visible after
+the administrator revokes the private link. The reminder still belongs to this
+physical racket and is due 45 days after collection. All records shown are fictional.
+
+![Collected job, private feedback and reminder](../images/stringing/merged-admin-feedback-desktop.jpg)
+
+Customers can choose 中文 on the private feedback form without logging in:
+
+![Chinese feedback form on mobile](../images/stringing/merged-feedback-mobile.jpg)
+
+The mobile month calendar also supports dark mode:
+
+![Mobile month calendar in dark mode](../images/stringing/merged-timetable-mobile-dark.jpg)

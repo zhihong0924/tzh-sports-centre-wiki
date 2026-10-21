@@ -6,7 +6,7 @@
 
 | Week (2026) | Changes |
 |---|---|
-| [19–25 October](changelog/2026-10-19.md) | Member activity |
+| [19–25 October](changelog/2026-10-19.md) | Member activity and stringing |
 | [12–18 October](changelog/2026-10-12.md) | Website and MCP updates |
 | [5–11 October](changelog/2026-10-05.md) | Phone number entry |
 | [28 September–4 October](changelog/2026-09-28.md) | Student fees and MCP lesson tools |
