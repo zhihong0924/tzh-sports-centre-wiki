@@ -1,156 +1,125 @@
-# Stringing
+# Stringing · quick guide
 
-[← Website guides](README.md)
+**Administrator · Awaiting deployment**
+[Open Stringing](https://tzhsports.vercel.app/admin/stringing) · [This week](../changelog/2026-10-19.md)
 
-**Role:** Administrator. **Availability:** Awaiting production database update and
-deployment. After release, open [Admin → Stringing](https://tzhsports.vercel.app/admin/stringing).
+Open the step you need. Screenshots use fictional customers.
 
-## Default view
+<details>
+<summary><strong>1 · Add customer</strong></summary>
 
-Stringing opens on **Timetable**, with the selected day's pickup agenda above the
-month calendar. The other tabs are **Customers**, **Feedback** and **Follow-ups**.
-Customers and Follow-ups open directly into their records without summary cards.
-The customer count appears below the customer table and follows its filters.
+**Customers → Add customer → search member → select → Add contact.**
+The customer must have a registered account.
 
-![Customer records with the count in the footer](../images/stringing/customer-count-only.jpg)
+![Search and select a registered customer](../images/stringing/quick-add-customer.jpg)
 
-## Add a customer and racket
+</details>
 
-1. In **Customers**, select **Add customer**. Type at least two characters of a
-   registered member's name, email or phone, choose the result, then **Add contact**.
-2. Select their name or **View rackets**, then **Add racket**. Enter the model and
-   optional nickname, such as “Blue grip”. Save separate records for separate
-   physical rackets, even when their models match.
-3. Select the racket name or **Details** to open its window. Empty rackets offer
-   **Start stringing**; existing active work appears immediately. Completed or
-   cancelled services stay under collapsed **Stringing history**.
+<details>
+<summary><strong>2 · Add racket</strong></summary>
 
-Customer name, phone and email come from the member account and cannot be edited
-here. Account updates appear automatically. Racket changes preserve earlier service
-details. The list shows the latest service; search and Payment/Feedback/Stage
-filters can match older services. **Follow up** finds pending racket reminders due
-today or overdue in Malaysia time. **Work queue** counts physical rackets needing
-stringing or ready for pickup. Collected/cancelled services add no open work.
+**View rackets → Add racket → model + optional nickname → Save.**
+One record per physical racket, even for identical models.
 
-## Start or edit stringing
+![Add a physical racket](../images/stringing/quick-add-racket.jpg)
 
-1. In the racket window, select **Start stringing**. Only one service can be active
-   on a racket; collect or cancel it before starting another.
-2. Enter the string, **Tension (lbs)**, string fee and grommet fee. Set both pickup
-   date/time, or leave both empty for unscheduled work.
-3. Expand **Notes & received date** if needed. The received date defaults to today.
-   Use the single Notes field for all instructions, including main/cross tension
-   requests and grommet instructions.
-4. Select **Save**. The service starts Received/Unpaid. Use the header **… → Edit
-   stringing** for an unpaid, open service. Cancel discards edits.
-5. Choose the status beside the specification to advance to In progress, Ready for
-   pickup or Collected. Review and confirm; Cancel keeps the current status.
+</details>
 
-Progress moves forward only and does not record payment. Collection automatically
-creates the service's private feedback link and starts its racket reminder.
-Paid services can advance but cannot be edited/cancelled. If another administrator
-changed a record, refresh before trying again.
+<details>
+<summary><strong>3 · Add stringing</strong></summary>
 
-The racket window keeps **Message** beside status, payment controls beside total
-fees, and secondary actions in the header ellipsis. **Restring reminder** is for
-future restringing, separate from messages about this service.
+**Racket Details → Start stringing → fill specifications/fees → Save.**
+Pickup needs both date and time, or neither. Extra instructions go in **Notes**.
+Only one active stringing per racket.
 
-## Delete a stringing service
+![String, tension, fees and optional pickup](../images/stringing/quick-add-stringing.jpg)
 
-1. Open **Details → … → Delete stringing**. No status change is needed, including
-   for paid, collected or previously contacted services. For history, use that
-   service's Actions menu.
-2. Check the racket, string, tension, received date and total. Select **Cancel**
-   to keep it, or **Delete stringing** to confirm.
-3. It disappears from the workspace, calendar and follow-ups. The member/racket
-   remain, and another service can start. Existing payments, points, invoices and
-   linked history are kept. Deletion does not issue a refund.
+</details>
 
-## Remove an unused racket
+<details>
+<summary><strong>4 · Change status</strong></summary>
 
-Open **Details → … → Delete racket**, review its model/nickname, then confirm.
-Cancel keeps it. Rackets with any retained service history cannot be removed,
-including history belonging to deleted services.
+**Details → status dropdown → choose → confirm.**
 
-## Record full payment
+Received → In progress → Ready for pickup → Collected.
+Status changes do not send WhatsApp or record payment.
 
-1. Open the racket's **Details** and select **Mark Paid** beside total fees (or on
-   its unpaid collected service in history).
-2. Review member, separate fees, total and points. Choose the actual payment date,
-   Malaysia today or earlier. **Cancel** leaves the service unpaid.
-3. Select **Confirm payment received** only after receiving the full amount.
-   Deposits/partial payments are not supported. Payment earns member points and
-   makes the service Paid; it does not change stringing progress.
-4. Use the linked invoice when available. If its PDF could not be prepared, choose
-   **Retry invoice**; do not record another payment. Recovery does not repeat points
-   or resend the payment email.
+![Status and Message beside the string specification](../images/stringing/quick-status.jpg)
 
-Paid fees cannot be edited/reversed and paid services cannot be cancelled.
-An unpaid collected service can still be settled. Source-linked stringing invoices
-use Retry invoice rather than manual invoice editing or PDF regeneration.
+</details>
 
-## Plan pickup deadlines
+<details>
+<summary><strong>5 · Daily routine</strong></summary>
 
-1. In **Timetable**, use the date arrows, Today, or the date field and **Go to date**.
-   The list shows that date's services, earliest pickup first, then open unscheduled
-   services with “-”. Dated completed/cancelled services remain visible.
-2. Browse the **Month calendar** below. Selecting a day opens its agenda above.
-   Month arrows browse independently of the selected daily list. The calendar
-   includes completed work; no completed-jobs toggle is needed.
-3. Select **Edit** on eligible unpaid/open work to set or clear both pickup fields.
-   On desktop, drag an eligible calendar entry to another date, review the proposed
-   date/time and save. **Cancel** keeps the original pickup. Mobile uses daily Edit.
-4. Select Refresh to reload the agenda/calendar.
+- **Timetable → Today:** work through pickups; “-” means unscheduled.
+- Update status as work finishes; use **Messages** for customer updates.
+- Check **Feedback** for replies and **Follow-ups** for due reminders.
 
-Month pickups refers to the displayed month; Today/Next 7 days use Malaysia today.
-Red overdue work means Received/In progress work past its pickup time; Ready work
-is awaiting collection. Unscheduled work is never overdue. Scheduling does not
-record money, collection or contact.
+<a id="record-full-payment"></a>
 
-## Prepare WhatsApp messages and follow-ups
+**Payment received?** Open racket Details → **Mark Paid** → review → confirm full
+payment. Points/invoice follow; progress stays unchanged.
 
-1. Open the service's **Message** button beside status, or **Messages** in the agenda.
-   Collected history offers **Request feedback** / **View feedback** directly.
-2. Choose the message Stage and Language (English, 中文 or Bahasa Melayu). Language
-   is remembered for this customer across rackets/services. Review/edit the preview.
-3. **Copy message** copies the draft; **Open WhatsApp** prepares it for you to send.
-   Neither sends automatically or records contact. A missing/invalid account phone
-   disables WhatsApp but still allows Copy. Resolve missing preview details first.
-4. After sending yourself, select **Mark as sent**. Its label applies to this stage
-   and retains the first manually recorded account/time. You may resend a stage
-   already marked sent. It is not proof of delivery.
-5. Shared-template editing and feedback/link controls are collapsed below the
-   preview. Editing the draft does not change the shared template.
+![Today's pickup list and available actions](../images/stringing/quick-daily-routine.jpg)
 
-For the next restring reminder, use the racket header **… → Restring reminder** or
-**Follow-ups → Manage racket reminder**. Its Settings control the interval (45 days
-by default) or disable reminders. Collection starts the interval; changing settings
-recalculates pending reminders from collection, not from today. Message prepares
-that reminder. Recording its contact completion closes the pending follow-up.
-Another collection supersedes older pending reminders on the same physical racket.
-Completed contacts stay closed; future collections use the saved setting.
+</details>
 
-## Request and review private feedback
+<details>
+<summary><strong>6 · Calendar</strong></summary>
 
-1. Mark the service **Collected**. Its unique feedback link is created automatically
-   for that stringing service, identifying its racket and customer.
-2. Open **Feedback → Awaiting → Request feedback**, or the collected service's
-   Request feedback action. The preview already includes its link. Reopening reuses
-   the same link. Copy/open WhatsApp and send it yourself.
-3. The customer opens the private link without logging in, chooses a language,
-   rates string feel, tension and service from 1–5, optionally comments and submits.
-   It can be reopened before submitting; afterward it shows confirmation and
-   cannot accept or edit another response. Respondent identity is not verified.
-4. Open **Feedback → Received** for ratings, full comments, racket/string and
-   submission time directly in the list. Search customer, racket or string and
-   Refresh for new responses. History's **View feedback** is also available.
-5. Only if access must stop, expand **Feedback & link options**, confirm
-   **Deactivate this feedback link**, then **Revoke link**. Revocation preserves
-   the response, disables the link and cannot be undone here. There is no manual
-   create/replacement step. Links do not expire automatically.
+Scroll below the daily list. **Click a date** for its agenda; red shows overdue work.
+Completed pickups stay visible. On desktop, **drag an unpaid open item → review →
+Save** to reschedule; on mobile, use the daily **Edit** action.
 
-Opening/copying does not count as feedback received or a sent message. Feedback
-changes no payment, points, invoices or progress. Deleting the service disables
-its old link without losing retained linked history.
+![Monthly overview with overdue and completed pickups](../images/stringing/quick-calendar.jpg)
 
-![Feedback review with fictional demo data](../images/stringing/feedback-review-mobile.jpg)
+</details>
+
+<details>
+<summary><strong>7 · WhatsApp updates, stage by stage</strong></summary>
+
+**Details → Message → Stage:**
+
+| When | Choose |
+| --- | --- |
+| Received / in progress, payment pending | First payment reminder |
+| Still unpaid, another reminder needed | Second payment reminder |
+| Payment recorded | Paid confirmation |
+| Racket ready | Ready for pickup |
+
+Choose language → review preview → **Open WhatsApp → send → Mark as sent**.
+Language is remembered per customer. Sent stages can be resent.
+
+![Choose message stage, language and preview](../images/stringing/quick-whatsapp-stage.jpg)
+
+WhatsApp needs a valid account phone; **Copy message** also works without one.
+
+</details>
+
+<details>
+<summary><strong>8 · WhatsApp feedback request</strong></summary>
+
+After **Collected**, the unique link is ready automatically.
+**Feedback → Awaiting → Request feedback → Open WhatsApp → send → Mark as sent.**
+
+![Request feedback from the Awaiting list](../images/stringing/quick-feedback-request.jpg)
+
+The customer rates/comments without login, once per stringing.
+Read replies in **Feedback → Received**.
+
+![Read ratings and comments directly](../images/stringing/feedback-review-desktop.jpg)
+
+</details>
+
+<details>
+<summary><strong>9 · WhatsApp reminder for the next stringing</strong></summary>
+
+**Follow-ups → Manage racket reminder → Message → Open WhatsApp → send → Mark as sent.**
+Or open **racket Details → … → Restring reminder**.
+
+Default: **45 days after collection**. Change the interval or disable it in
+**Settings**. Marking the reminder sent closes that pending follow-up.
+
+![Next-stringing reminder and its settings](../images/stringing/quick-next-stringing.jpg)
+
+</details>
