@@ -1,20 +1,20 @@
-# Stringing jobs
+# Stringing
 
 [← Website guides](README.md)
 
-**Role:** Administrator. **Availability:** Awaiting production database update and deployment; this preview covers contacts, rackets, jobs, full-payment recording, the timetable, manual messages, racket follow-ups and private customer feedback.
+**Role:** Administrator. **Availability:** Awaiting production database update and deployment; this preview covers contacts, rackets, services, full-payment recording, the timetable, manual messages, racket follow-ups and private customer feedback.
 
 After deployment, open [Admin → Stringing](https://tzhsports.vercel.app/admin/stringing).
 
 1. In **Customers**, select **Add customer**, type at least two characters of a registered member’s name, email or phone, choose them from the dropdown, then select **Add contact**. Clear the field to start again. Each row is the linked member. Its name, email and phone come from the account and cannot be edited here. Account updates appear in Stringing automatically.
-2. Select the customer name or **View jobs**, then **Add racket**, enter its model and an optional nickname such as “Blue grip”, then save. Add separate records for separate physical rackets, even when their models match.
-3. Under **Rackets**, select **New job**, and enter the string, main/cross tension, stringing fee, optional grommet fee/notes and received date. Set both pickup date and time, or leave both empty.
-4. Save. The job starts **Received / Unpaid**. Use the outlined **Search members or strings** field to search by member name, email, phone or string; expand the customer to find active jobs. **Edit job** changes an unpaid, open job.
-5. Open the status dropdown (it shows the current status), choose **In progress**, **Ready for pickup** or **Collected**, review the confirmation, and confirm. Cancel keeps the current status. Progress moves forward only; collection records its time. Choose **Cancel job** in that dropdown to close an unpaid, uncollected job after confirmation.
+2. Select the customer name or **View rackets**, then **Add racket**, enter its model and an optional nickname such as “Blue grip”, then save. Add separate records for separate physical rackets, even when their models match.
+3. Under **Rackets**, select the racket name or **Details**, then **Start stringing**, and enter the string, main/cross tension, stringing fee, optional grommet fee/notes and received date. Set both pickup date and time, or leave both empty.
+4. Save. The service starts **Received / Unpaid**. Use the outlined **Search members or strings** field to search by member name, email, phone or string; expand the customer to find active services. **Edit stringing** changes an unpaid, open service.
+5. Open the status dropdown (it shows the current status), choose **In progress**, **Ready for pickup** or **Collected**, review the confirmation, and confirm. Cancel keeps the current status. Progress moves forward only; collection records its time. Choose **Cancel stringing** in that dropdown to close an unpaid, uncollected service after confirmation.
 
-Account/racket edits preserve earlier job details. If another administrator changed a record, refresh before trying again. Progress does not record payment, award points or issue an invoice.
+Account/racket edits preserve earlier service details. If another administrator changed a record, refresh before trying again. Progress does not record payment, award points or issue an invoice.
 
-Private feedback links are available for collected jobs in this preview. Existing Shop ordering remains available separately.
+Private feedback links are available for collected services in this preview. Existing Shop ordering remains available separately.
 
 Fictional examples:
 
@@ -26,12 +26,12 @@ Fictional examples:
 
 ![Account-backed member row on mobile](../images/stringing/member-account-mobile.jpg)
 
-The desktop list shows each customer's latest string, fees and payment in aligned columns. **Work queue** covers all their rackets: **2 to string** means two physical rackets have Received/In progress jobs; **ready for pickup** is separate. Collected/cancelled jobs do not add work, and multiple unfinished jobs on one racket count once per queue. On mobile,
-each row becomes labeled details. Select **View jobs** to reach all job actions.
+The desktop list shows each customer's latest string, fees and payment in aligned columns. **Work queue** covers all their rackets: **2 to string** means two physical rackets have Received/In progress services; **ready for pickup** is separate. Collected/cancelled services do not add work, and each racket permits only one active service. On mobile,
+each row becomes labeled details. Select **View rackets** to reach all service actions.
 Use **Stage** with the Payment and Feedback filters: **Received**, **In progress**,
 **Ready for collection**, **Collected**, or **Follow up**. Follow up finds pending
 racket reminders due today or overdue (Malaysia dates). A member appears when any
-of their jobs/rackets matches; the row still shows their latest job. Choose
+of their services/rackets matches; the row still shows their latest service. Choose
 **All stages** to clear it.
 
 ![Stage filter alongside Payment and Feedback](../images/stringing/stage-filter-desktop.jpg)
@@ -39,15 +39,15 @@ of their jobs/rackets matches; the row still shows their latest job. Choose
 ![Stage filter on mobile](../images/stringing/stage-filter-mobile.jpg)
 
 Expanding a customer shows **all rackets**, including empty rackets. Received,
-In progress and Ready for pickup jobs stay visible. Each racket's collected or
-cancelled jobs are under **Past jobs**. Open that section for history, messages
-or an eligible unpaid collected job's **Mark Paid** action. Racket actions and
-reminder countdowns remain visible without opening Past jobs. Search can match
-older jobs in those sections.
+In progress and Ready for pickup services are summarized in compact racket rows. Select **Details** to open their actions. **Start stringing** is available only when the racket has no active service. Collect or cancel its current service before starting another. Each racket's collected or
+cancelled services are under **Stringing history**. Open that section for history, messages
+or an eligible unpaid collected service's **Mark Paid** action. Inside **Details**, racket actions and
+reminder countdowns remain available without opening Stringing history. Search can match
+older services in those sections.
 
-![All rackets with completed jobs collapsed](../images/stringing/all-rackets-desktop.jpg)
+![Compact racket rows on desktop](../images/stringing/racket-rows-desktop.jpg)
 
-![All racket cards on mobile](../images/stringing/all-rackets-mobile.jpg)
+![Compact racket rows on mobile](../images/stringing/racket-rows-mobile.jpg)
 
 ![Customer work queue across two fictional rackets](../images/stringing/workload-desktop.jpg)
 
@@ -55,22 +55,18 @@ older jobs in those sections.
 
 ![Search for a registered member while typing](../images/stringing/member-dropdown-mobile.jpg)
 
-![Compact racket and job history in dark mode](../images/stringing/rackets-clean-mobile-dark.jpg)
 
-![Mobile unpaid job editor](../images/stringing/job-mobile.jpg)
+## Remove an accidental service
 
-
-## Remove an accidental job
-
-1. Expand the customer, find the racket and select the trash icon on the job’s
-   action row. Check the racket, string, tension, date and total in **Delete job?**.
-2. Select **Cancel** to keep it, or **Delete job** to remove it from history,
+1. Expand the customer, find the racket and select the trash icon on the service’s
+   action row. Check the racket, string, tension, date and total in **Delete stringing?**.
+2. Select **Cancel** to keep it, or **Delete stringing** to remove it from history,
    timetable, workload and unpaid totals. This cannot be undone.
-3. Paid/collected jobs and jobs with recorded contact or other linked history are
-   protected. Use cancellation for an eligible unpaid job when history should remain.
-4. The racket and member remain. If the racket has no other jobs, its own trash
+3. Paid/collected services and services with recorded contact or other linked history are
+   protected. Use cancellation for an eligible unpaid service when history should remain.
+4. The racket and member remain. If the racket has no other services, its own trash
    icon becomes available. Retrying an old creation request cannot restore a
-   deleted job; start a genuinely new job if needed.
+   deleted service; start a genuinely new service if needed.
 
 **Awaiting production migration and deployment.**
 
@@ -80,11 +76,11 @@ older jobs in those sections.
 
 ## Remove an unused racket
 
-1. Select the customer name or **View jobs** to show all their rackets.
+1. Select the customer name or **View rackets** to show all their rackets.
 2. Select the trash icon beside an empty racket, check its model/nickname, then
    **Delete racket**. **Cancel** keeps it.
-3. Rackets with any job history cannot be deleted, including those with cancelled
-   jobs. Their trash icon is disabled; the member and all job history stay intact.
+3. Rackets with any service history cannot be deleted, including those with cancelled
+   services. Their trash icon is disabled; the member and all service history stay intact.
 
 ![Status dropdown reflects each job’s current state](../images/stringing/current-status-desktop.jpg)
 
@@ -96,43 +92,45 @@ Dark mode uses matching outlined controls for Edit, status and Messages.
 
 ## Record full payment
 
-1. Find the racket job and select **Mark Paid**. Check the linked member, both fees, total and points. Choose the actual payment date (today or earlier, Malaysia time).
-2. **Cancel** leaves the job unpaid. Select **Confirm payment received** only after the full amount has been received. Deposits and partial payments are not supported.
-3. The job becomes **Paid**, earns the displayed points once, and shows its invoice link. The invoice also appears under **Stringing** in Admin Invoices and the member's My Invoices.
-4. If the PDF could not be prepared, the job stays Paid and shows **Retry invoice**. Use that action; do not record another payment. Retrying does not award more points or resend the payment email.
-5. Check the cards: distinct customers, received money this Malaysia month by payment date, and all unpaid fees excluding cancelled jobs. Changing the customer filter does not change these totals.
+1. Find the racket service and select **Mark Paid**. Check the linked member, both fees, total and points. Choose the actual payment date (today or earlier, Malaysia time).
+2. **Cancel** leaves the service unpaid. Select **Confirm payment received** only after the full amount has been received. Deposits and partial payments are not supported.
+3. The service becomes **Paid**, earns the displayed points once, and shows its invoice link. The invoice also appears under **Stringing** in Admin Invoices and the member's My Invoices.
+4. If the PDF could not be prepared, the service stays Paid and shows **Retry invoice**. Use that action; do not record another payment. Retrying does not award more points or resend the payment email.
+5. Check the cards: distinct customers, received money this Malaysia month by payment date, and all unpaid fees excluding cancelled services. Changing the customer filter does not change these totals.
 
-Paid fees cannot be edited or reversed, and paid jobs cannot be cancelled. Stringing invoices do not offer manual Edit or Regenerate PDF; recover a missing PDF from the job using **Retry invoice**. Normal forward progress remains available, and an unpaid collected job can still be settled. Payment emails are best-effort; email failure never reverses a payment.
+Paid fees cannot be edited or reversed, and paid services cannot be cancelled. Stringing invoices do not offer manual Edit or Regenerate PDF; recover a missing PDF from the service using **Retry invoice**. Normal forward progress remains available, and an unpaid collected service can still be settled. Payment emails are best-effort; email failure never reverses a payment.
 
 ![Review full payment on mobile](../images/stringing/payment-confirmation-mobile.jpg)
 
 
 ## Plan pickup deadlines
 
-1. Select the **Timetable** view, then use **Daily agenda**, enter a date and select **Go to date**, or open **Month calendar** and select a day. All times are Malaysia time. Multiple rackets may share a pickup time.
-2. In **Unscheduled open jobs**, select **Edit job / pickup** on an unpaid open job. Fill both pickup date and time, then **Save**. It moves into the selected day's agenda and calendar.
-3. Clear both pickup fields to return it to the unscheduled queue. Paid and closed job details remain locked; eligible forward progress is still available.
-4. **Overdue work** means a Received/In progress job has passed its pickup deadline. **Awaiting pickup** means the racket is ready. Unscheduled jobs have no deadline.
-5. Enable **Include collected / cancelled** to see scheduled history. Lists have page controls; a busy month may show several pages. Select a day for its full agenda, and use **Refresh timetable** to see other administrators' changes.
+1. Select **Timetable**. The daily pickup list appears first and the monthly calendar stays below it. Enter a date and select **Go to date**, or select a day in the calendar. All times are Malaysia time. Multiple rackets may share a pickup time.
+2. In the daily list, services without a pickup date appear at the bottom with **-** in the pickup field. Select **Edit** on an unpaid open service. Fill both pickup date and time, then **Save**. It moves into the selected day's agenda and calendar.
+3. Clear both pickup fields to show **-** for its pickup in the same list. Paid and closed service details remain locked; eligible forward progress is still available.
+4. **Overdue work** means a Received/In progress service has passed its pickup deadline. **Awaiting pickup** means the racket is ready. Unscheduled services have no deadline.
+5. The calendar and daily list always include dated completed and cancelled services. The combined daily list has page controls when needed. Calendar counts cover the whole month; up to three time/member previews appear per day on desktop, with counts on mobile. Use the calendar’s month arrows to browse without changing the daily list. Select a day to load its full agenda above, and use the refresh icon to see other administrators' changes.
 
-Scheduling does not record payment or contact completion. The unscheduled list scrolls independently so other workspace controls remain reachable.
+The pickup cards show this month, today and the next seven days. The daily table shows pickup time, member, racket, string/tension, payment and status; mobile uses cards. Choose the current-status dropdown to advance a service after confirmation, or **Messages** to prepare its message.
 
-![Dense month timetable with fictional jobs](../images/stringing/timetable-dense-desktop.png)
+Scheduling does not record payment or contact completion. The daily list sorts earliest pickup first, with blank pickups last.
 
-![Mobile timetable date controls](../images/stringing/timetable-date-mobile.png)
+![Daily pickup list with monthly calendar below](../images/stringing/timetable-stacked-desktop.jpg)
+
+![Mobile daily cards with calendar below](../images/stringing/timetable-stacked-mobile.jpg)
 
 
 ## Prepare WhatsApp messages and follow-ups
 
-1. For payment, pickup or feedback messages, open a job’s **Messages**. For the 45-day restring reminder, select **Reminder** beside the physical racket, or **Follow-ups → Manage racket reminder**. The **Reminder** button shows remaining days, **Due today**, days overdue, **Off**, **Contact done** or **Not started** before collection, so you can check without opening it.
-2. For job messages, choose a message stage; a racket reminder opens directly on the restring message. Choose English, 中文 or Bahasa Melayu. Check the member’s account phone and the racket details. Edit the **One-off message preview** for this contact; resolve or deliberately remove any missing placeholders.
+1. For payment, pickup or feedback messages, open a service’s **Messages**. For the 45-day restring reminder, select **Reminder** beside the physical racket, or **Follow-ups → Manage racket reminder**. The **Reminder** button shows remaining days, **Due today**, days overdue, **Off**, **Contact done** or **Not started** before collection, so you can check without opening it.
+2. For service messages, choose a message stage; a racket reminder opens directly on the restring message. Choose English, 中文 or Bahasa Melayu. This choice saves automatically for this customer and is reused across their rackets and stages. Check the member’s account phone and the racket details. Edit the **One-off message preview** for this contact; resolve or deliberately remove any missing placeholders.
 3. **Copy message** copies the draft. **Open WhatsApp** prepares it for you to send yourself. Neither action records a sent message or changes payment/progress. A missing/invalid account phone disables WhatsApp. The member must update their account phone before WhatsApp can be opened; Copy remains available.
 4. To reuse different wording, expand **Edit shared template**, edit the template, tick the replacement confirmation and select **Save shared template**. This changes that stage/language for all admins. One-off edits do not change the shared template.
-5. After completing the contact yourself, tick the confirmation and select **Record contact done**. The record is labelled manually recorded, not delivery verified. For a restring reminder this closes the follow-up; it does not send anything.
-6. In **Reminder**, set **Days after collection** (default 45, zero allowed), or **Disable reminders for this racket**, then **Save racket reminder**. You can configure an empty racket before its first job. This preference carries over to future jobs. Each collection resets only this physical racket’s countdown; saving recalculates its pending due date from the last collection. Completed contact stays closed, and the saved preference applies to the next collection.
+5. After completing the contact yourself, tick **I sent this message myself** and select **Mark as sent**. The selected stage shows **Sent · manually recorded** and its first confirmation time. For a restring reminder this closes the follow-up; it does not send anything.
+6. In **Reminder**, set **Days after collection** (default 45, zero allowed), or **Disable reminders for this racket**, then **Save racket reminder**. You can configure an empty racket before its first service. This preference carries over to future services. Each collection resets only this physical racket’s countdown; saving recalculates its pending due date from the last collection. Completed contact stays closed, and the saved preference applies to the next collection.
 7. Use **Follow-up filter** for due/overdue, all pending, contact done, superseded or disabled reminders. Use page controls and **Refresh follow-ups** as needed.
 
-Feedback requests use the private link created for the collected job below. There are no automatic WhatsApp messages.
+Feedback requests use the private link created for the collected service below. There are no automatic WhatsApp messages.
 
 ![Remaining days directly on each racket](../images/stringing/reminder-countdown-desktop.jpg)
 
@@ -152,8 +150,8 @@ Feedback requests use the private link created for the collected job below. Ther
 **Awaiting deployment.** Admins manage links; customers need only their private link,
 with no account or login required.
 
-1. Open **Messages** on a **Collected** job. In **Private feedback**,
-   tick **Invalidate any previous link for this job**, then **Create new private link**.
+1. Open **Messages** on a **Collected** service. In **Private feedback**,
+   tick **Invalidate any previous link for this service**, then **Create new private link**.
 2. Select **Feedback request** and English, 中文 or Bahasa Melayu. Check the preview
    and **Copy message** or prepare it with **Open WhatsApp**. Send it yourself.
    Copy the request before closing: reopening requires creating a new link if you
@@ -163,7 +161,7 @@ with no account or login required.
    replaces the form; repeat visits cannot submit or edit another response.
 4. In the admin dialog, select **Reload saved details** to see ratings, comment and
    submission time. Use the workspace **Feedback** filter for received or awaiting
-   responses across collected jobs. Respondent identity is not verified.
+   responses across collected services. Respondent identity is not verified.
 5. To stop access, confirm invalidation and select **Revoke link**. Links have no
    automatic expiry. Revocation preserves feedback; creating a replacement link
    never allows a second response.
@@ -179,7 +177,7 @@ Feedback does not change payment, points, invoices or racket progress.
 
 ## Preview examples
 
-The job below is collected and paid. Its received feedback remains visible after
+The service below is collected and paid. Its received feedback remains visible after
 the administrator revokes the private link. The reminder still belongs to this
 physical racket and is due 45 days after collection. All records shown are fictional.
 
@@ -192,3 +190,86 @@ Customers can choose 中文 on the private feedback form without logging in:
 The mobile month calendar also supports dark mode:
 
 ![Mobile month calendar in dark mode](../images/stringing/merged-timetable-mobile-dark.jpg)
+
+### Move a pickup on the calendar (Admin, awaiting deployment)
+
+In the calendar below the daily list, drag an unpaid, unfinished item on desktop onto another date. Review
+**Reschedule pickup**, then **Save**. The original pickup time is kept; you can
+adjust it before saving. **Close without saving** leaves the schedule unchanged.
+Paid, Collected and Cancelled services cannot be dragged. For a different month or on
+mobile, select the day, choose **Edit**, then change the pickup date/time and save.
+
+![Review a dragged pickup before saving](../images/stringing/calendar-reschedule-desktop.jpg)
+
+The calendar stays visible below the daily list, including when the selected day
+has no dated pickups. Red entries identify overdue stringing on their original
+pickup dates; ready rackets remain green. On mobile, red counts/dots highlight
+past dates with unfinished stringing. Calendar navigation does not add older services
+to the selected day's list.
+
+
+### One current service per racket
+
+A racket can be Received, In progress or Ready for pickup with one current
+service. Its current string/tension, status, pickup and total fees appear in one compact
+row. Select the racket name or **Details** for actions, reminders and history.
+Opening a different racket closes the previous detail panel. **Start stringing** appears after collection or cancellation and
+for unused rackets, inside **Details**. Previous services remain in **Stringing history**, including
+unpaid collected services that still need payment. The racket's reminder continues
+from its last collection, independently of the current service.
+
+If older records contain several active services, all remain visible with a
+warning. Correct those records by collecting or cancelling them; the app prevents
+another start. Do not remove financial or contact history to resolve a duplicate.
+
+### Sent labels and resending
+
+Choose a message stage to see **Not marked sent** or **Sent · manually recorded**.
+After sending yourself in WhatsApp, tick **I sent this message myself** and select
+**Mark as sent**. This only records your confirmation; it does not send anything.
+
+You can use **Copy message** or **Open WhatsApp** again for a sent stage, even after
+a reminder is completed. Marking sent keeps your edited draft. The first sent
+record stays unchanged; resending does not create a second record or reopen a
+reminder. Missing placeholders must still be resolved, and WhatsApp needs a valid
+account phone. Feedback links must be retained by the admin or explicitly reissued.
+
+![Stage marked sent with Copy still available](../images/stringing/message-sent-resend-desktop.jpg)
+
+![Completed reminder remains available to copy again on mobile](../images/stringing/message-sent-resend-mobile.jpg)
+
+### Remember the customer's message language (awaiting deployment)
+
+Choose **Language** in a service message or racket reminder. The app saves it for
+that customer automatically. Reopening a message, choosing another stage, or
+opening another of their rackets uses the same preference. Other customers keep
+their own language; English is the initial default. Changing language rebuilds
+the preview and preserves the stage's sent label.
+
+If another admin changed the language, use **Reload saved details** before trying
+again. Saving a language does not send or mark a message sent.
+
+![Saved customer language reused by another racket](../images/stringing/customer-language-desktop.jpg)
+
+![Saved customer language on a mobile racket reminder](../images/stringing/customer-language-mobile.jpg)
+
+### Simpler message window (awaiting deployment)
+
+As an admin, open a racket's **Details → Messages**. Review **Stage** and
+**Language**, edit **Message preview**, then **Copy message** or **Open WhatsApp**.
+After sending yourself, click **Mark as sent**. Its date appears for that stage;
+you can still copy or open WhatsApp again. Opening WhatsApp does not mark it sent.
+
+**Sent history** and **Edit shared template** start collapsed below the actions.
+For a collected service, choose **Feedback request** and expand **Feedback &
+private link** to manage the link or read feedback. A valid account phone is
+required for WhatsApp; Copy remains available without one. Resolve any missing
+message details before copying.
+
+For **Reminder**, the **Message** view opens first. Choose **Settings** to change
+the days after collection or disable reminders for that racket. Switching views
+keeps an edited message. Before the first collection, only settings are available.
+
+![Simplified stage message composer](../images/stringing/clean-message-desktop.jpg)
+
+![Reminder message with separate settings on mobile](../images/stringing/clean-reminder-mobile.jpg)
