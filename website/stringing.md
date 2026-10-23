@@ -90,7 +90,7 @@ Dark mode uses the same theme controls for status, payment and Actions.
 2. **Cancel** leaves the service unpaid. Select **Confirm payment received** only after the full amount has been received. Deposits and partial payments are not supported.
 3. The service becomes **Paid**, earns the displayed points once, and shows its invoice link. The invoice also appears under **Stringing** in Admin Invoices and the member's My Invoices.
 4. If the PDF could not be prepared, the service stays Paid and shows **Retry invoice**. Use that action; do not record another payment. Retrying does not award more points or resend the payment email.
-5. Check the cards: distinct customers, received money this Malaysia month by payment date, and all unpaid fees excluding cancelled services. Changing the customer filter does not change these totals.
+5. Check each service row for its fee and payment status. The customer count appears below the customer table and follows its filters.
 
 Paid fees cannot be edited or reversed, and paid services cannot be cancelled. Stringing invoices do not offer manual Edit or Regenerate PDF; recover a missing PDF from the service using **Retry invoice**. Normal forward progress remains available, and an unpaid collected service can still be settled. Payment emails are best-effort; email failure never reverses a payment.
 
@@ -366,3 +366,11 @@ and select **Feedback**.
 ![Feedback received list](../images/stringing/feedback-review-desktop.jpg)
 
 ![Feedback review on mobile](../images/stringing/feedback-review-mobile.jpg)
+
+### Simpler workspace summary (awaiting deployment)
+
+Customers and Follow-ups open directly into their records without summary cards.
+The customer count appears below the customer table and follows its filters.
+Individual stringing fees and payment actions remain available.
+
+![Customer count in the table footer](../images/stringing/customer-count-only.jpg)
