@@ -144,21 +144,18 @@ Feedback requests use the private link created for the collected service below. 
 **Awaiting deployment.** Admins manage links; customers need only their private link,
 with no account or login required.
 
-1. Open **Messages** on a **Collected** service. In **Private feedback**,
-   tick **Invalidate any previous link for this service**, then **Create new private link**.
-2. Select **Feedback request** and English, 中文 or Bahasa Melayu. Check the preview
-   and **Copy message** or prepare it with **Open WhatsApp**. Send it yourself.
-   Copy the request before closing: reopening requires creating a new link if you
-   did not keep the original message. The new link replaces the previous one.
+1. Mark the service **Collected**. Its feedback link is created automatically.
+2. Open **Details → Stringing history → Request feedback**. The message already
+   contains the link. Choose English, 中文 or Bahasa Melayu, then **Copy message**
+   or **Open WhatsApp** and send it yourself. Reopening reuses the same link.
 3. The customer opens the link, chooses a language, gives 1–5-star ratings for
    string feel, tension and service, optionally comments, then submits. A confirmation
    replaces the form; repeat visits cannot submit or edit another response.
-4. In the admin dialog, select **Reload saved details** to see ratings, comment and
-   submission time. Use the workspace **Feedback** filter for received or awaiting
+4. Reopen **View feedback** to see ratings, comment and submission time. Use the workspace **Feedback** filter for received or awaiting
    responses across collected services. Respondent identity is not verified.
-5. To stop access, confirm invalidation and select **Revoke link**. Links have no
-   automatic expiry. Revocation preserves feedback; creating a replacement link
-   never allows a second response.
+5. To stop access, open **Feedback & link options**, confirm **Deactivate this feedback link** and select **Revoke link**. Links have no
+   automatic expiry. Revocation preserves feedback and disables the link. There is no manual
+   create or replacement action.
 
 Opening/copying a request does not record contact done or feedback received.
 Feedback does not change payment, points, invoices or racket progress.
@@ -255,8 +252,8 @@ After sending yourself, click **Mark as sent**. Its date appears for that stage;
 you can still copy or open WhatsApp again. Opening WhatsApp does not mark it sent.
 
 **Sent history** and **Edit shared template** start collapsed below the actions.
-For a collected service, choose **Feedback request** and expand **Feedback &
-private link** to manage the link or read feedback. A valid account phone is
+For a collected service, select **Request feedback**; its link is already in the
+preview. **Feedback & link options** contains received feedback and revocation. A valid account phone is
 required for WhatsApp; Copy remains available without one. Resolve any missing
 message details before copying.
 
@@ -338,3 +335,34 @@ Open [Stringing](https://tzhsports.vercel.app/admin/stringing) as an administrat
 Select **Customers** to manage members and rackets, or **Follow-ups** for reminders.
 
 ![Default daily agenda with calendar below](../images/stringing/default-timetable-desktop.jpg)
+
+### Request feedback (awaiting deployment)
+
+Open **Customers → View rackets → Details → Stringing history**. On the collected
+stringing, select **Request feedback** directly. The message window opens on
+**Feedback request**, with its unique service link already filled in. Copy the message and send it in WhatsApp. After submission, the button becomes **View
+feedback** and the received ratings and comment are expanded automatically.
+
+![Request feedback directly from collected stringing](../images/stringing/request-feedback-direct.jpg)
+
+Each collected service has its automatically generated link. Reopening the message
+reuses it; there is no manual create or replace step. Deleting a service makes its
+link unavailable and retains submitted feedback.
+
+![Collected service with direct feedback request](../images/stringing/automatic-feedback-collected.jpg)
+
+### Review feedback directly (awaiting deployment)
+
+As an administrator, open [Stringing](https://tzhsports.vercel.app/admin/stringing)
+and select **Feedback**.
+
+- **Received** opens first, newest responses at the top. Customer, racket, string,
+  tension, three ratings, comment and submission time are visible immediately.
+- **Awaiting** shows collected services without a response. Select **Request
+  feedback** on a row to prepare its WhatsApp request.
+- Search by customer, racket or string. Counts follow the search; use **Refresh**
+  for new responses and **Previous / Next** for more results.
+
+![Feedback received list](../images/stringing/feedback-review-desktop.jpg)
+
+![Feedback review on mobile](../images/stringing/feedback-review-mobile.jpg)
