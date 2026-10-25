@@ -1,8 +1,10 @@
-# Shop, stringing and orders
+# Shop and orders
 
 [← Overview](../overview.md) · **Who:** Visitors browse; members purchase
 
-1. Open [Shop](https://tzhsports.vercel.app/shop) or the homepage Stringing shortcut. Select a product tab and search within it.
+For a racket service request, use [Customer stringing](customer-stringing.md) (awaiting deployment).
+
+1. Open [Shop](https://tzhsports.vercel.app/shop). Select a product tab and search within it.
 2. Open a product, choose its required options (such as string, pickup date/time), set quantity, and add it to the cart.
 3. Review every cart line and checkout. Pay via the displayed QR and upload the receipt before the payment window ends.
 4. Open [My Orders](https://tzhsports.vercel.app/my-orders) to check receipt review and fulfillment. An active unpaid order offers receipt upload.

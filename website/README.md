@@ -11,6 +11,7 @@
 - [Lessons and replacements](lessons.md)
 - [Payments and invoices](payments-invoices.md)
 - [Shop and orders](shop.md)
+- [Customer stringing requests and tracking](customer-stringing.md) — awaiting deployment
 - [Rewards and development](rewards-development.md)
 
 ## Administrator and staff

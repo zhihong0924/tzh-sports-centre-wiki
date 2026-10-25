@@ -14,7 +14,8 @@ Choose a task below. Each guide contains the page link, steps and expected resul
 | Choose social-game dates and contact the organiser | [Social games](website/social-games.md) |
 | Browse lessons, request a trial, check classes or request absence | [Lessons and replacements](website/lessons.md) |
 | Pay outstanding charges, check lesson fees or download invoices | [Payments and invoices](website/payments-invoices.md) |
-| Buy products or stringing services and track orders | [Shop and orders](website/shop.md) |
+| Buy products and track shop orders | [Shop and orders](website/shop.md) |
+| Request and track racket stringing (awaiting deployment) | [Customer stringing](website/customer-stringing.md) |
 | Check tiers, points, rankings, vouchers and published reports | [Rewards and development](website/rewards-development.md) |
 
 ## Administrator and staff website

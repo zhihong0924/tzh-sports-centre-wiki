@@ -6,6 +6,26 @@
 Open the step you need. Screenshots use fictional customers.
 
 <details>
+<summary><strong>Customer requests and same-day pickup</strong></summary>
+
+**Customer ordering · Awaiting deployment.** Customers use the separate
+[Stringing page](customer-stringing.md). In the toolbar, **Requested (count)**
+opens requests needing review. Open racket **Details → … → Edit stringing** to
+confirm fees and pickup; **Requested → Received** separately asks for the actual
+received date. Then use the normal service and payment steps below.
+
+![Requested review queue and unquoted fees](../images/stringing/customer-requests-admin.jpg)
+
+**Same-day pickup today** is visible on every tab. Switch On while open to allow
+later-today customer pickup; switch Off at any time. It ends at closing, never
+carries into tomorrow, and switching Off preserves accepted requests. Staff can
+still arrange exceptions directly.
+
+![Visible mobile same-day policy](../images/stringing/same-day-policy-mobile.jpg)
+
+</details>
+
+<details>
 <summary><strong>1 · Add customer</strong></summary>
 
 **Customers → Add customer → search member → select → Add contact.**
