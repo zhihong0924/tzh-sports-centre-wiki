@@ -4,7 +4,7 @@
 
 | Week (2026) | Changes |
 |---|---|
-| [26 October–1 November](2026-10-26.md) | Customer stringing preview |
+| [26 October–1 November](2026-10-26.md) | Customer stringing preview (to be released) |
 | [19–25 October](2026-10-19.md) | Member activity and stringing |
 | [12–18 October](2026-10-12.md) | Website and MCP updates |
 | [5–11 October](2026-10-05.md) | Phone number entry |
