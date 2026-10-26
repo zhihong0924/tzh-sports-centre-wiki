@@ -143,3 +143,24 @@ Default: **45 days after collection**. Change the interval or disable it in
 ![Next-stringing reminder and its settings](../images/stringing/quick-next-stringing.jpg)
 
 </details>
+
+
+<details>
+<summary><strong>Automatic outreach pause and recovery · awaiting deployment</strong></summary>
+
+In **Message**, tick **Pause automatic outreach for this customer** to pause all
+their rackets. Manual messages remain available.
+
+![Customer pause control](../images/stringing/outreach-pause-mobile.png)
+
+In **Automatic outreach recovery**, check the original WhatsApp chat and stop the
+runner before choosing **Resolve as observed sent** or **Resolve as definitely
+not sent**. Tick the exact confirmation, then **Confirm resolution**. Expiry is
+never proof that a message was unsent. No WhatsApp send occurs from this panel.
+
+![Fictional desktop recovery card](../images/stringing/outreach-recovery-desktop-dark.png)
+
+Follow the [stringing outreach guide](../mcp/stringing-outreach.md) for the dry run,
+owner test and separate sending/scheduling authorisation.
+
+</details>

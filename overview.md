@@ -63,3 +63,5 @@ MCP tools are for authorised administrators. Discovery and previews do not final
 - Revenue reporting currently has no client dashboard. Background cleanup and renewal run automatically; clients do not manually trigger them here.
 
 If a control is missing or a guide's screenshot differs, confirm your account role and the deployed version with the centre owner.
+
+[Prepare stringing outreach and resolve uncertain sends (awaiting deployment)](mcp/stringing-outreach.md).
