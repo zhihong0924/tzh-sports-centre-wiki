@@ -10,7 +10,7 @@ Open the step you need. Screenshots use fictional customers.
 
 **Customer ordering · Awaiting deployment.** Customers use the separate
 [Stringing page](customer-stringing.md). In the toolbar, **Requested (count)**
-opens requests needing review. Open racket **Details → … → Edit stringing** to
+opens requests needing review. Open job **Details → … → Edit stringing** to
 confirm fees and pickup; **Requested → Received** separately asks for the actual
 received date. Then use the normal service and payment steps below.
 
@@ -36,23 +36,30 @@ The customer must have a registered account.
 </details>
 
 <details>
-<summary><strong>2 · Add racket</strong></summary>
+<summary><strong>2 · Add stringing</strong></summary>
 
-**View rackets → Add racket → model + optional nickname → Save.**
-One record per physical racket, even for identical models.
+**Customers → View stringing → Add stringing.** Enter the **Racket name**, string,
+tension and fees, then **Save**. Pickup needs both date and time, or neither.
+Extra instructions go in **Notes**. Repeat for each racket the customer brings;
+identical names can have separate jobs. No separate racket setup is needed.
 
-![Add a physical racket](../images/stringing/quick-add-racket.jpg)
+![Add a stringing job with its racket name](../images/stringing/job-first-add-stringing.png)
+
+![The same job form on mobile](../images/stringing/job-first-add-stringing-mobile.png)
 
 </details>
 
 <details>
-<summary><strong>3 · Add stringing</strong></summary>
+<summary><strong>3 · See all jobs under a customer</strong></summary>
 
-**Racket Details → Start stringing → fill specifications/fees → Save.**
-Pickup needs both date and time, or neither. Extra instructions go in **Notes**.
-Only one active stringing per racket.
+**Customers → View stringing.** Each racket visit has its own row, including
+completed jobs. Check string/tension, separate fees, payment, received date,
+and status. Open **Details** for that specific job; **Edit stringing**
+can correct its racket name while it is unpaid and open.
 
-![String, tension, fees and optional pickup](../images/stringing/quick-add-stringing.jpg)
+![Each stringing visit listed directly under its customer](../images/stringing/job-first-customers-desktop.png)
+
+![Stringing jobs on mobile](../images/stringing/job-first-customers-mobile.png)
 
 </details>
 
@@ -64,7 +71,7 @@ Only one active stringing per racket.
 Received → In progress → Ready for pickup → Collected.
 Status changes do not send WhatsApp or record payment.
 
-![Status and Message beside the string specification](../images/stringing/quick-status.jpg)
+![Job details with status and payment controls](../images/stringing/job-first-details.png)
 
 </details>
 
@@ -77,7 +84,7 @@ Status changes do not send WhatsApp or record payment.
 
 <a id="record-full-payment"></a>
 
-**Payment received?** Open racket Details → **Mark Paid** → review → confirm full
+**Payment received?** Open job Details → **Mark Paid** → review → confirm full
 payment. Points/invoice follow; progress stays unchanged.
 
 ![Today's pickup list and available actions](../images/stringing/quick-daily-routine.jpg)
@@ -119,28 +126,33 @@ WhatsApp needs a valid account phone; **Copy message** also works without one.
 <details>
 <summary><strong>8 · WhatsApp feedback request</strong></summary>
 
-After **Collected**, the unique link is ready automatically.
-**Feedback → Awaiting → Request feedback → Open WhatsApp → send → Mark as sent.**
+**Customers → Customer feedback → New feedback request → Prepare feedback message.**
+Copy the message or open WhatsApp, send it, then use **Mark as sent**.
 
-![Request feedback from the Awaiting list](../images/stringing/quick-feedback-request.jpg)
+Feedback belongs to the customer, with separate responses over time. Creating or
+collecting a stringing job does not automatically request feedback. The customer
+rates/comments without login, once per invitation. Earlier responses stay visible.
 
-The customer rates/comments without login, once per stringing.
-Read replies in **Feedback → Received**.
+![Customer feedback history](../images/stringing/customer-feedback-history-desktop.png)
 
-![Read ratings and comments directly](../images/stringing/feedback-review-desktop.jpg)
+Read replies in **Feedback → Received**. **Awaiting → View customer feedback**
+opens that customer's requests. Deleting a job keeps their feedback history.
+
+![Customer feedback on mobile](../images/stringing/customer-feedback-history-mobile.png)
 
 </details>
 
 <details>
 <summary><strong>9 · WhatsApp reminder for the next stringing</strong></summary>
 
-**Follow-ups → Manage racket reminder → Message → Open WhatsApp → send → Mark as sent.**
-Or open **racket Details → … → Restring reminder**.
+**Follow-ups → Manage job reminder → Message → Open WhatsApp → send → Mark as sent.**
+Or open **job Details → … → Restring reminder**.
 
 Default: **45 days after collection**. Change the interval or disable it in
-**Settings**. Marking the reminder sent closes that pending follow-up.
+**Settings**. Each job has its own reminder; a newer job does not replace it.
+Marking the reminder sent closes only that job’s follow-up.
 
-![Next-stringing reminder and its settings](../images/stringing/quick-next-stringing.jpg)
+![Reminder settings for one stringing job](../images/stringing/job-first-reminder.png)
 
 </details>
 
@@ -149,7 +161,7 @@ Default: **45 days after collection**. Change the interval or disable it in
 <summary><strong>Automatic outreach pause and recovery · awaiting deployment</strong></summary>
 
 In **Message**, tick **Pause automatic outreach for this customer** to pause all
-their rackets. Manual messages remain available.
+their jobs. Manual messages remain available.
 
 ![Customer pause control](../images/stringing/outreach-pause-mobile.png)
 

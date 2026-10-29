@@ -3,6 +3,9 @@
 **Administrator · Awaiting deployment and an owner-supervised test.**
 [Open Stringing](https://tzhsports.vercel.app/admin/stringing)
 
+Feedback outreach is awaiting alignment with the new customer feedback history.
+Use [Customer feedback on the website](../website/stringing.md) for that workflow.
+
 MCP prepares and records messages. Sending uses the separately authorised WhatsApp
 app or WhatsApp Web. Ask the owner to approve recipients, saved templates, schedule,
 Malaysia contact hours and limits before any send. The feedback delay is three
@@ -33,7 +36,7 @@ Do not put phone numbers, message bodies or private links in screenshots/summari
    read or feedback received.
 
 The approved run processes at most 20 attempts, with one message per recipient.
-Other rackets/stages for the same recipient are deferred; the server also prevents
+Other jobs/stages for the same recipient are deferred; the server also prevents
 another automatic contact for that recipient on the same Malaysia day.
 
 ## Recover an uncertain send
@@ -55,10 +58,12 @@ attempt; it does not send anything itself.
 
 Open the customer's racket **Details → Stringing history → Request feedback**
 (or **Message** for its active service). Tick **Pause automatic outreach for this
-customer**. This covers all their rackets; manual messages remain available.
+customer**. This covers all their jobs; manual messages remain available.
 Untick to resume eligibility.
 
 ![Pause checkbox in a fictional customer's Message window](../images/stringing/outreach-pause-mobile.png)
 
 Actual daily scheduling and unattended sending require separate owner approval
 after deployment and the supervised test. No sender is activated by this guide.
+
+Each visit is identified by its job reference. The racket name is part of that job; newer jobs keep separate reminders.

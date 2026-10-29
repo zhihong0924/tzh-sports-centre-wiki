@@ -7,14 +7,18 @@
 <summary><strong>1 · Request stringing</strong></summary>
 
 **Home → Stringing → sign in → New stringing.** Complete your account phone number
-if asked. Choose your racket or add one physical racket with its model and an
-optional grip/nickname. Enter string, lbs, grommet preference and planned times.
+if asked. Enter the **Racket model** for this visit, then the string, lbs, grommet preference
+and planned times. Put grip identifiers or other details in **Special instructions**.
 All times are Malaysia time; staff confirms fees and pickup after inspection.
+
+![Enter the model directly on the job](../images/stringing/customer-job-form-desktop.png)
+
+![The same request form on mobile](../images/stringing/customer-job-form-mobile.png)
 
 **Review request → Confirm request.** Keep the reference and bring your racket
 at the planned time. No payment is taken by this request.
 
-![Review a fictional racket request](../images/stringing/customer-request-review.jpg)
+![Review a fictional job request](../images/stringing/customer-job-request-review.png)
 
 </details>
 
@@ -26,8 +30,8 @@ means staff has not quoted the fees. After staff records payment, download the
 linked invoice. Use Previous/Next for older services.
 
 **Cancel request → Confirm cancellation** works only while still Requested.
-Contact the centre for other changes. An active racket cannot receive a second
-request; it becomes available again after collection or cancellation.
+Contact the centre for other changes. Each visit is a separate job, even when the racket model is the same.
+There is no racket profile to create or reuse.
 
 ![Requested service with unquoted fees](../images/stringing/customer-tracking-mobile.jpg)
 
