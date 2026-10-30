@@ -54,12 +54,18 @@ identical names can have separate jobs. No separate racket setup is needed.
 
 **Customers → View stringing.** Each racket visit has its own row, including
 completed jobs. Check string/tension, separate fees, payment, received date,
-and status. Open **Details** for that specific job; **Edit stringing**
+and status. The **Feedback** column shows **No feedback** or **Received**; click
+**Received** to read that visit’s response. **Message** and **Details** have
+separate columns. Use **View feedback** on the customer header to read all their
+responses, with racket details and service dates. Use **Message** on a row to prepare a message
+for that job; opening the composer does not send it. Open **Details** for that specific job; **Edit stringing**
 can correct its racket name while it is unpaid and open.
 
-![Each stringing visit listed directly under its customer](../images/stringing/job-first-customers-desktop.png)
+![Each stringing visit listed directly under its customer](../images/stringing/job-feedback-customer-jobs-desktop.png)
 
-![Stringing jobs on mobile](../images/stringing/job-first-customers-mobile.png)
+![Stringing jobs on mobile](../images/stringing/job-feedback-customer-jobs-mobile.png)
+
+![Read the feedback for one job](../images/stringing/job-feedback-response-desktop.png)
 
 </details>
 
@@ -79,15 +85,24 @@ Status changes do not send WhatsApp or record payment.
 <summary><strong>5 · Daily routine</strong></summary>
 
 - **Timetable → Today:** work through pickups; “-” means unscheduled.
+- Use **Mark Paid** for unpaid jobs; paid jobs show their invoice link.
 - Update status as work finishes; use **Messages** for customer updates.
 - Check **Feedback** for replies and **Follow-ups** for due reminders.
 
 <a id="record-full-payment"></a>
 
-**Payment received?** Open job Details → **Mark Paid** → review → confirm full
-payment. Points/invoice follow; progress stays unchanged.
+**Payment received?** In the timetable Payment column, choose **Mark Paid** →
+review the fees and payment date → confirm full payment. The same button is on
+mobile job cards and in job Details. Confirming records money received and awards
+points; a brief confirmation appears and the row shows its invoice link. Progress
+stays unchanged. Cancel records nothing. If the invoice is unavailable, use
+**Retry invoice**.
 
-![Today's pickup list and available actions](../images/stringing/quick-daily-routine.jpg)
+![Mark Paid in the timetable Payment column](../images/stringing/timetable-mark-paid-desktop.png)
+
+![Mark Paid on a mobile job card](../images/stringing/timetable-mark-paid-mobile.png)
+
+![Paid jobs show the invoice link](../images/stringing/timetable-paid-invoice-desktop.png)
 
 </details>
 
@@ -126,19 +141,24 @@ WhatsApp needs a valid account phone; **Copy message** also works without one.
 <details>
 <summary><strong>8 · WhatsApp feedback request</strong></summary>
 
-**Customers → Customer feedback → New feedback request → Prepare feedback message.**
-Copy the message or open WhatsApp, send it, then use **Mark as sent**.
+For a collected job: **Message → Stage: Feedback request → Prepare feedback link**.
+Expand **Prepare feedback message**, review it, then copy or open WhatsApp.
+After sending, use **Mark as sent**. Opening the composer does not send anything.
 
-Feedback belongs to the customer, with separate responses over time. Creating or
-collecting a stringing job does not automatically request feedback. The customer
-rates/comments without login, once per invitation. Earlier responses stay visible.
+Each job accepts one response. Retrying uses the same link; an old response cannot
+make a later job look reviewed. Racket name remains part of the job.
 
-![Customer feedback history](../images/stringing/customer-feedback-history-desktop.png)
+**View feedback** on the customer header opens all responses, newest first, with
+racket/string/tension and service dates. This window is for reading only; it has
+no invitation creation or link-management actions. Earlier responses whose job
+was not recorded remain labelled as earlier feedback.
 
-Read replies in **Feedback → Received**. **Awaiting → View customer feedback**
-opens that customer's requests. Deleting a job keeps their feedback history.
+![All feedback from one customer](../images/stringing/job-feedback-history-desktop.png)
 
-![Customer feedback on mobile](../images/stringing/customer-feedback-history-mobile.png)
+![Feedback history on mobile](../images/stringing/job-feedback-history-mobile.png)
+
+**Feedback → Received** also lists responses. **Awaiting → Message** opens the
+specific job's composer. Removing a job retains its response in admin history.
 
 </details>
 
