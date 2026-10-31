@@ -3,17 +3,34 @@
 **Signed-in customer · Awaiting deployment**
 [Open Stringing](https://tzhsports.vercel.app/stringing) · [Admin guide](stringing.md)
 
+Open **🏸 Services → Stringing** from the navbar. On smaller screens, open the
+menu beside the notification bell, then expand **Services**.
+
+- **Activities:** Social Games and Lessons.
+- **Services:** Stringing and Shop.
+- **TZH Club:** Memberships and About Us.
+
+**Book Court** stays directly available. Use **Account** for your account and
+sign-out actions.
+
+![Named service dropdown](../images/stringing/navbar-categories.png)
+
+![Expandable mobile categories](../images/stringing/navbar-categories-mobile.png)
+
 <details>
 <summary><strong>1 · Request stringing</strong></summary>
 
-**Home → Stringing → sign in → New stringing.** Complete your account phone number
+**Services → Stringing → sign in → Request stringing.** Complete your account phone number
 if asked. Enter the **Racket model** for this visit, then the string, lbs, grommet preference
 and planned times. Put grip identifiers or other details in **Special instructions**.
 All times are Malaysia time; staff confirms fees and pickup after inspection.
 
-![Enter the model directly on the job](../images/stringing/customer-job-form-desktop.png)
+Choose **Request stringing** to plan a new visit or **My requests** to track progress.
+Use **Refresh** beside the page title to reload saved details.
 
-![The same request form on mobile](../images/stringing/customer-job-form-mobile.png)
+![Request and track stringing](../images/stringing/customer-navigation-desktop.png)
+
+![Stringing choices on mobile](../images/stringing/customer-navigation-mobile.png)
 
 **Review request → Confirm request.** Keep the reference and bring your racket
 at the planned time. No payment is taken by this request.
@@ -25,7 +42,7 @@ at the planned time. No payment is taken by this request.
 <details>
 <summary><strong>2 · Track or cancel</strong></summary>
 
-**My stringing** shows your requests and admin-created history. **To be confirmed**
+**My requests** shows your requests and admin-created history. **To be confirmed**
 means staff has not quoted the fees. After staff records payment, download the
 linked invoice. Use Previous/Next for older services.
 
