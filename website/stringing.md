@@ -26,26 +26,41 @@ still arrange exceptions directly.
 </details>
 
 <details>
-<summary><strong>1 · Add customer</strong></summary>
+<summary><strong>1 · Choose a customer</strong></summary>
 
-**Customers → Add customer → search member → select → Add contact.**
-The customer must have a registered account.
+**Add stringing → search member → select.** Search by name, email or phone.
+The customer must have a registered account. Continue with the racket details in
+the same form; selecting a member or cancelling does not create a record.
+A red customer field means no account matched or a search result still needs
+to be selected. Correct the search and choose a result to enable Save.
 
-![Search and select a registered customer](../images/stringing/quick-add-customer.jpg)
+![Customer selection error](../images/stringing/invalid-customer-desktop.png)
+
+![Search and select a registered customer](../images/stringing/direct-stringing-member-picker.png)
 
 </details>
 
 <details>
 <summary><strong>2 · Add stringing</strong></summary>
 
-**Customers → View stringing → Add stringing.** Enter the **Racket name**, string,
+**Add stringing** at the top of the workspace. Search and select a registered
+member, then type in **Racket name** and **String** to choose a previous name.
+For a new name, choose **Add new racket** or **Add new string**; it becomes
+available next time after you save the job. Enter
 tension and fees, then **Save**. Pickup needs both date and time, or neither.
+Both fee boxes start blank with a 0.00 hint. Enter the string fee; leave
+Grommets blank for RM0.00.
+
+![Matching fee fields](../images/stringing/matching-fee-inputs.png)
+
 Extra instructions go in **Notes**. Repeat for each racket the customer brings;
 identical names can have separate jobs. No separate racket setup is needed.
 
-![Add a stringing job with its racket name](../images/stringing/job-first-add-stringing.png)
+![Search previously used racket names](../images/stringing/racket-name-suggestions-desktop.png)
 
-![The same job form on mobile](../images/stringing/job-first-add-stringing-mobile.png)
+![Add a new string name](../images/stringing/new-string-name-desktop.png)
+
+![Search or add names on mobile](../images/stringing/new-string-name-mobile.png)
 
 </details>
 
@@ -53,13 +68,23 @@ identical names can have separate jobs. No separate racket setup is needed.
 <summary><strong>3 · See all jobs under a customer</strong></summary>
 
 **Customers → View stringing.** Each racket visit has its own row, including
-completed jobs. Check string/tension, separate fees, payment, received date,
-and status. The **Feedback** column shows **No feedback** or **Received**; click
-**Received** to read that visit’s response. **Message** and **Details** have
+completed jobs. **Total spent** at the right above the job rows adds all confirmed
+stringing and grommet payments, including paid jobs removed from the list. Unpaid
+jobs are excluded. Check string/tension, separate fees, payment, received date,
+and status. The **Feedback** column shows **No feedback** or an underlined **View feedback**
+action to read that visit’s response. **Message** and **Details** have
 separate columns. Use **View feedback** on the customer header to read all their
 responses, with racket details and service dates. Use **Message** on a row to prepare a message
 for that job; opening the composer does not send it. Open **Details** for that specific job; **Edit stringing**
 can correct its racket name while it is unpaid and open.
+For paid or completed jobs, use **Details → … → Edit**, enter the
+correct racket/string names and a reason, then **Save correction**. The change
+is audited; payment amounts and issued invoices stay unchanged. A typo stops
+appearing in suggestions once no other job uses it.
+
+![Correct names on a paid or completed job](../images/stringing/correct-job-names-desktop.png)
+
+![Name correction on mobile](../images/stringing/correct-job-names-mobile.png)
 
 ![Each stringing visit listed directly under its customer](../images/stringing/job-feedback-customer-jobs-desktop.png)
 
@@ -91,6 +116,10 @@ Status changes do not send WhatsApp or record payment.
 
 <a id="record-full-payment"></a>
 
+**Reset filters** clears the customer search and all three filters. Paid invoice
+links show the reference only, such as **TZH-0060**.
+Invoice links align with **Mark Paid** in the Payment column.
+
 **Payment received?** In the timetable Payment column, choose **Mark Paid** →
 review the fees and payment date → confirm full payment. The same button is on
 mobile job cards and in job Details. Confirming records money received and awards
@@ -109,11 +138,20 @@ stays unchanged. Cancel records nothing. If the invoice is unavailable, use
 <details>
 <summary><strong>6 · Calendar</strong></summary>
 
-Scroll below the daily list. **Click a date** for its agenda; red shows overdue work.
+Choose a date in the daily date box to update the schedule immediately, or use
+the arrows / **Today**.
+The daily date controls appear together; the month grid below provides an overview.
+Scroll below the daily list. **Click a date or any job inside it** to select that
+day and return to its table; red shows overdue work. Use the table’s **Edit**
+button to edit a job.
 Completed pickups stay visible. On desktop, **drag an unpaid open item → review →
 Save** to reschedule; on mobile, use the daily **Edit** action.
 
 ![Monthly overview with overdue and completed pickups](../images/stringing/quick-calendar.jpg)
+
+![Single daily date toolbar](../images/stringing/timetable-date-toolbar.png)
+
+![Calendar job selection returns to that day's table](../images/stringing/calendar-open-day.png)
 
 </details>
 
@@ -165,12 +203,20 @@ specific job's composer. Removing a job retains its response in admin history.
 <details>
 <summary><strong>9 · WhatsApp reminder for the next stringing</strong></summary>
 
-**Follow-ups → Manage job reminder → Message → Open WhatsApp → send → Mark as sent.**
+**Follow-ups → Send reminder → Message → Open WhatsApp → send → Mark as sent.**
 Or open **job Details → … → Restring reminder**.
 
 Default: **45 days after collection**. Change the interval or disable it in
 **Settings**. Each job has its own reminder; a newer job does not replace it.
 Marking the reminder sent closes only that job’s follow-up.
+
+Disabled reminders show **Reminder settings** so you can enable them again.
+
+Filter by **Due** (today or overdue), **Upcoming** (future reminders),
+**Contact done** (manually marked as sent), or **Disabled** (switched off).
+Opening WhatsApp alone does not mark contact done.
+
+![Stringing follow-up filters](../images/stringing/follow-up-filters.png)
 
 ![Reminder settings for one stringing job](../images/stringing/job-first-reminder.png)
 
