@@ -75,3 +75,13 @@ is open. Staff can switch it off; if availability changes, your details stay and
 you can choose a later pickup date.
 
 </details>
+
+The request form has outlined fields in both light and dark themes, including optional string and tension preferences.
+
+![Outlined customer fields in dark theme](../images/stringing/customer-fields-dark.png)
+
+![Outlined customer fields in light theme](../images/stringing/customer-fields-light.png)
+
+Fields marked **\*** are required: racket model, planned drop-off date/time and preferred pickup date/time. String and tension can remain blank when you need advice.
+
+![Required stringing inputs](../images/stringing/customer-required-fields.png)

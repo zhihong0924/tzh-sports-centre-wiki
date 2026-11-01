@@ -51,7 +51,11 @@ tension and fees, then **Save**. Pickup needs both date and time, or neither.
 Both fee boxes start blank with a 0.00 hint. Enter the string fee; leave
 Grommets blank for RM0.00.
 
-![Matching fee fields](../images/stringing/matching-fee-inputs.png)
+Add and Edit stringing fields have clear outlines in both themes.
+
+![Edit stringing fields in light theme](../images/stringing/editor-fields-light.png)
+
+![Add stringing fields in dark theme](../images/stringing/editor-fields-dark.png)
 
 Extra instructions go in **Notes**. Repeat for each racket the customer brings;
 identical names can have separate jobs. No separate racket setup is needed.
