@@ -5,6 +5,8 @@
 
 Open the step you need. Screenshots use fictional customers.
 
+For a complete example, follow [one customer visit from request through collection, feedback and follow-up](stringing-complete-visit.md).
+
 <details>
 <summary><strong>Customer requests and same-day pickup</strong></summary>
 

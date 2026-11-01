@@ -3,6 +3,8 @@
 **Signed-in customer · Awaiting deployment**
 [Open Stringing](https://tzhsports.vercel.app/stringing) · [Admin guide](stringing.md)
 
+See [a complete customer visit](stringing-complete-visit.md) for the request, completed service, invoice and feedback screens.
+
 Open **🏸 Services → Stringing** from the navbar. On smaller screens, open the
 menu beside the notification bell, then expand **Services**.
 
