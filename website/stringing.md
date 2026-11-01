@@ -242,3 +242,8 @@ Follow the [stringing outreach guide](../mcp/stringing-outreach.md) for the dry 
 owner test and separate sending/scheduling authorisation.
 
 </details>
+
+
+Customer requests may leave string model and tension blank and show **Needs advice**.
+Discuss the setup with the customer, then use **Details → Edit stringing** to save the agreed
+string, tension and fees before starting work or recording payment. Awaiting deployment.

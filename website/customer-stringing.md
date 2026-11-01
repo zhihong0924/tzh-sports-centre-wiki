@@ -22,20 +22,32 @@ sign-out actions.
 
 **Services → Stringing → sign in → Request stringing.** Complete your account phone number
 if asked. Enter the **Racket model** for this visit, then the string, lbs, grommet preference
-and planned times. Put grip identifiers or other details in **Special instructions**.
+and planned times. For String model, use **model(color)**, for example **BG80(White)**. Put grip identifiers or other details in **Special instructions**.
+**String model** and **Tension** are optional. Leave either blank if you need advice;
+it will show **Needs advice** until staff confirms your setup. The examples inside
+the fields disappear as you type; the confirmation hint stays visible. Staff will
+confirm the string, tension and price with you.
 All times are Malaysia time; staff confirms fees and pickup after inspection.
 
 Choose **Request stringing** to plan a new visit or **My requests** to track progress.
 Use **Refresh** beside the page title to reload saved details.
 
-![Request and track stringing](../images/stringing/customer-navigation-desktop.png)
+![Stringing request field guidance](../images/stringing/customer-request-hints.png)
 
-![Stringing choices on mobile](../images/stringing/customer-navigation-mobile.png)
+![Stringing field guidance on mobile](../images/stringing/customer-request-hints-mobile.png)
 
-**Review request → Confirm request.** Keep the reference and bring your racket
-at the planned time. No payment is taken by this request.
+**Submit request → Confirm request.** While **Saving…** is shown, wait for
+**Request accepted**. An orange retry warning appears only if the outcome is uncertain.
+Keep the reference and bring your racket
+at the planned time. The confirmation explains that staff will confirm the price
+and pickup time after checking your racket. No payment is required to submit.
 
-![Review a fictional job request](../images/stringing/customer-job-request-review.png)
+Choose a future drop-off and a later pickup, within 60 days. If a time has passed,
+the message under **Timing** identifies which one to change before confirmation.
+
+![Specific timing error](../images/stringing/customer-timing-error.png)
+
+![Confirm a request with advice needed](../images/stringing/customer-optional-setup-review.png)
 
 </details>
 
