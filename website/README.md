@@ -11,7 +11,7 @@
 - [Lessons and replacements](lessons.md)
 - [Payments and invoices](payments-invoices.md)
 - [Shop and orders](shop.md)
-- [Customer stringing requests and tracking](customer-stringing.md) — awaiting deployment
+- [Customer stringing requests and tracking](customer-stringing.md)
 - [Rewards and development](rewards-development.md)
 
 ## Administrator and staff
@@ -26,4 +26,4 @@
 - [Member Activity](member-activity.md) (awaiting deployment confirmation)
 - [People and follow-up](people-follow-up.md)
 - [Commerce and rewards](commerce-rewards.md)
-- [Stringing jobs](stringing.md) (awaiting deployment)
+- [Stringing jobs](stringing.md)

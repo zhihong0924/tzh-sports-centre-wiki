@@ -1,6 +1,6 @@
 # Stringing · quick guide
 
-**Administrator · Awaiting deployment**
+**Administrator**
 [Open Stringing](https://tzhsports.vercel.app/admin/stringing) · [This week](../changelog/2026-10-19.md)
 
 Open the step you need. Screenshots use fictional customers.
@@ -10,7 +10,7 @@ For a complete example, follow [one customer visit from request through collecti
 <details>
 <summary><strong>Customer requests and same-day pickup</strong></summary>
 
-**Customer ordering · Awaiting deployment.** Customers use the separate
+**Customer requests.** Customers use the separate
 [Stringing page](customer-stringing.md). In the toolbar, **Requested (count)**
 opens requests needing review. Open job **Details → … → Edit stringing** to
 confirm fees and pickup; **Requested → Received** separately asks for the actual
@@ -252,16 +252,16 @@ owner test and separate sending/scheduling authorisation.
 
 Customer requests may leave string model and tension blank and show **Needs advice**.
 Discuss the setup with the customer, then use **Details → Edit stringing** to save the agreed
-string, tension and fees before starting work or recording payment. Awaiting deployment.
+string, tension and fees before starting work or recording payment.
 
 Stage, Payment and Feedback filters narrow the jobs shown inside each customer.
 For example, **Stage → Requested** shows only requested jobs; **Reset filters**
-restores all visits. **Total spent** remains the customer’s lifetime paid total. Awaiting deployment.
+restores all visits. **Total spent** remains the customer’s lifetime paid total.
 
 ![Only jobs matching the selected stage](../images/stringing/customer-stage-filter.png)
 
 **Same-day pickup** is a compact On/Off switch in the toolbar. Tap the info icon
-for the daily reset details. **Requests** beside it opens requested jobs. Awaiting deployment.
+for the daily reset details. **Requests** beside it opens requested jobs.
 
 ![Compact same-day control and separate actions](../images/stringing/same-day-toolbar.png)
 
@@ -278,7 +278,7 @@ The Off switch has a contrasting track and border in light and dark themes.
 <details>
 <summary>Open stringing work from Admin actions</summary>
 
-**Role: Admin. Awaiting deployment.** Open the bell in the navbar, then choose:
+**Role: Admin.** Open the bell in the navbar, then choose:
 
 - **New stringing requests** to review incoming jobs.
 - **Stringing work due / overdue** for jobs still to string with pickup today or earlier.

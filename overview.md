@@ -15,7 +15,7 @@ Choose a task below. Each guide contains the page link, steps and expected resul
 | Browse lessons, request a trial, check classes or request absence | [Lessons and replacements](website/lessons.md) |
 | Pay outstanding charges, check lesson fees or download invoices | [Payments and invoices](website/payments-invoices.md) |
 | Buy products and track shop orders | [Shop and orders](website/shop.md) |
-| Request and track racket stringing (awaiting deployment) | [Customer stringing](website/customer-stringing.md) |
+| Request and track racket stringing | [Customer stringing](website/customer-stringing.md) |
 | Check tiers, points, rankings, vouchers and published reports | [Rewards and development](website/rewards-development.md) |
 
 ## Administrator and staff website
@@ -34,7 +34,7 @@ Sign in, then open [Admin Dashboard](https://tzhsports.vercel.app/admin). Its sh
 | Find a member and review bookings, lessons, payments and rewards (awaiting deployment confirmation) | [Member Activity](website/member-activity.md) |
 | Manage users, trials, assistant salary and manual reminders | [People and follow-up](website/people-follow-up.md) |
 | Maintain products, orders, points, vouchers and promotions | [Commerce and rewards](website/commerce-rewards.md) |
-| Track member rackets and unpaid stringing jobs (awaiting deployment) | [Stringing jobs](website/stringing.md) |
+| Manage stringing requests, payments, pickup and follow-up | [Stringing jobs](website/stringing.md) |
 | Connect the Codex assistant and manage its permissions | [MCP access and setup](mcp/getting-started.md) |
 
 Coaches use their assigned-player workspace. Assistants use [My Salary](https://tzhsports.vercel.app/my-salary). These links appear in Account only when the role is active.

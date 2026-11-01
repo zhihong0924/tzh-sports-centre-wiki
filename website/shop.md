@@ -2,7 +2,7 @@
 
 [← Overview](../overview.md) · **Who:** Visitors browse; members purchase
 
-For a racket service request, use [Customer stringing](customer-stringing.md) (awaiting deployment).
+For a racket service request, use [Customer stringing](customer-stringing.md).
 
 1. Open [Shop](https://tzhsports.vercel.app/shop). Select a product tab and search within it.
 2. Open a product, choose its required options (such as string, pickup date/time), set quantity, and add it to the cart.

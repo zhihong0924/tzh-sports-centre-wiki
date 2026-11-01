@@ -1,6 +1,6 @@
 # Stringing · a complete customer visit
 
-**Customer and administrator · Awaiting deployment verification**
+**Customer and administrator**
 
 [Customer Stringing](https://tzhsports.vercel.app/stringing) · [Admin Stringing](https://tzhsports.vercel.app/admin/stringing) · [Admin quick guide](stringing.md)
 

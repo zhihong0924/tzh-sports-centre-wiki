@@ -1,6 +1,6 @@
 # Request and track stringing
 
-**Signed-in customer · Awaiting deployment**
+**Signed-in customer**
 [Open Stringing](https://tzhsports.vercel.app/stringing) · [Admin guide](stringing.md)
 
 See [a complete customer visit](stringing-complete-visit.md) for the request, completed service, invoice and feedback screens.
