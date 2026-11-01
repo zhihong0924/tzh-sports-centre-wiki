@@ -247,3 +247,24 @@ owner test and separate sending/scheduling authorisation.
 Customer requests may leave string model and tension blank and show **Needs advice**.
 Discuss the setup with the customer, then use **Details → Edit stringing** to save the agreed
 string, tension and fees before starting work or recording payment. Awaiting deployment.
+
+Stage, Payment and Feedback filters narrow the jobs shown inside each customer.
+For example, **Stage → Requested** shows only requested jobs; **Reset filters**
+restores all visits. **Total spent** remains the customer’s lifetime paid total. Awaiting deployment.
+
+![Only jobs matching the selected stage](../images/stringing/customer-stage-filter.png)
+
+**Same-day pickup** is a compact On/Off switch in the toolbar. Tap the info icon
+for the daily reset details. **Requests** beside it opens requested jobs. Awaiting deployment.
+
+![Compact same-day control and separate actions](../images/stringing/same-day-toolbar.png)
+
+![Same-day control on mobile](../images/stringing/same-day-toolbar-mobile.png)
+
+The Same-day pickup setting, Requests and Add stringing controls use matching heights. On phones, the setting sits above the two action buttons.
+
+The Off switch has a contrasting track and border in light and dark themes.
+
+![Same-day switch in light theme](../images/stringing/same-day-toolbar-light.png)
+
+![Same-day switch in dark theme](../images/stringing/same-day-toolbar-dark.png)
