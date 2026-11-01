@@ -6,6 +6,7 @@
 
 | Week (2026) | Changes |
 |---|---|
+| [2–8 November](changelog/2026-11-02.md) | Planned: stringing outreach |
 | [26 October–1 November](changelog/2026-10-26.md) | Customer and admin stringing |
 | [19–25 October](changelog/2026-10-19.md) | Website updates |
 | [12–18 October](changelog/2026-10-12.md) | Website and MCP updates |
