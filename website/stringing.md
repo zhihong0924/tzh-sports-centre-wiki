@@ -268,3 +268,24 @@ The Off switch has a contrasting track and border in light and dark themes.
 ![Same-day switch in light theme](../images/stringing/same-day-toolbar-light.png)
 
 ![Same-day switch in dark theme](../images/stringing/same-day-toolbar-dark.png)
+
+<details>
+<summary>Open stringing work from Admin actions</summary>
+
+**Role: Admin. Awaiting deployment.** Open the bell in the navbar, then choose:
+
+- **New stringing requests** to review incoming jobs.
+- **Stringing work due / overdue** for jobs still to string with pickup today or earlier.
+- **Unsent stringing feedback** to prepare a collected job’s feedback request with **Message**.
+- **Stringing follow-ups due / overdue** to open **Follow-ups → Due**.
+
+Resolve the work in the linked screen and the bell count updates on refresh.
+After sending in WhatsApp, click **Mark as sent**. A reminder then shows **Contact done**. Opening
+WhatsApp alone does not mark a message sent. Feedback already sent and waiting
+for the customer does not appear as unsent.
+
+![Stringing queues in Admin actions](../images/stringing/admin-actions.png)
+
+![Admin actions on mobile](../images/stringing/admin-actions-mobile.png)
+
+</details>
