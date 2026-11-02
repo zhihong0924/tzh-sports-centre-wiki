@@ -16,6 +16,8 @@
 
 ## Administrator and staff
 
+- [Admin languages](admin-language.md) (awaiting deployment)
+
 - [Court operations](admin-courts.md)
 - [Recurring payments and points](recurring-payments-points.md)
 - [Lesson Management](admin-lessons.md)

@@ -24,6 +24,7 @@ Sign in, then open [Admin Dashboard](https://tzhsports.vercel.app/admin). Its sh
 
 | What you want to do | Guide |
 |---|---|
+| Use admin tools in English, Chinese or Malay (awaiting deployment) | [Admin languages](website/admin-language.md) |
 | Create/review court bookings and manage recurring court sessions | [Court operations](website/admin-courts.md) |
 | Settle recurring court/lesson payments and award automatic points | [Recurring payments and points](website/recurring-payments-points.md) |
 | Create lessons, enroll students, record attendance and settle fees | [Lesson Management](website/admin-lessons.md) |
