@@ -147,6 +147,13 @@ stays unchanged. Cancel records nothing. If the invoice is unavailable, use
 Choose a date in the daily date box to update the schedule immediately, or use
 the arrows / **Today**.
 The daily date controls appear together; the month grid below provides an overview.
+**Monthly collected** counts jobs actually collected in the displayed month, using
+Malaysia time. Today and Next 7 days show scheduled pickups. This summary update
+is available locally and awaits deployment.
+
+![Monthly collected summary](../images/stringing/monthly-collected-desktop.png)
+
+![Monthly collected on mobile](../images/stringing/monthly-collected-mobile.png)
 Scroll below the daily list. **Click a date or any job inside it** to select that
 day and return to its table; red shows overdue work. Use the table’s **Edit**
 button to edit a job.
