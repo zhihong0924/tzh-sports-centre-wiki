@@ -23,20 +23,23 @@ sign-out actions.
 <summary><strong>1 · Request stringing</strong></summary>
 
 **Services → Stringing → sign in → Request stringing.** Complete your account phone number
-if asked. Enter the **Racket model** for this visit, then the string, lbs, grommet preference
-and planned times. For String model, use **model(color)**, for example **BG80(White)**. Put grip identifiers or other details in **Special instructions**.
-**String model** and **Tension** are optional. Leave either blank if you need advice;
-it will show **Needs advice** until staff confirms your setup. The examples inside
-the fields disappear as you type; the confirmation hint stays visible. Staff will
-confirm the string, tension and price with you.
-All times are Malaysia time; staff confirms fees and pickup after inspection.
+if asked. Enter the **Racket model** for this visit. Choose a **String model & colour**
+from the dropdown; every choice includes its catalogue price. The price also
+appears below the field and in **Confirm your request**. Choose **Needs advice**
+if you want help deciding. **Tension** is optional; leave it blank for advice.
+
+The catalogue dropdown and prices are **awaiting deployment**.
+
+Put grip identifiers or other details in **Special instructions**, then choose
+your grommet preference and planned times. All times are Malaysia time. Staff
+confirms the final fee, any grommet charges and pickup after inspecting your racket.
 
 Choose **Request stringing** to plan a new visit or **My requests** to track progress.
 Use **Refresh** beside the page title to reload saved details.
 
-![Stringing request field guidance](../images/stringing/customer-request-hints.png)
+![Choose a model, colour and catalogue price](../images/stringing/customer-catalog-desktop.png)
 
-![Stringing field guidance on mobile](../images/stringing/customer-request-hints-mobile.png)
+![Catalogue selection on mobile](../images/stringing/customer-catalog-mobile.png)
 
 **Submit request → Confirm request.** While **Saving…** is shown, wait for
 **Request accepted**. An orange retry warning appears only if the outcome is uncertain.
@@ -49,7 +52,7 @@ the message under **Timing** identifies which one to change before confirmation.
 
 ![Specific timing error](../images/stringing/customer-timing-error.png)
 
-![Confirm a request with advice needed](../images/stringing/customer-optional-setup-review.png)
+![Confirm the selected string and catalogue price](../images/stringing/customer-catalog-review-mobile.png)
 
 </details>
 
@@ -78,12 +81,11 @@ you can choose a later pickup date.
 
 </details>
 
-The request form has outlined fields in both light and dark themes, including optional string and tension preferences.
+The request form has outlined fields in light and dark themes.
 
-![Outlined customer fields in dark theme](../images/stringing/customer-fields-dark.png)
+![Catalogue fields in light theme](../images/stringing/customer-catalog-mobile-light.png)
 
-![Outlined customer fields in light theme](../images/stringing/customer-fields-light.png)
-
-Fields marked **\*** are required: racket model, planned drop-off date/time and preferred pickup date/time. String and tension can remain blank when you need advice.
-
-![Required stringing inputs](../images/stringing/customer-required-fields.png)
+Fields marked **\*** are required: racket model, planned drop-off date/time and
+preferred pickup date/time. Choose **Needs advice** for the string and leave
+tension blank when you need advice. If a string is withdrawn before submission,
+go back, use **Refresh** and choose another listed string or **Needs advice**.
