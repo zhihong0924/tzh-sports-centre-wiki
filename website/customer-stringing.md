@@ -24,11 +24,13 @@ sign-out actions.
 
 **Services → Stringing → sign in → Request stringing.** Complete your account phone number
 if asked. Enter the **Racket model** for this visit. Choose a **String model & colour**
-from the dropdown; every choice includes its catalogue price. The price also
+from the dropdown, or open **Browse string photos**, search by model or colour
+and tap a photo. Every choice includes its catalogue price. The price also
 appears below the field and in **Confirm your request**. Choose **Needs advice**
 if you want help deciding. **Tension** is optional; leave it blank for advice.
 
-The catalogue dropdown and prices are **awaiting deployment**.
+The catalogue dropdown, photos and prices are **awaiting deployment**. Use this request form for
+stringing services; Shop is for merchandise purchases.
 
 Put grip identifiers or other details in **Special instructions**, then choose
 your grommet preference and planned times. All times are Malaysia time. Staff
@@ -37,9 +39,12 @@ confirms the final fee, any grommet charges and pickup after inspecting your rac
 Choose **Request stringing** to plan a new visit or **My requests** to track progress.
 Use **Refresh** beside the page title to reload saved details.
 
-![Choose a model, colour and catalogue price](../images/stringing/customer-catalog-desktop.png)
+![Choose a photo, model, colour and price](../images/stringing/customer-photo-gallery-desktop.png)
 
-![Catalogue selection on mobile](../images/stringing/customer-catalog-mobile.png)
+![Photo selection on mobile](../images/stringing/customer-photo-gallery-mobile.png)
+
+**Needs advice** clears the selection. If a photo is unavailable, the name and price
+remain selectable.
 
 **Submit request → Confirm request.** While **Saving…** is shown, wait for
 **Request accepted**. An orange retry warning appears only if the outcome is uncertain.
@@ -83,7 +88,7 @@ you can choose a later pickup date.
 
 The request form has outlined fields in light and dark themes.
 
-![Catalogue fields in light theme](../images/stringing/customer-catalog-mobile-light.png)
+![Photo choices in light theme](../images/stringing/customer-photo-gallery-mobile-light.png)
 
 Fields marked **\*** are required: racket model, planned drop-off date/time and
 preferred pickup date/time. Choose **Needs advice** for the string and leave

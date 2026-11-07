@@ -302,3 +302,30 @@ for the customer does not appear as unsent.
 ![Admin actions on mobile](../images/stringing/admin-actions-mobile.png)
 
 </details>
+
+<details>
+<summary><strong>Manage string models, colours and prices</strong></summary>
+
+**Admin → Stringing → Strings & prices.** View each string’s photo, model, colour
+and price together. Missing photos show **Image unavailable**. This catalogue management screen is
+**awaiting deployment**. Previous shop stringing choices are moved here during the update.
+Create service choices here; create merchandise listings in Shop. Past shop
+orders remain in their order history.
+
+1. Choose **Add string**.
+2. Enter **String model & colour**, for example **Yonex BG80 (White)**, and
+   **Price (RM)**. Use a separate entry for each colour.
+3. Leave **Available to customers** checked and choose **Save**.
+
+![Manage the string catalogue](../images/stringing/admin-catalog-desktop.png)
+
+Use **Edit** to change the name or price. Uncheck **Available to customers** and
+save to hide a choice; check it again to make it available. Customers see updates
+when they refresh their request form. Saved jobs and invoices keep their recorded
+details. Staff still confirms the final fee and any grommet charges after inspection.
+
+![Edit or hide a string on mobile](../images/stringing/admin-catalog-editor-mobile.png)
+
+![String catalogue on mobile](../images/stringing/admin-catalog-mobile.png)
+
+</details>
