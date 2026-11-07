@@ -52,10 +52,9 @@ Keep the reference and bring your racket
 at the planned time. The confirmation explains that staff will confirm the price
 and pickup time after checking your racket. No payment is required to submit.
 
-Choose a future drop-off and a later pickup, within 60 days. If a time has passed,
-the message under **Timing** identifies which one to change before confirmation.
+Under **Timing**, tap a suggested **Planned drop-off**, then tap a **Preferred pickup**. To enter a different date or time, select **Choose another time** under that heading. Staff confirms pickup after inspecting your racket. The time suggestions are **awaiting deployment**.
 
-![Specific timing error](../images/stringing/customer-timing-error.png)
+![Suggested drop-off and pickup times](../images/stringing/customer-suggested-times.png)
 
 ![Confirm the selected string and catalogue price](../images/stringing/customer-catalog-review-mobile.png)
 
@@ -72,7 +71,9 @@ linked invoice. Use Previous/Next for older services.
 Contact the centre for other changes. Each visit is a separate job, even when the racket model is the same.
 There is no racket profile to create or reuse.
 
-![Requested service with unquoted fees](../images/stringing/customer-tracking-mobile.jpg)
+String model and tension have separate labels (**awaiting deployment**). A chosen string stays visible when you leave tension as **Needs advice**.
+
+![Tracking the selected string and undecided tension](../images/stringing/customer-tracking-tension.png)
 
 </details>
 

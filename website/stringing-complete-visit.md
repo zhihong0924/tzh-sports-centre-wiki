@@ -24,19 +24,9 @@ Submitting does not record payment.
 <details>
 <summary><strong>2 · Admin agrees the setup and receives the racket</strong></summary>
 
-Open **Requests**, search the customer, then **View stringing → Details → … → Edit stringing**.
-Discuss the setup, price and pickup with the customer. Save the agreed details.
-This example uses **Exbolt 63(White)**, **25 lbs**, **RM35 stringing** and **RM5 grommets**.
+Open **Requests** and choose **Receive racket** beside the incoming racket (awaiting deployment). Confirm the actual receipt date and agreed fees. In this example, the string fee is **RM35** and grommets are **RM5**. Choose **Receive racket** to save. Use **Customers → Stage → Received** for the next step. If the specification needs advice, open the job and agree the string and tension before starting work.
 
-![Requested job before staff confirms the setup](../images/stringing/flow-05-admin-requested.png)
-
-![Save the agreed setup and fees](../images/stringing/flow-06-admin-quote.png)
-
-When the racket arrives, choose **Received**, enter the actual received date and
-**Confirm change**. The job leaves the Requested filter. Use **Stage → All stages**
-to see it again.
-
-![Confirm the actual received date](../images/stringing/flow-07-confirm-received.png)
+![Receive a racket and confirm fees](../images/stringing/admin-receive-racket.png)
 
 </details>
 

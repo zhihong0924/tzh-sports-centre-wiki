@@ -10,13 +10,9 @@ For a complete example, follow [one customer visit from request through collecti
 <details>
 <summary><strong>Customer requests and same-day pickup</strong></summary>
 
-**Customer requests.** Customers use the separate
-[Stringing page](customer-stringing.md). In the toolbar, **Requested (count)**
-opens requests needing review. Open job **Details → … → Edit stringing** to
-confirm fees and pickup; **Requested → Received** separately asks for the actual
-received date. Then use the normal service and payment steps below.
+**Incoming rackets (awaiting deployment).** Open **Requests**, find the customer and racket, then choose **Receive racket**. Check the actual received date, string fee and grommet fee. A matching catalogue string supplies a suggested price. Confirm with **Receive racket**. The job leaves Requests and appears under Received in Customers. Payment is still outstanding.
 
-![Requested review queue and unquoted fees](../images/stringing/customer-requests-admin.jpg)
+![Confirm the fees and received date](../images/stringing/admin-receive-racket.png)
 
 **Same-day pickup today** is visible on every tab. Switch On while open to allow
 later-today customer pickup; switch Off at any time. It ends at closing, never
@@ -315,7 +311,8 @@ orders remain in their order history.
 1. Choose **Add string**.
 2. Enter **String model & colour**, for example **Yonex BG80 (White)**, and
    **Price (RM)**. Use a separate entry for each colour.
-3. Leave **Available to customers** checked and choose **Save**.
+3. Choose a **Catalogue photo** (up to 4 MB) to show it in the customer photo picker. Use the same field in **Edit** to replace it.
+4. Leave **Available to customers** checked and choose **Save**.
 
 ![Manage the string catalogue](../images/stringing/admin-catalog-desktop.png)
 
@@ -324,7 +321,7 @@ save to hide a choice; check it again to make it available. Customers see update
 when they refresh their request form. Saved jobs and invoices keep their recorded
 details. Staff still confirms the final fee and any grommet charges after inspection.
 
-![Edit or hide a string on mobile](../images/stringing/admin-catalog-editor-mobile.png)
+![Edit or hide a string on mobile](../images/stringing/admin-catalog-photo-editor.png)
 
 ![String catalogue on mobile](../images/stringing/admin-catalog-mobile.png)
 
