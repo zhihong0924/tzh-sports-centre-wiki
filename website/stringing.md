@@ -10,7 +10,7 @@ For a complete example, follow [one customer visit from request through collecti
 <details>
 <summary><strong>Customer requests and same-day pickup</strong></summary>
 
-**Incoming rackets (awaiting deployment).** Open **Requests**, find the customer and racket, then choose **Receive racket**. Check the actual received date, string fee and grommet fee. A matching catalogue string supplies a suggested price. Confirm with **Receive racket**. The job leaves Requests and appears under Received in Customers. Payment is still outstanding.
+**Incoming rackets (awaiting deployment).** Open **Requests**, find the customer and racket, then choose **Receive racket**. Check the actual received date, string fee and grommet fee. A matching catalogue string supplies a suggested price. Check the racket to determine the quantity. Under **Sets used**, enter the number of sets to calculate the grommet fee: **RM1 per four standard grommets** or **RM1 per two high-quality grommets**. You can also enter the actual fee directly. Confirm with **Receive racket**. The job leaves Requests and appears under Received in Customers. Payment is still outstanding.
 
 ![Confirm the fees and received date](../images/stringing/admin-receive-racket.png)
 

@@ -23,17 +23,14 @@ sign-out actions.
 <summary><strong>1 · Request stringing</strong></summary>
 
 **Services → Stringing → sign in → Request stringing.** Complete your account phone number
-if asked. Enter the **Racket model** for this visit. Choose a **String model & colour**
-from the dropdown, or open **Browse string photos**, search by model or colour
-and tap a photo. Every choice includes its catalogue price. The price also
-appears below the field and in **Confirm your request**. Choose **Needs advice**
-if you want help deciding. **Tension** is optional; leave it blank for advice.
+if asked. Enter the **Racket model** for this visit. Under **String model & colour**, tap **Choose a string**, search by model or colour and tap a photo. Use **Change** on the selected card to pick another string. Every choice includes its catalogue price. The price also
+appears on the selected card and in **Confirm your request**. Select **Tension (lbs)** from **18–34**, or choose **Needs advice** for staff to advise on tension.
 
-The catalogue dropdown, photos and prices are **awaiting deployment**. Use this request form for
+The photo picker and prices are **awaiting deployment**. Use this request form for
 stringing services; Shop is for merchandise purchases.
 
 Put grip identifiers or other details in **Special instructions**, then choose
-your grommet preference and planned times. All times are Malaysia time. Staff
+your grommet preference and planned times. Standard grommets cost **RM1 per four** and high-quality grommets cost **RM1 per two**. Staff check your racket to determine how many are needed. You can also ask staff to check the racket or request no replacement. All times are Malaysia time. Staff
 confirms the final fee, any grommet charges and pickup after inspecting your racket.
 
 Choose **Request stringing** to plan a new visit or **My requests** to track progress.
@@ -43,8 +40,9 @@ Use **Refresh** beside the page title to reload saved details.
 
 ![Photo selection on mobile](../images/stringing/customer-photo-gallery-mobile.png)
 
-**Needs advice** clears the selection. If a photo is unavailable, the name and price
-remain selectable.
+If a photo is unavailable, the name and price remain selectable.
+
+![Required specifications and grommet price](../images/stringing/customer-required-specification.png)
 
 **Submit request → Confirm request.** While **Saving…** is shown, wait for
 **Request accepted**. An orange retry warning appears only if the outcome is uncertain.
@@ -71,7 +69,7 @@ linked invoice. Use Previous/Next for older services.
 Contact the centre for other changes. Each visit is a separate job, even when the racket model is the same.
 There is no racket profile to create or reuse.
 
-String model and tension have separate labels (**awaiting deployment**). A chosen string stays visible when you leave tension as **Needs advice**.
+String model and tension have separate labels (**awaiting deployment**). A chosen string stays visible when you choose **Needs advice**.
 
 ![Tracking the selected string and undecided tension](../images/stringing/customer-tracking-tension.png)
 
@@ -91,7 +89,4 @@ The request form has outlined fields in light and dark themes.
 
 ![Photo choices in light theme](../images/stringing/customer-photo-gallery-mobile-light.png)
 
-Fields marked **\*** are required: racket model, planned drop-off date/time and
-preferred pickup date/time. Choose **Needs advice** for the string and leave
-tension blank when you need advice. If a string is withdrawn before submission,
-go back, use **Refresh** and choose another listed string or **Needs advice**.
+Fields marked **\*** are required. If a string is withdrawn before submission, use **Refresh** and choose another listed string.
