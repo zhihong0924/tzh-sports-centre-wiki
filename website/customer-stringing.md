@@ -26,8 +26,7 @@ sign-out actions.
 if asked. Enter the **Racket model** for this visit. Under **String model & colour**, tap **Choose a string**, search by model or colour and tap a photo. Use **Change** on the selected card to pick another string. Every choice includes its catalogue price. The price also
 appears on the selected card and in **Confirm your request**. Select **Tension (lbs)** from **18–34**, or choose **Needs advice** for staff to advise on tension.
 
-The photo picker and prices are **awaiting deployment**. Use this request form for
-stringing services; Shop is for merchandise purchases.
+Use this request form for stringing services; Shop is for merchandise purchases.
 
 Put grip identifiers or other details in **Special instructions**, then choose
 your grommet preference and planned times. Standard grommets cost **RM1 per four** and high-quality grommets cost **RM1 per two**. Staff check your racket to determine how many are needed. You can also ask staff to check the racket or request no replacement. All times are Malaysia time. Staff
@@ -50,7 +49,7 @@ Keep the reference and bring your racket
 at the planned time. The confirmation explains that staff will confirm the price
 and pickup time after checking your racket. No payment is required to submit.
 
-Under **Timing**, tap a suggested **Planned drop-off**, then tap a **Preferred pickup**. To enter a different date or time, select **Choose another time** under that heading. Staff confirms pickup after inspecting your racket. The time suggestions are **awaiting deployment**.
+Under **Timing**, tap a suggested **Planned drop-off**, then tap a **Preferred pickup**. To enter a different date or time, select **Choose another time** under that heading. Staff confirms pickup after inspecting your racket.
 
 ![Suggested drop-off and pickup times](../images/stringing/customer-suggested-times.png)
 
@@ -69,7 +68,7 @@ linked invoice. Use Previous/Next for older services.
 Contact the centre for other changes. Each visit is a separate job, even when the racket model is the same.
 There is no racket profile to create or reuse.
 
-String model and tension have separate labels (**awaiting deployment**). A chosen string stays visible when you choose **Needs advice**.
+String model and tension have separate labels. A chosen string stays visible when you choose **Needs advice**.
 
 ![Tracking the selected string and undecided tension](../images/stringing/customer-tracking-tension.png)
 

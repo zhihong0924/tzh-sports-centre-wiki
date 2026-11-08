@@ -2,8 +2,6 @@
 
 **Role:** Administrator · [Open Admin Dashboard](https://tzhsports.vercel.app/admin)
 
-**Availability:** Local preview; awaiting deployment.
-
 1. Open the language menu in the top navigation. On a phone or compact screen,
    open the hamburger menu first, then tap the globe / current language.
 2. Choose **English**, **中文** or **Bahasa Malaysia**.

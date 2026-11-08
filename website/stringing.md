@@ -10,7 +10,7 @@ For a complete example, follow [one customer visit from request through collecti
 <details>
 <summary><strong>Customer requests and same-day pickup</strong></summary>
 
-**Incoming rackets (awaiting deployment).** Open **Requests**, find the customer and racket, then choose **Receive racket**. Check the actual received date, string fee and grommet fee. A matching catalogue string supplies a suggested price. Check the racket to determine the quantity. Under **Sets used**, enter the number of sets to calculate the grommet fee: **RM1 per four standard grommets** or **RM1 per two high-quality grommets**. You can also enter the actual fee directly. Confirm with **Receive racket**. The job leaves Requests and appears under Received in Customers. Payment is still outstanding.
+**Incoming rackets.** Open **Requests**, find the customer and racket, then choose **Receive racket**. Check the actual received date, string fee and grommet fee. A matching catalogue string supplies a suggested price. Check the racket to determine the quantity. Under **Sets used**, enter the number of sets to calculate the grommet fee: **RM1 per four standard grommets** or **RM1 per two high-quality grommets**. You can also enter the actual fee directly. Confirm with **Receive racket**. The job leaves Requests and appears under Received in Customers. Payment is still outstanding.
 
 ![Confirm the fees and received date](../images/stringing/admin-receive-racket.png)
 
@@ -144,8 +144,7 @@ Choose a date in the daily date box to update the schedule immediately, or use
 the arrows / **Today**.
 The daily date controls appear together; the month grid below provides an overview.
 **Monthly collected** counts jobs actually collected in the displayed month, using
-Malaysia time. Today and Next 7 days show scheduled pickups. This summary update
-is available locally and awaits deployment.
+Malaysia time. Today and Next 7 days show scheduled pickups.
 
 ![Monthly collected summary](../images/stringing/monthly-collected-desktop.png)
 
@@ -303,8 +302,8 @@ for the customer does not appear as unsent.
 <summary><strong>Manage string models, colours and prices</strong></summary>
 
 **Admin → Stringing → Strings & prices.** View each string’s photo, model, colour
-and price together. Missing photos show **Image unavailable**. This catalogue management screen is
-**awaiting deployment**. Previous shop stringing choices are moved here during the update.
+and price together. Missing photos show **Image unavailable**. Previous shop
+stringing choices are now in this catalogue.
 Create service choices here; create merchandise listings in Shop. Past shop
 orders remain in their order history.
 

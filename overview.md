@@ -24,7 +24,7 @@ Sign in, then open [Admin Dashboard](https://tzhsports.vercel.app/admin). Its sh
 
 | What you want to do | Guide |
 |---|---|
-| Use admin tools in English, Chinese or Malay (awaiting deployment) | [Admin languages](website/admin-language.md) |
+| Use admin tools in English, Chinese or Malay | [Admin languages](website/admin-language.md) |
 | Create/review court bookings and manage recurring court sessions | [Court operations](website/admin-courts.md) |
 | Settle recurring court/lesson payments and award automatic points | [Recurring payments and points](website/recurring-payments-points.md) |
 | Create lessons, enroll students, record attendance and settle fees | [Lesson Management](website/admin-lessons.md) |
@@ -64,5 +64,3 @@ MCP tools are for authorised administrators. Discovery and previews do not final
 - Revenue reporting currently has no client dashboard. Background cleanup and renewal run automatically; clients do not manually trigger them here.
 
 If a control is missing or a guide's screenshot differs, confirm your account role and the deployed version with the centre owner.
-
-[Prepare stringing outreach and resolve uncertain sends (awaiting deployment)](mcp/stringing-outreach.md).

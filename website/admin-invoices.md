@@ -12,9 +12,9 @@
 
 [Detailed October walkthrough](../guides/2026-10-12-13.md)
 
-**PDF regeneration and total spacing — awaiting deployment:** Newly generated invoice PDFs keep
+**PDF regeneration and total spacing:** Newly generated invoice PDFs keep
 the total label separate from the digits, including totals such as RM1,796.00.
-After deployment, open **Invoices** and choose **Regenerate PDF** beside a manual
+Open **Invoices** and choose **Regenerate PDF** beside a manual
 invoice. Review the invoice number, customer and amount. Leave **Email the updated
 invoice link to the account owner** unchecked for no email, or check it to notify
 the displayed account email. Choose **Regenerate without email** or **Regenerate
@@ -40,7 +40,7 @@ Existing PDFs keep their original layout until regenerated.
 
 ## Preview a manual invoice
 
-**Awaiting deployment.** Open [Create Manual Invoice](https://tzhsports.vercel.app/admin/invoices/create),
+Open [Create Manual Invoice](https://tzhsports.vercel.app/admin/invoices/create),
 select a registered user or enter a non-member name, and fill in the date,
 optional extra names, descriptions and RM amounts. Choose **Preview invoice**
 to see the actual invoice PDF directly in the dialog. Use **+** to zoom in and **−** to zoom out in 25% steps; the percentage
