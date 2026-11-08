@@ -37,3 +37,22 @@ Existing PDFs keep their original layout until regenerated.
 ![Manual invoice form](../images/2026-10-12-13/invoice-create.png)
 
 ![Correction review](../images/2026-10-12-13/invoice-correction.png)
+
+## Preview a manual invoice
+
+**Awaiting deployment.** Open [Create Manual Invoice](https://tzhsports.vercel.app/admin/invoices/create),
+select a registered user or enter a non-member name, and fill in the date,
+optional extra names, descriptions and RM amounts. Choose **Preview invoice**
+to see the actual invoice PDF directly in the dialog. Use **+** to zoom in and **−** to zoom out in 25% steps; the percentage
+shows the current size. Scroll around an enlarged page, or choose **Fit width**
+to reset to 100%.
+
+Close the preview to make changes, then preview again. **Download draft PDF**
+saves the same PDF with its draft label. Previewing creates no invoice,
+payment request, points or email. Use **Request Payment** or **Create Paid
+Invoice** separately when ready; confirm received payment only when it has
+actually been received.
+
+![Invoice preview on desktop with fictional demo data](../images/invoice-preview-desktop.jpg)
+
+![Invoice preview on mobile with fictional demo data](../images/invoice-preview-mobile.jpg)
