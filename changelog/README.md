@@ -4,6 +4,7 @@
 
 | Week (2026) | Changes |
 |---|---|
+| [9–15 November](2026-11-09.md) | Lesson action scopes awaiting deployment |
 | [2–8 November](2026-11-02.md) | Website updates |
 | [26 October–1 November](2026-10-26.md) | Customer and admin stringing |
 | [19–25 October](2026-10-19.md) | Member activity and stringing |
