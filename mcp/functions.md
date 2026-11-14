@@ -2,7 +2,7 @@
 
 [← MCP guides](README.md)
 
-You can ask in ordinary language; the assistant chooses the function. All listed functions are deployed. Each function requires its listed permission and an active administrator.
+You can ask in ordinary language; the assistant chooses the function. Functions in the main table are deployed; the stringing preview section below is awaiting deployment. Each function requires its listed permission and an active administrator.
 
 | Permission | Function | What it does | Effect |
 |---|---|---|---|
@@ -35,3 +35,23 @@ You can ask in ordinary language; the assistant chooses the function. All listed
 Read/preview does not finalize business changes. Draft tools save working audit data; validation records the reviewed version without changing the official account. Destructive actions and commits require explicit approval of the displayed target or exact full preview. Never approve a different batch after a timeout under an earlier approval.
 
 Use the matching [task guide](README.md) for steps and examples. For connection/discovery problems, follow the [customer setup and troubleshooting guide](https://github.com/zhihong0924/tzh-sports-centre-mcp/blob/main/SETUP.md). Credentials are supplied separately through a secure channel.
+
+
+## Stringing outreach — awaiting deployment
+
+All require an active administrator and **Stringing outreach**. Existing tokens
+inherit this permission on release; invalid tokens remain invalid. Sending still
+requires approved WhatsApp computer/browser access. See [the guide](stringing-outreach.md).
+
+| Function | What it does |
+|---|---|
+| `get_stringing_outreach_policy` | Read the saved payment reminder delays. |
+| `update_stringing_outreach_policy` | Save confirmed first/second waiting periods or disable them. |
+| `list_stringing_outreach` | Find outstanding payment, pickup, feedback and restring messages. |
+| `create_stringing_outreach_feedback_request` | Create a missing due job feedback request once. |
+| `prepare_stringing_outreach` | Prepare the exact private message and WhatsApp link. |
+| `claim_stringing_outreach` | Reserve an approved message before sending. |
+| `get_stringing_outreach_attempt` | Recover an interrupted attempt and recheck eligibility. |
+| `finish_stringing_outreach` | Record observed sent, definitely unsent or uncertain. |
+
+MCP does not send the WhatsApp message. Opening a link does not prove it was sent.

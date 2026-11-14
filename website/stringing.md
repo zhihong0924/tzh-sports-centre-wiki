@@ -325,3 +325,21 @@ details. Staff still confirms the final fee and any grommet charges after inspec
 ![String catalogue on mobile](../images/stringing/admin-catalog-mobile.png)
 
 </details>
+
+
+<details>
+<summary><strong>Pause scheduled messages or resolve an interrupted send</strong></summary>
+
+**Local preview; awaiting deployment and supervised WhatsApp setup.**
+Open a job's **Message** dialog and select **Pause automatic stringing messages
+for this customer** to pause all of their automatic stringing messages.
+
+![Pause a customer's scheduled messages](../images/stringing/outreach-pause-mobile.jpg)
+
+If Codex reports an uncertain send, check the WhatsApp chat and stop the original
+runner. Under **Automatic outreach recovery**, choose the observed result, check
+the confirmation and save. This records the outcome; it does not send a message.
+See [Stringing reminders with Codex](../mcp/stringing-outreach.md) to choose payment
+waiting periods and arrange supervised setup.
+
+</details>

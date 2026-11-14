@@ -11,7 +11,7 @@ Start with [access and setup](getting-started.md), then choose a task:
 | Award positive member points | [Point assignment](points.md) | Member points |
 | Change concrete lesson duration/price | [Lesson changes](lesson-management.md) | Lesson management |
 | Query or record attendance | [Attendance](attendance.md) | Lesson management |
-| Stringing reminders and feedback (website workflow) | [Stringing outreach](stringing-outreach.md) | Administrator; use website |
+| Stringing reminders and feedback (awaiting deployment) | [Stringing outreach](stringing-outreach.md) | Stringing outreach; existing tokens inherit on release |
 | Create already-paid manual invoices | [Manual invoices](manual-invoices.md) | Manual invoices |
 
 [Function reference](functions.md) lists the exact names and purpose of every current server function, including invoice compatibility tools.
