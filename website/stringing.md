@@ -310,14 +310,9 @@ details. Staff still confirms the final fee and any grommet charges after inspec
 
 
 <details>
-<summary><strong>Pause scheduled messages or check sent status</strong></summary>
+<summary><strong>Check Codex reminder sent status</strong></summary>
 
 **Local preview; awaiting deployment and supervised WhatsApp setup.**
-Open a job's **Message** dialog and select **Pause automatic stringing messages
-for this customer** to pause all of their automatic stringing messages.
-
-![Pause a customer's scheduled messages](../images/stringing/outreach-pause-mobile.jpg)
-
 Codex uses the existing **Mark as sent** status in **Message**. It skips messages
 already marked sent. If a send was not recorded, a later run can retry; check
 WhatsApp when unsure because this may produce a duplicate. There is no separate
@@ -325,7 +320,6 @@ recovery panel. Run one sender at a time.
 
 ![Existing message and sent status](../images/stringing/reminders-sent-status-desktop.jpg)
 
-See [Stringing reminders with Codex](../mcp/stringing-outreach.md) to choose payment
-waiting periods and arrange supervised setup.
+See [Stringing reminders with Codex](../mcp/stringing-reminders.md) to put waiting periods in the scheduler prompt and arrange supervised setup.
 
 </details>

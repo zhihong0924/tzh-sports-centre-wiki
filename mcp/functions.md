@@ -41,15 +41,13 @@ Use the matching [task guide](README.md) for steps and examples. For connection/
 
 All require an active administrator and **Stringing reminders**. Existing tokens
 inherit this permission on release; invalid tokens remain invalid. Sending still
-requires approved WhatsApp computer/browser access. See [the guide](stringing-outreach.md).
+requires approved WhatsApp computer/browser access. See [the guide](stringing-reminders.md).
 
 | Function | What it does |
 |---|---|
-| `get_stringing_outreach_policy` | Read the saved payment reminder delays. |
-| `update_stringing_outreach_policy` | Save confirmed first/second waiting periods or disable them. |
-| `list_stringing_outreach` | Find outstanding payment, pickup, feedback and restring messages. |
-| `create_stringing_outreach_feedback_request` | Create a missing due job feedback request once. |
-| `prepare_stringing_outreach` | Prepare the exact private message and WhatsApp link. |
-| `finish_stringing_outreach` | Mark the existing job/stage sent after observing the outgoing message. |
+| **Find stringing reminders** | Find due messages using payment waiting days from your scheduler prompt. |
+| **Create stringing feedback request** | Create a missing due job feedback request once. |
+| **Prepare stringing reminder** | Prepare the exact website-template message/link using the same prompt waiting days. |
+| **Mark stringing reminder as sent** | Mark the existing job/stage sent after observing the outgoing message. |
 
 MCP does not send the WhatsApp message. Opening a link does not prove it was sent.
