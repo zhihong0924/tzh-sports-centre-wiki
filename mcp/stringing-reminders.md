@@ -47,7 +47,9 @@ per run. If sending succeeds but recording is lost, a later run may send again.
 
 Existing tokens inherit Stringing reminders permission when the release migration
 runs; no replacement token is needed. Expired/revoked tokens remain invalid. New
-tokens select **Stringing reminders** in MCP Access Tokens.
+tokens select **Stringing reminders** in MCP Access Tokens. After updating the
+workspace and server, reconnect the MCP connection to load the renamed reminder
+tools. Existing tokens do not need replacement.
 
 ![Stringing reminders permission](../images/stringing/reminders-permission-desktop.jpg)
 
