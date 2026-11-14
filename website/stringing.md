@@ -231,25 +231,7 @@ Opening WhatsApp alone does not mark contact done.
 </details>
 
 
-<details>
-<summary><strong>Automatic outreach pause and recovery · awaiting deployment</strong></summary>
 
-In **Message**, tick **Pause automatic outreach for this customer** to pause all
-their jobs. Manual messages remain available.
-
-![Customer pause control](../images/stringing/outreach-pause-mobile.png)
-
-In **Automatic outreach recovery**, check the original WhatsApp chat and stop the
-runner before choosing **Resolve as observed sent** or **Resolve as definitely
-not sent**. Tick the exact confirmation, then **Confirm resolution**. Expiry is
-never proof that a message was unsent. No WhatsApp send occurs from this panel.
-
-![Fictional desktop recovery card](../images/stringing/outreach-recovery-desktop-dark.png)
-
-Follow the [stringing outreach guide](../mcp/stringing-outreach.md) for the dry run,
-owner test and separate sending/scheduling authorisation.
-
-</details>
 
 
 Customer requests may leave string model and tension blank and show **Needs advice**.
@@ -328,7 +310,7 @@ details. Staff still confirms the final fee and any grommet charges after inspec
 
 
 <details>
-<summary><strong>Pause scheduled messages or resolve an interrupted send</strong></summary>
+<summary><strong>Pause scheduled messages or check sent status</strong></summary>
 
 **Local preview; awaiting deployment and supervised WhatsApp setup.**
 Open a job's **Message** dialog and select **Pause automatic stringing messages
@@ -336,9 +318,13 @@ for this customer** to pause all of their automatic stringing messages.
 
 ![Pause a customer's scheduled messages](../images/stringing/outreach-pause-mobile.jpg)
 
-If Codex reports an uncertain send, check the WhatsApp chat and stop the original
-runner. Under **Automatic outreach recovery**, choose the observed result, check
-the confirmation and save. This records the outcome; it does not send a message.
+Codex uses the existing **Mark as sent** status in **Message**. It skips messages
+already marked sent. If a send was not recorded, a later run can retry; check
+WhatsApp when unsure because this may produce a duplicate. There is no separate
+recovery panel. Run one sender at a time.
+
+![Existing message and sent status](../images/stringing/reminders-sent-status-desktop.jpg)
+
 See [Stringing reminders with Codex](../mcp/stringing-outreach.md) to choose payment
 waiting periods and arrange supervised setup.
 

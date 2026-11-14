@@ -41,27 +41,33 @@ Have TZH verify the test send and dashboard result before activating the schedul
 
 The MCP functions prepare the message/link and track the outcome. Codex uses the
 approved WhatsApp application to send. Opening a link does not send a message.
-Messages use the saved EN/ZH/MS preference. Limits prevent repeated daily sends
-and defer additional jobs for the same recipient.
+Messages use the saved EN/ZH/MS preference. Already marked-sent stages are skipped. Use one sender and one job per customer
+per run. If sending succeeds but recording is lost, a later run may send again.
 
-Existing tokens inherit Stringing outreach permission when the release migration
+Existing tokens inherit Stringing reminders permission when the release migration
 runs; no replacement token is needed. Expired/revoked tokens remain invalid. New
-tokens select **Stringing outreach** in MCP Access Tokens.
+tokens select **Stringing reminders** in MCP Access Tokens.
+
+![Stringing reminders permission](../images/stringing/reminders-permission-desktop.jpg)
 
 </details>
 
 <details>
-<summary><strong>Pause a customer or resolve an interrupted send</strong></summary>
+<summary><strong>Pause messages or check sent status</strong></summary>
 
 In a job's **Message** dialog, select **Pause automatic stringing messages for
 this customer**. It applies across that customer's stringing jobs.
 
 ![Pause automatic stringing messages on mobile](../images/stringing/outreach-pause-mobile.jpg)
 
-For an uncertain send, check the WhatsApp chat and stop the original runner.
-In **Automatic outreach recovery**, choose the observed outcome and confirm it.
-Expiry alone is not proof that nothing was sent. Resolving does not send a message.
+Codex records successful sends using the same **Mark as sent** status in the job's
+**Message** dialog. Already marked-sent reminders are skipped. There is no separate
+recovery panel. If a message was not sent, its status stays unchanged for a later
+run. Check WhatsApp if the outcome is unclear: a send followed by a lost status
+update may cause a duplicate.
 
-![Recover an interrupted send](../images/stringing/outreach-recovery-desktop.jpg)
+![Existing message and sent status](../images/stringing/reminders-sent-status-desktop.jpg)
+
+![Existing message controls on mobile](../images/stringing/reminders-sent-status-mobile.jpg)
 
 </details>

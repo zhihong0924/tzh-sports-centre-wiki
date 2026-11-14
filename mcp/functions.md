@@ -37,9 +37,9 @@ Read/preview does not finalize business changes. Draft tools save working audit 
 Use the matching [task guide](README.md) for steps and examples. For connection/discovery problems, follow the [customer setup and troubleshooting guide](https://github.com/zhihong0924/tzh-sports-centre-mcp/blob/main/SETUP.md). Credentials are supplied separately through a secure channel.
 
 
-## Stringing outreach — awaiting deployment
+## Stringing reminders — awaiting deployment
 
-All require an active administrator and **Stringing outreach**. Existing tokens
+All require an active administrator and **Stringing reminders**. Existing tokens
 inherit this permission on release; invalid tokens remain invalid. Sending still
 requires approved WhatsApp computer/browser access. See [the guide](stringing-outreach.md).
 
@@ -50,8 +50,6 @@ requires approved WhatsApp computer/browser access. See [the guide](stringing-ou
 | `list_stringing_outreach` | Find outstanding payment, pickup, feedback and restring messages. |
 | `create_stringing_outreach_feedback_request` | Create a missing due job feedback request once. |
 | `prepare_stringing_outreach` | Prepare the exact private message and WhatsApp link. |
-| `claim_stringing_outreach` | Reserve an approved message before sending. |
-| `get_stringing_outreach_attempt` | Recover an interrupted attempt and recheck eligibility. |
-| `finish_stringing_outreach` | Record observed sent, definitely unsent or uncertain. |
+| `finish_stringing_outreach` | Mark the existing job/stage sent after observing the outgoing message. |
 
 MCP does not send the WhatsApp message. Opening a link does not prove it was sent.
