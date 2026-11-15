@@ -35,13 +35,26 @@ skipped work and incomplete scans.
 <summary><strong>Set up scheduled WhatsApp sending</strong></summary>
 
 After the release, use an owner-controlled test recipient first. Choose WhatsApp
-Web with connected browser access, or the installed desktop app with computer
-access, and sign in. Agree on recipients, message stages/templates, Malaysia
+Web or the installed desktop app, and sign in. Enable connected browser access
+to open the link; desktop use also needs computer access for the app and its
+opening confirmation. Agree on recipients, message stages/templates, Malaysia
 contact hours and the per-run limit. Keep the computer and session available.
 Have TZH verify the test send and dashboard result before activating the schedule.
 
 The MCP functions prepare the message/link and track the outcome. Codex uses the
-approved WhatsApp application to send. Opening a link does not send a message.
+approved WhatsApp application to send:
+
+1. Codex opens the prepared WhatsApp link, just like **Open WhatsApp** on the website.
+2. It follows **Open app / Open WhatsApp**, checks the chat and prefilled message,
+   then sends. For approved Web use, it chooses **Continue to WhatsApp Web**.
+3. It checks the new outgoing message in that chat, then records **Mark as sent**.
+
+Codex can pass the prepared link directly to its connected browser; you do not
+need to copy the link between tools. Private message details stay out of run reports.
+
+Opening a link does not send. If the link cannot open the correct chat and draft,
+Codex reports the problem; it does not automatically search your contacts or
+enter the message manually. A chat-list preview alone does not confirm sending.
 Messages use the saved EN/ZH/MS preference. Already marked-sent stages are skipped. Use one sender and one job per customer
 per run. If sending succeeds but recording is lost, a later run may send again.
 
