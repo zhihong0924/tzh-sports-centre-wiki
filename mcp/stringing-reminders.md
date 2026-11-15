@@ -1,6 +1,6 @@
 # Stringing reminders with Codex
 
-**Administrator · Local preview; awaiting deployment and a supervised WhatsApp test.**
+**Administrator · MCP tools deployed; scheduled WhatsApp sending needs setup.**
 [Open Stringing](https://tzhsports.vercel.app/admin/stringing)
 
 <details>
@@ -34,7 +34,7 @@ skipped work and incomplete scans.
 <details>
 <summary><strong>Set up scheduled WhatsApp sending</strong></summary>
 
-After the release, use an owner-controlled test recipient first. Choose WhatsApp
+Use an owner-controlled test recipient first. Choose WhatsApp
 Web or the installed desktop app, and sign in. Enable connected browser access
 to open the link; desktop use also needs computer access for the app and its
 opening confirmation. Agree on recipients, message stages/templates, Malaysia
