@@ -9,6 +9,7 @@ Choose a task below. Each guide contains the page link, steps and expected resul
 | What you want to do | Guide |
 |---|---|
 | Explore Home and About Us, sign in, register or edit your profile | [Getting started](website/getting-started.md) |
+| Enter a phone number with its country code | [Phone numbers](website/phone-numbers.md) (Preview) |
 | Reserve a court, pay and see your bookings | [Court bookings](website/court-bookings.md) |
 | Try the isolated 30-minute court booking rule | [30-minute court bookings](website/30-minute-court-bookings.md) |
 | Choose social-game dates and contact the organiser | [Social games](website/social-games.md) |

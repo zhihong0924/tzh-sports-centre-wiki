@@ -5,6 +5,7 @@
 ## Public and member
 
 - [Getting started](getting-started.md)
+- [Enter a phone number with its country code](phone-numbers.md) (Preview; awaiting deployment)
 - [Court bookings](court-bookings.md)
 - [30-minute court bookings](30-minute-court-bookings.md)
 - [Social games](social-games.md)

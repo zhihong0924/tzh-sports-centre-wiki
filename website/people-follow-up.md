@@ -16,6 +16,8 @@ Open [Trial Requests](https://tzhsports.vercel.app/admin/trial-requests). Review
 
 Open [Assistant Salary](https://tzhsports.vercel.app/admin/assistant-salary). Create an effective-dated hourly policy before assigning assistants in lesson details; avoid overlapping policies for the same scope. Choose a month to inspect assignments and totals. Assistants use [My Salary](https://tzhsports.vercel.app/my-salary). These are calculated assignment amounts, not evidence of salary payment.
 
+For the country-code controls in preview, see [Enter a phone number](phone-numbers.md).
+
 ## Manual WhatsApp reminders
 
 Open [WhatsApp Reminders](https://tzhsports.vercel.app/admin/reminders). Check the centre/bank settings, then upload CSV or paste rows with `user, phone number, total fee, lesson type` and optional `session count`. Review/fix flagged rows and each message; open WhatsApp and send manually. **Download enriched CSV** keeps the prepared output. This screen does not send automatically or mark fees paid.
