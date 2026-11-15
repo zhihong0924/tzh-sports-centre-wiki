@@ -4,7 +4,7 @@
 
 [Request a trial](https://tzhsports.vercel.app/lessons/trial) · [Register](https://tzhsports.vercel.app/register) · [Account settings](https://tzhsports.vercel.app/account/settings)
 
-1. Choose **Country code**, for example **Malaysia (+60)** or **Singapore (+65)**.
+1. Choose **Country code**. All 11 ASEAN countries appear first (Malaysia and Singapore lead), followed by Taiwan, China, Japan, South Korea, Hong Kong, Macao, Mongolia and North Korea, then other Asian countries and the rest of the world.
 2. Enter the phone number beside it. You can also paste the complete number with its `+` country code.
 3. Complete the form and save. A missing country code or incomplete number must be corrected before it can be saved.
 
