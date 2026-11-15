@@ -2,7 +2,7 @@
 
 [← MCP guides](README.md)
 
-You can ask in ordinary language; the assistant chooses the function. Functions in the main table are deployed; the stringing preview section below is awaiting deployment. Each function requires its listed permission and an active administrator.
+You can ask in ordinary language; the assistant chooses the function. The functions listed here are deployed; scheduled WhatsApp sending requires its separate setup. Each function requires its listed permission and an active administrator.
 
 | Permission | Function | What it does | Effect |
 |---|---|---|---|
@@ -37,10 +37,10 @@ Read/preview does not finalize business changes. Draft tools save working audit 
 Use the matching [task guide](README.md) for steps and examples. For connection/discovery problems, follow the [customer setup and troubleshooting guide](https://github.com/zhihong0924/tzh-sports-centre-mcp/blob/main/SETUP.md). Credentials are supplied separately through a secure channel.
 
 
-## Stringing reminders — awaiting deployment
+## Stringing reminders
 
-All require an active administrator and **Stringing reminders**. Existing tokens
-inherit this permission on release; invalid tokens remain invalid. Sending still
+All require an active administrator and **Stringing reminders**. Existing active,
+unexpired tokens have the owner-approved permissions; invalid tokens remain invalid. Sending still
 requires approved WhatsApp computer/browser access. See [the guide](stringing-reminders.md).
 
 | Function | What it does |
