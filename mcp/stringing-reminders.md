@@ -58,8 +58,9 @@ enter the message manually. A chat-list preview alone does not confirm sending.
 Messages use the saved EN/ZH/MS preference. Already marked-sent stages are skipped. Use one sender and one job per customer
 per run. If sending succeeds but recording is lost, a later run may send again.
 
-Existing tokens inherit Stringing reminders permission when the release migration
-runs; no replacement token is needed. Expired/revoked tokens remain invalid. New
+Existing active, unexpired tokens receive all current MCP permissions, including
+Stringing reminders, through the owner-approved release update. No replacement
+token is needed. Expired/revoked tokens are unchanged and remain invalid. New
 tokens select **Stringing reminders** in MCP Access Tokens. After updating the
 workspace and server, reconnect the MCP connection to load the renamed reminder
 tools. Existing tokens do not need replacement.
