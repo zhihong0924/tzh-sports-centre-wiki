@@ -11,6 +11,7 @@ Start with [access and setup](getting-started.md), then choose a task:
 | Award positive member points | [Point assignment](points.md) | Member points |
 | Change concrete lesson duration/price | [Lesson changes](lesson-management.md) | Lesson management |
 | Query or record attendance | [Attendance](attendance.md) | Lesson management |
+| Today’s class reminders (awaiting deployment) | [Lesson reminders](lesson-reminders.md) | Lesson management |
 | Stringing reminders and feedback (awaiting deployment) | [Stringing reminders](stringing-reminders.md) | Stringing reminders; existing tokens inherit on release |
 | Create already-paid manual invoices | [Manual invoices](manual-invoices.md) | Manual invoices |
 

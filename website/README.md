@@ -21,6 +21,7 @@
 
 - [Court operations](admin-courts.md)
 - [Recurring payments and points](recurring-payments-points.md)
+- [Today’s lesson reminder templates](lesson-reminders.md) (Preview; awaiting deployment)
 - [Lesson Management](admin-lessons.md)
 - [Off-site lessons](offsite-lessons.md)
 - [Student Accounts and audits](student-accounts.md)

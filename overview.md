@@ -28,6 +28,7 @@ Sign in, then open [Admin Dashboard](https://tzhsports.vercel.app/admin). Its sh
 | Use admin tools in English, Chinese or Malay | [Admin languages](website/admin-language.md) |
 | Create/review court bookings and manage recurring court sessions | [Court operations](website/admin-courts.md) |
 | Settle recurring court/lesson payments and award automatic points | [Recurring payments and points](website/recurring-payments-points.md) |
+| Edit class-today WhatsApp wording (Preview) | [Lesson reminder templates](website/lesson-reminders.md) |
 | Create lessons, enroll students, record attendance and settle fees | [Lesson Management](website/admin-lessons.md) |
 | Arrange lessons at an external venue without a centre court | [Off-site lessons](website/offsite-lessons.md) |
 | Review a student's account or reconcile historical records | [Student Accounts and audits](website/student-accounts.md) |
@@ -51,6 +52,7 @@ MCP tools are for authorised administrators. Discovery and previews do not final
 | Reconcile historical lessons, payments and replacements | [Student audit](mcp/student-audit.md) |
 | Award positive member points | [Point assignment](mcp/points.md) |
 | Change specific lesson durations or prices | [Lesson changes](mcp/lesson-management.md) |
+| Remind students about today’s class (awaiting deployment) | [Lesson reminders](mcp/lesson-reminders.md) |
 | Find missing attendance or record reviewed outcomes | [Attendance](mcp/attendance.md) |
 | Prepare an already-paid manual invoice | [Manual invoices](mcp/manual-invoices.md) |
 

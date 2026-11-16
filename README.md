@@ -6,6 +6,7 @@
 
 | Week (2026) | Changes |
 |---|---|
+| [16–22 November](changelog/2026-11-16.md) | Lesson reminders awaiting deployment |
 | [9–15 November](changelog/2026-11-09.md) | Website updates awaiting deployment |
 | [2–8 November](changelog/2026-11-02.md) | Website updates |
 | [26 October–1 November](changelog/2026-10-26.md) | Customer and admin stringing |
