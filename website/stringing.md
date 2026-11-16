@@ -51,7 +51,7 @@ A blank received date uses Malaysia today for a new job.
 Both fee boxes start blank with a 0.00 hint. Enter the string fee; leave
 Grommets blank for RM0.00.
 
-**Local preview — awaiting deployment:** Required fields show `*`: Customer,
+**Required fields** show `*`: Customer,
 Racket name, String, Tension and String fee. **Pickup schedule (optional)** starts
 collapsed for new or unscheduled jobs. Leave it closed to save without a pickup
 schedule, or open it and enter both date and time. On narrow screens the fields stack;
@@ -93,7 +93,7 @@ separate columns. Use **View feedback** on the customer header to read all their
 responses, with racket details and service dates. Use **Message** on a row to prepare a message
 for that job; opening the composer does not send it. Open **Details** for that specific job; **Edit stringing**
 can correct its racket name while it is unpaid and open.
-**Local preview — awaiting deployment:** **Edit stringing** opens the pickup
+**Edit stringing** opens the pickup
 section automatically when a schedule is saved. Closing the section keeps its
 values, including when you Save. Clearing either field removes the schedule.
 
