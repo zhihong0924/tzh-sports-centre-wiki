@@ -1,6 +1,6 @@
 # Edit today's class reminder
 
-**Role:** Administrator. **Availability:** Preview; awaiting deployment.
+**Role:** Administrator. **Availability:** Live. Scheduled sending needs approved server contact hours and WhatsApp setup.
 
 Open [WhatsApp Reminders](https://tzhsports.vercel.app/admin/reminders), then
 choose **Class reminders**. The editor and example preview are on this page.

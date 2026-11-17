@@ -1,7 +1,7 @@
 # Remind students about today's class
 
 **Role:** Administrator with **Lesson management** MCP permission.
-**Availability:** Awaiting deployment and supervised WhatsApp setup.
+**Availability:** Tools deployed. Scheduled sending needs approved server contact hours and supervised WhatsApp setup.
 
 First [save the message template](../website/lesson-reminders.md). Agree with the
 owner on the daily run time, message language and approved WhatsApp session.
@@ -31,6 +31,6 @@ Missing tools, sign-in or a mismatched chat/draft stops the flow for attention.
 This workflow reminds students to attend class; it does not collect lesson fees.
 
 For guided schedule creation, copy the [lesson scheduler setup prompt](https://github.com/zhihong0924/tzh-sports-centre-mcp/blob/main/prompts/setup-lesson-reminder-scheduler.md)
-into your updated Codex workspace after deployment. Codex asks for run time,
+into your updated Codex workspace. Codex asks for run time,
 language and WhatsApp session before activation. Keep your computer and the
 signed-in session available for scheduled runs.
