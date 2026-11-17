@@ -45,15 +45,29 @@ to be selected. Correct the search and choose a result to enable Save.
 member, then type in **Racket name** and **String** to choose a previous name.
 For a new name, choose **Add new racket** or **Add new string**; it becomes
 available next time after you save the job. Enter
-tension and fees, then **Save**. Pickup needs both date and time, or neither.
+tension and fees, then **Save**. Pickup is optional. If either date or time is blank, the job saves as
+**Unscheduled**. Set the timing later through **Details → … → Edit dates**.
+A blank received date uses Malaysia today for a new job.
 Both fee boxes start blank with a 0.00 hint. Enter the string fee; leave
 Grommets blank for RM0.00.
 
-Add and Edit stringing fields have clear outlines in both themes.
+**Required fields** show `*`: Customer,
+Racket name, String, Tension and String fee. **Pickup schedule (optional)** starts
+collapsed for new or unscheduled jobs. Leave it closed to save without a pickup
+schedule, or open it and enter both date and time. On narrow screens the fields stack;
+on wider screens they sit side by side with a gap.
 
-![Edit stringing fields in light theme](../images/stringing/editor-fields-light.png)
+![Add stringing with optional pickup collapsed on desktop](../images/stringing/pickup-collapsed-desktop.jpg)
 
-![Add stringing fields in dark theme](../images/stringing/editor-fields-dark.png)
+![Add stringing with optional pickup collapsed on phone](../images/stringing/pickup-collapsed-mobile.jpg)
+
+**Partial pickup timing:** Add and Edit accept only a date or only a time. Both
+save as **Unscheduled**; the lone value is not retained. Enter both fields later
+to schedule pickup.
+
+![Date selected without a pickup time on phone](../images/stringing/pickup-date-only.jpg)
+
+![Time selected without a pickup date on phone](../images/stringing/pickup-time-only.jpg)
 
 Extra instructions go in **Notes**. Repeat for each racket the customer brings;
 identical names can have separate jobs. No separate racket setup is needed.
@@ -79,6 +93,26 @@ separate columns. Use **View feedback** on the customer header to read all their
 responses, with racket details and service dates. Use **Message** on a row to prepare a message
 for that job; opening the composer does not send it. Open **Details** for that specific job; **Edit stringing**
 can correct its racket name while it is unpaid and open.
+**Edit stringing** opens the pickup
+section automatically when a schedule is saved. Closing the section keeps its
+values, including when you Save. Clearing either field removes the schedule.
+
+![Edit an existing pickup schedule on tablet](../images/stringing/pickup-expanded-tablet.jpg)
+
+On a phone held sideways, scroll inside the form to reach pickup. Save stays
+visible at the bottom.
+
+![Pickup fields in a phone landscape layout](../images/stringing/pickup-phone-landscape.jpg)
+
+**Set or change timing later:** open **Details → … → Edit dates**, enter the
+pickup date and time, then **Save**. This remains available after payment or
+collection and does not change payment or collection history. Clear either pickup
+field to leave the job unscheduled. A blank received date keeps its recorded value.
+
+![Edit dates on a paid or collected job](../images/stringing/edit-dates-desktop.jpg)
+
+![Optional pickup timing on mobile](../images/stringing/edit-dates-mobile.jpg)
+
 For paid or completed jobs, use **Details → … → Edit**, enter the
 correct racket/string names and a reason, then **Save correction**. The change
 is audited; payment amounts and issued invoices stay unchanged. A typo stops
