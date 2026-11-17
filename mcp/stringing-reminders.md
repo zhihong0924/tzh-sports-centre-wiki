@@ -83,3 +83,7 @@ update may cause a duplicate.
 ![Existing message controls on mobile](../images/stringing/reminders-sent-status-mobile.jpg)
 
 </details>
+
+For guided setup, copy the [stringing scheduler setup prompt](https://github.com/zhihong0924/tzh-sports-centre-mcp/blob/main/prompts/setup-stringing-reminder-scheduler.md)
+into your updated Codex workspace. Codex asks for run time, selected stages and
+payment follow-up waiting days before activating the schedule.

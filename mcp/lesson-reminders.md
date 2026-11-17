@@ -14,6 +14,10 @@ After the owner completes a supervised send and activates the schedule, Codex
 finds eligible students, prepares the latest saved message, verifies the WhatsApp
 chat and prefilled text, sends, then records the observed outgoing message.
 
+- Each daily run sends reminders for all eligible unsent classes today, even
+  evening classes when the schedule runs in the morning. It does not wait until
+  each class is nearly starting. Multiple classes for one student get separate
+  reminders.
 - Today means Malaysia time. Cancelled classes, recorded absences, classes already
   started and invalid contacts are skipped.
 - Students use their account phone; guests use their recorded enrollment phone.
@@ -25,3 +29,8 @@ chat and prefilled text, sends, then records the observed outgoing message.
 
 Missing tools, sign-in or a mismatched chat/draft stops the flow for attention.
 This workflow reminds students to attend class; it does not collect lesson fees.
+
+For guided schedule creation, copy the [lesson scheduler setup prompt](https://github.com/zhihong0924/tzh-sports-centre-mcp/blob/main/prompts/setup-lesson-reminder-scheduler.md)
+into your updated Codex workspace after deployment. Codex asks for run time,
+language and WhatsApp session before activation. Keep your computer and the
+signed-in session available for scheduled runs.
