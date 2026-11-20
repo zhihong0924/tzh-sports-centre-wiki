@@ -1,6 +1,6 @@
 # Stringing reminders with Codex
 
-**Administrator · MCP tools deployed; scheduled WhatsApp sending needs setup.**
+**Administrator · Tools deployed; client-controlled timing and optional caps await deployment.**
 [Open Stringing](https://tzhsports.vercel.app/admin/stringing)
 
 <details>
@@ -38,8 +38,13 @@ Use an owner-controlled test recipient first. Choose WhatsApp
 Web or the installed desktop app, and sign in. Enable connected browser access
 to open the link; desktop use also needs computer access for the app and its
 opening confirmation. Agree on recipients, message stages/templates, Malaysia
-contact hours and the per-run limit. Keep the computer and session available.
-Have TZH verify the test send and dashboard result before activating the schedule.
+schedule and, optionally, a per-run limit of your choice or no cap.
+After the updated server is deployed, there is no fixed 20-message maximum,
+server enable switch or separate contact-hour window. Pause the Codex automation
+to stop future runs; stop an already-running sender separately. Keep the computer and session available.
+If the approved session has already passed the send-and-record test, tell Codex
+to reuse that result and your existing choices. Otherwise verify one owner-controlled
+test send and dashboard result before activating the schedule.
 
 The MCP functions prepare the message/link and track the outcome. Codex uses the
 approved WhatsApp application to send:
