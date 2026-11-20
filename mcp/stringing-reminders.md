@@ -1,6 +1,6 @@
 # Stringing reminders with Codex
 
-**Administrator · Tools deployed; client-controlled timing and optional caps await deployment.**
+**Administrator · Client-controlled timing and optional caps deployed; scheduled WhatsApp sending needs setup.**
 [Open Stringing](https://tzhsports.vercel.app/admin/stringing)
 
 <details>
@@ -39,7 +39,7 @@ Web or the installed desktop app, and sign in. Enable connected browser access
 to open the link; desktop use also needs computer access for the app and its
 opening confirmation. Agree on recipients, message stages/templates, Malaysia
 schedule and, optionally, a per-run limit of your choice or no cap.
-After the updated server is deployed, there is no fixed 20-message maximum,
+The deployed server has no fixed 20-message maximum,
 server enable switch or separate contact-hour window. Pause the Codex automation
 to stop future runs; stop an already-running sender separately. Keep the computer and session available.
 If the approved session has already passed the send-and-record test, tell Codex
