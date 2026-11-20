@@ -48,7 +48,7 @@ Under **Timing**, select a **Planned drop-off**. Use **Choose another time** if 
 
 ![Pick a 30-minute slot on a phone](../images/stringing/member-pickup-grid.jpg)
 
-Select **Submit request → Confirm request**. Once accepted, your pickup slot is reserved. Keep the reference and bring your racket at the planned drop-off time. No payment is required to submit.
+Select **Submit request → Confirm request**. Once accepted, your slot reserves time to string your racket. When it’s ready, you can still collect at your planned time. Keep the reference and bring your racket at the planned drop-off time. No payment is required to submit.
 
 </details>
 

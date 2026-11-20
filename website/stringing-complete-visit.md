@@ -48,7 +48,7 @@ not change the job's progress.
 <details>
 <summary><strong>4 · Ready for pickup, then collected</strong></summary>
 
-Choose **Ready for pickup → Confirm change** when the racket is ready.
+Choose **Ready for pickup → Confirm change** when the racket is ready. An upcoming slot can then be booked for another racket. The original customer keeps their pickup time.
 Use **Message → Stage: Ready for pickup** to review the message, open WhatsApp
 and send it. Return and choose **Mark as sent**; opening WhatsApp alone does not
 record contact.

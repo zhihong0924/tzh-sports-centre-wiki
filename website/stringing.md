@@ -27,6 +27,10 @@ carries into tomorrow, and switching Off preserves accepted requests.
 
 ![Publishing two weeks of pickup slots](../images/stringing/pickup-availability-grid.jpg)
 
+To free a slot early, choose **Ready for pickup → Confirm change** on the completed racket. An upcoming slot reopens for another stringing request. The original customer's pickup time stays on their job.
+
+![Confirm Ready for pickup to free an upcoming slot](../images/stringing/ready-releases-stringing-slot.jpg)
+
 </details>
 
 <details>
