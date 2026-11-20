@@ -9,7 +9,7 @@ Follow one fictional visit from request to collection, feedback and the next res
 <details>
 <summary><strong>1 · Customer submits a request</strong></summary>
 
-Open **Request stringing**. Enter the racket model and future drop-off/pickup times.
+Open **Request stringing**. Enter the racket model and choose a planned drop-off. When the pickup grid is available, choose a published half-hour slot. See [Request and track stringing](customer-stringing.md) for the pickup steps and availability.
 Choose a listed string and select **18–34 lbs** or **Needs advice** for tension (awaiting deployment). Add other preferences
 in **Special instructions**. Fields marked **\*** are required.
 

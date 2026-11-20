@@ -3,23 +3,29 @@
 **Administrator**
 [Open Stringing](https://tzhsports.vercel.app/admin/stringing) · [This week](../changelog/2026-10-19.md)
 
-Open the step you need. Screenshots use fictional customers.
+Open the step you need. Screenshots use fictional customers. Catalogue autofill, quantity pricing and pickup slots are awaiting deployment.
 
 For a complete example, follow [one customer visit from request through collection, feedback and follow-up](stringing-complete-visit.md).
 
 <details>
 <summary><strong>Customer requests and same-day pickup</strong></summary>
 
-**Incoming rackets.** Open **Requests**, find the customer and racket, then choose **Receive racket**. Check the actual received date, string fee and grommet fee. A matching catalogue string supplies a suggested price. Check the racket to determine the quantity. Under **Sets used**, enter the number of sets to calculate the grommet fee: **RM1 per four standard grommets** or **RM1 per two high-quality grommets**. You can also enter the actual fee directly. Confirm with **Receive racket**. The job leaves Requests and appears under Received in Customers. Payment is still outstanding.
-
-![Confirm the fees and received date](../images/stringing/admin-receive-racket.png)
+**Incoming rackets.** Open **Requests**, find the customer and racket, then choose **Receive racket**. Check the actual received date, string fee and grommet fee. A matching catalogue string supplies a suggested price. Check the racket to determine the quantity. Choose **Grommet type** and enter **Grommet quantity** to fill the fee. Standard costs RM1 per four and high-quality costs RM1 per two. Partial packs round up. You can enter the actual fee directly. Confirm with **Receive racket**. The job leaves Requests and appears under Received in Customers. Payment is still outstanding.
 
 **Same-day pickup today** is visible on every tab. Switch On while open to allow
 later-today customer pickup; switch Off at any time. It ends at closing, never
-carries into tomorrow, and switching Off preserves accepted requests. Staff can
-still arrange exceptions directly.
+carries into tomorrow, and switching Off preserves accepted requests.
 
 ![Visible mobile same-day policy](../images/stringing/same-day-policy-mobile.jpg)
+
+</details>
+
+<details>
+<summary><strong>Publish pickup availability</strong></summary>
+
+**Admin → Stringing → Pickup availability.** Set the start date, number of days, weekdays and hours. Use **7** days for one week or **14** for two, then select **Publish slots**. Check the grid and use **Next week** to see later dates. Staff and members can choose from the same 30-minute slots. Enter the range and select **Close slots** to stop new reservations in it. Existing pickups stay on the timetable.
+
+![Publishing two weeks of pickup slots](../images/stringing/pickup-availability-grid.jpg)
 
 </details>
 
@@ -41,42 +47,11 @@ to be selected. Correct the search and choose a result to enable Save.
 <details>
 <summary><strong>2 · Add stringing</strong></summary>
 
-**Add stringing** at the top of the workspace. Search and select a registered
-member, then type in **Racket name** and **String** to choose a previous name.
-For a new name, choose **Add new racket** or **Add new string**; it becomes
-available next time after you save the job. Enter
-tension and fees, then **Save**. Pickup is optional. If either date or time is blank, the job saves as
-**Unscheduled**. Set the timing later through **Details → … → Edit dates**.
-A blank received date uses Malaysia today for a new job.
-Both fee boxes start blank with a 0.00 hint. Enter the string fee; leave
-Grommets blank for RM0.00.
+**Add stringing → select a member → enter the racket name and tension.** Choose a model and colour from **String**. The catalogue price fills **String fee (RM)** and can be adjusted. Choose **Grommet type** and enter the number of grommets used to calculate the grommet fee.
 
-**Required fields** show `*`: Customer,
-Racket name, String, Tension and String fee. **Pickup schedule (optional)** starts
-collapsed for new or unscheduled jobs. Leave it closed to save without a pickup
-schedule, or open it and enter both date and time. On narrow screens the fields stack;
-on wider screens they sit side by side with a gap.
+Open **Pickup schedule (optional)** to enter a date only, or choose **Show pickup slots** and select a 30-minute slot. Leave the date blank to save as **Unscheduled**. Select **Save**.
 
-![Add stringing with optional pickup collapsed on desktop](../images/stringing/pickup-collapsed-desktop.jpg)
-
-![Add stringing with optional pickup collapsed on phone](../images/stringing/pickup-collapsed-mobile.jpg)
-
-**Partial pickup timing:** Add and Edit accept only a date or only a time. Both
-save as **Unscheduled**; the lone value is not retained. Enter both fields later
-to schedule pickup.
-
-![Date selected without a pickup time on phone](../images/stringing/pickup-date-only.jpg)
-
-![Time selected without a pickup date on phone](../images/stringing/pickup-time-only.jpg)
-
-Extra instructions go in **Notes**. Repeat for each racket the customer brings;
-identical names can have separate jobs. No separate racket setup is needed.
-
-![Search previously used racket names](../images/stringing/racket-name-suggestions-desktop.png)
-
-![Add a new string name](../images/stringing/new-string-name-desktop.png)
-
-![Search or add names on mobile](../images/stringing/new-string-name-mobile.png)
+![Staff fee fields and date-only pickup](../images/stringing/staff-price-and-pickup-edit.jpg)
 
 </details>
 
@@ -93,25 +68,9 @@ separate columns. Use **View feedback** on the customer header to read all their
 responses, with racket details and service dates. Use **Message** on a row to prepare a message
 for that job; opening the composer does not send it. Open **Details** for that specific job; **Edit stringing**
 can correct its racket name while it is unpaid and open.
-**Edit stringing** opens the pickup
-section automatically when a schedule is saved. Closing the section keeps its
-values, including when you Save. Clearing either field removes the schedule.
+**Edit stringing** opens pickup automatically when a date is saved. Use **Show pickup slots** to choose a replacement, **Clear pickup time** to keep the date, or clear the date to remove pickup timing.
 
-![Edit an existing pickup schedule on tablet](../images/stringing/pickup-expanded-tablet.jpg)
-
-On a phone held sideways, scroll inside the form to reach pickup. Save stays
-visible at the bottom.
-
-![Pickup fields in a phone landscape layout](../images/stringing/pickup-phone-landscape.jpg)
-
-**Set or change timing later:** open **Details → … → Edit dates**, enter the
-pickup date and time, then **Save**. This remains available after payment or
-collection and does not change payment or collection history. Clear either pickup
-field to leave the job unscheduled. A blank received date keeps its recorded value.
-
-![Edit dates on a paid or collected job](../images/stringing/edit-dates-desktop.jpg)
-
-![Optional pickup timing on mobile](../images/stringing/edit-dates-mobile.jpg)
+**Set or change timing later:** open **Details → … → Edit dates**, update the date or select a slot and **Save**. Paid open jobs can be rescheduled here. For a collected or cancelled job, keep the original time or make a date-only correction. A blank received date keeps the recorded date.
 
 For paid or completed jobs, use **Details → … → Edit**, enter the
 correct racket/string names and a reason, then **Save correction**. The change

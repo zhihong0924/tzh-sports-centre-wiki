@@ -3,6 +3,8 @@
 **Signed-in customer**
 [Open Stringing](https://tzhsports.vercel.app/stringing) · [Admin guide](stringing.md)
 
+The pickup-slot grid is awaiting deployment.
+
 See [a complete customer visit](stringing-complete-visit.md) for the request, completed service, invoice and feedback screens.
 
 Open **🏸 Services → Stringing** from the navbar. On smaller screens, open the
@@ -29,8 +31,7 @@ appears on the selected card and in **Confirm your request**. Select **Tension (
 Use this request form for stringing services; Shop is for merchandise purchases.
 
 Put grip identifiers or other details in **Special instructions**, then choose
-your grommet preference and planned times. Standard grommets cost **RM1 per four** and high-quality grommets cost **RM1 per two**. Staff check your racket to determine how many are needed. You can also ask staff to check the racket or request no replacement. All times are Malaysia time. Staff
-confirms the final fee, any grommet charges and pickup after inspecting your racket.
+your grommet preference and planned times. Standard grommets cost **RM1 per four** and high-quality grommets cost **RM1 per two**. Staff check your racket to determine how many are needed. You can also ask staff to check the racket or request no replacement. All times are Malaysia time. Staff confirm the final fee and grommet charges after inspecting your racket.
 
 Choose **Request stringing** to plan a new visit or **My requests** to track progress.
 Use **Refresh** beside the page title to reload saved details.
@@ -43,17 +44,11 @@ If a photo is unavailable, the name and price remain selectable.
 
 ![Required specifications and grommet price](../images/stringing/customer-required-specification.png)
 
-**Submit request → Confirm request.** While **Saving…** is shown, wait for
-**Request accepted**. An orange retry warning appears only if the outcome is uncertain.
-Keep the reference and bring your racket
-at the planned time. The confirmation explains that staff will confirm the price
-and pickup time after checking your racket. No payment is required to submit.
+Under **Timing**, select a **Planned drop-off**. Use **Choose another time** if you need a different drop-off. Choose one of the available **Pickup slots**, using **Next week** to see more dates. On a phone, swipe the table sideways to see later days.
 
-Under **Timing**, tap a suggested **Planned drop-off**, then tap a **Preferred pickup**. To enter a different date or time, select **Choose another time** under that heading. Staff confirms pickup after inspecting your racket.
+![Pick a 30-minute slot on a phone](../images/stringing/member-pickup-grid.jpg)
 
-![Suggested drop-off and pickup times](../images/stringing/customer-suggested-times.png)
-
-![Confirm the selected string and catalogue price](../images/stringing/customer-catalog-review-mobile.png)
+Select **Submit request → Confirm request**. Once accepted, your pickup slot is reserved. Keep the reference and bring your racket at the planned drop-off time. No payment is required to submit.
 
 </details>
 
@@ -80,7 +75,7 @@ String model and tension have separate labels. A chosen string stays visible whe
 Normally choose a pickup date after the drop-off date. **Same-day pickup available
 today** permits later-today pickup only when both dates are today and the centre
 is open. Staff can switch it off; if availability changes, your details stay and
-you can choose a later pickup date.
+you can choose another available slot.
 
 </details>
 
