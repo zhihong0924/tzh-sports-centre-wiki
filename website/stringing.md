@@ -29,7 +29,9 @@ Under **Open a range**, choose the weeks and days, then pick a start and end tim
 
 Under **Individual slots**, select a cell to open or close it. On a phone, swipe sideways to reach later days. **Closed · booked** keeps the existing appointment.
 
-Select **Save changes** to apply the range and any cell edits. Use **Discard changes** to clear the draft.
+Select **Save changes** to apply the range and any cell edits. Use **Discard changes** to clear the draft. To close all unbooked slots for one week, select its **WW** card, then choose **Clear open slots → Save changes**. Booked slots stay booked.
+
+![Clear the open slots for the selected week](../images/stringing/pickup-availability-clear-week.jpg)
 
 ![An unsaved cell edit and the Save changes button](../images/stringing/pickup-availability-cell-mobile.jpg)
 
