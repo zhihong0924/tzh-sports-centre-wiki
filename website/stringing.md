@@ -10,7 +10,7 @@ For a complete example, follow [one customer visit from request through collecti
 <details>
 <summary><strong>Receive customer requests</strong></summary>
 
-**Incoming rackets.** Open **Requests**, find the customer and racket, then choose **Receive racket**. Check the actual received date, string fee and grommet fee. A matching catalogue string supplies a suggested price. Check the racket to determine the quantity. Choose **Grommet type** and enter **Grommet quantity** to fill the fee. Standard costs RM1 per four and high-quality costs RM1 per two. Partial packs round up. You can enter the actual fee directly. Confirm with **Receive racket**. The job leaves Requests and appears under Received in Customers. Payment is still outstanding.
+**Incoming rackets.** Open **Requests**, find the customer and racket, then choose **Receive racket**. Check the actual received date, string fee and grommet fee. A matching catalogue string supplies a suggested price. Check the racket to determine the quantity. Choose **Grommet type** and enter **Grommet quantity** to fill the fee. The dropdown shows **Standard · 4 for RM1** and **High-quality · 2 for RM1**. Partial packs round up. You can enter the actual fee directly. Confirm with **Receive racket**. The job leaves Requests and appears under Received in Customers. Payment is still outstanding.
 
 ![Receipt with catalogue price and calculated grommet fee](../images/stringing/receive-racket-quantity.jpg)
 
@@ -59,9 +59,11 @@ to be selected. Correct the search and choose a result to enable Save.
 <details>
 <summary><strong>2 · Add stringing</strong></summary>
 
-**Add stringing → select a member → enter the racket name and tension.** Choose a model and colour from **String**. The catalogue price fills **String fee (RM)** and can be adjusted. Choose **Grommet type** and enter the number of grommets used to calculate the grommet fee.
+**Add stringing → select a member → enter the racket name and tension.** Choose a model and colour from **String**. The catalogue price fills **String fee (RM)** and can be adjusted. Choose a **Grommet type** by its pack quantity and price, then enter the number used to calculate the fee.
 
 Open **Pickup schedule (optional)** to enter a date only, or choose **Show pickup slots** and select a 30-minute slot. Leave the date blank to save as **Unscheduled**. Select **Save**.
+
+![Grommet pack price and calculated fee when adding stringing](../images/stringing/admin-grommet-pack-price.jpg)
 
 ![Staff fee fields and date-only pickup](../images/stringing/staff-price-and-pickup-edit.jpg)
 
