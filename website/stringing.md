@@ -19,7 +19,7 @@ For a complete example, follow [one customer visit from request through collecti
 <details>
 <summary><strong>Publish pickup availability</strong></summary>
 
-**Admin → Stringing → Pickup availability.** The page shows today's date and current week number. Choose a **WW** card. **Not set** means the week has no upcoming published slots. A **Set** card shows how many slots are published. **Editable through** shows the last Sunday inside the rolling 60-day window. The next week appears when its Sunday is inside the window.
+**Admin → Stringing → Pickup availability.** The page shows today's date and current week number. Choose a **WW** card. **Not set** means the week has no upcoming published slots. A **Set** card shows how many slots are published. **Editable through** shows the last Sunday inside the rolling 60-day window. The next week appears when its Sunday is inside the window. Publish an initial schedule here so customers can choose pickup slots.
 
 ![The calendar shows the last fully covered week](../images/stringing/pickup-availability-cutoff.jpg)
 
@@ -27,7 +27,7 @@ Under **Open a range**, choose the weeks and days, then pick a start and end tim
 
 ![A time range selected and ready to save](../images/stringing/pickup-availability-grid.jpg)
 
-Under **Individual slots**, select a cell to open or close it. On a phone, swipe sideways to reach later days. **Closed · booked** keeps the existing appointment.
+Under **Individual slots**, select a cell to open or close it. On a phone, swipe sideways to reach later days. **Closed · booked** keeps the existing appointment and prevents reuse when the racket is marked ready.
 
 Select **Save changes** to apply the range and any cell edits. Use **Discard changes** to clear the draft. To close all unbooked slots for one week, select its **WW** card, then choose **Clear open slots → Save changes**. Booked slots stay booked.
 
@@ -35,7 +35,7 @@ Select **Save changes** to apply the range and any cell edits. Use **Discard cha
 
 ![An unsaved cell edit and the Save changes button](../images/stringing/pickup-availability-cell-mobile.jpg)
 
-To free a slot early, choose **Ready for pickup → Confirm change** on the completed racket. An upcoming slot reopens for another stringing request. The original customer's pickup time stays on their job.
+To free a slot early, choose **Ready for pickup → Confirm change** on the completed racket. An upcoming slot reopens for another stringing request if it is still open. The original customer's pickup time stays on their job.
 
 ![Confirm Ready for pickup to free an upcoming slot](../images/stringing/ready-releases-stringing-slot.jpg)
 
@@ -61,7 +61,7 @@ to be selected. Correct the search and choose a result to enable Save.
 
 **Add stringing → select a member → enter the racket name and tension.** Choose a model and colour from **String**. The catalogue price fills **String fee (RM)** and can be adjusted. Choose a **Grommet type** by its pack quantity and price, then enter the number used to calculate the fee.
 
-Open **Pickup schedule (optional)** to enter a date only, or choose **Show pickup slots** and select a 30-minute slot. Leave the date blank to save as **Unscheduled**. Select **Save**.
+Open **Pickup schedule (optional)** to enter a date only without using a slot, or choose **Show pickup slots** and select a 30-minute slot. Leave the date blank to save as **Unscheduled**. Select **Save**.
 
 ![Grommet pack price and calculated fee when adding stringing](../images/stringing/admin-grommet-pack-price.jpg)
 

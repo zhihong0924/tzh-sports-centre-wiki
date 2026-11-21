@@ -24,7 +24,7 @@ Submitting does not record payment.
 <details>
 <summary><strong>2 · Admin agrees the setup and receives the racket</strong></summary>
 
-Open **Requests** and choose **Receive racket** beside the incoming racket (awaiting deployment). Confirm the actual receipt date and agreed fees. In this example, the catalogue fills **RM35** for the string. Choose **High-quality grommets** and enter **9** to fill **RM5** for grommets. Choose **Receive racket** to save. Use **Customers → Stage → Received** for the next step. If the specification needs advice, open the job and agree the string and tension before starting work.
+Open **Requests** and choose **Receive racket** beside the incoming racket (awaiting deployment). Confirm the actual receipt date and agreed fees. In this example, the catalogue fills **RM35** for the string. Choose **High-quality · 2 for RM1** and enter **9** to fill **RM5** for grommets. Choose **Receive racket** to save. Use **Customers → Stage → Received** for the next step. If the specification needs advice, open the job and agree the string and tension before starting work.
 
 ![Receive a racket and calculate the grommet fee](../images/stringing/receive-racket-quantity.jpg)
 
@@ -48,7 +48,7 @@ not change the job's progress.
 <details>
 <summary><strong>4 · Ready for pickup, then collected</strong></summary>
 
-Choose **Ready for pickup → Confirm change** when the racket is ready. An upcoming slot can then be booked for another racket. The original customer keeps their pickup time.
+Choose **Ready for pickup → Confirm change** when the racket is ready. An upcoming open slot can then be booked for another racket. The original customer keeps their pickup time.
 Use **Message → Stage: Ready for pickup** to review the message, open WhatsApp
 and send it. Return and choose **Mark as sent**; opening WhatsApp alone does not
 record contact.
