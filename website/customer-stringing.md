@@ -50,6 +50,8 @@ Under **Timing**, select a **Planned drop-off**. Use **Choose another time** if 
 
 Select **Submit request → Confirm request**. Once accepted, your slot reserves time to string your racket. When it’s ready, you can still collect at your planned time. Keep the reference and bring your racket at the planned drop-off time. No payment is required to submit.
 
+![Review the selected slot before confirming](../images/stringing/flow-confirm-with-slot.jpg)
+
 </details>
 
 <details>
@@ -73,8 +75,7 @@ String model and tension have separate labels. A chosen string stays visible whe
 <summary><strong>3 · Choose pickup</strong></summary>
 
 Normally choose a pickup date after the drop-off date. **Same-day pickup available
-today** permits later-today pickup only when both dates are today and the centre
-is open. Staff can switch it off; if availability changes, your details stay and
+today** permits later-today pickup when both dates are today, the centre is open, and a slot is available after drop-off. Staff can switch it off; if availability changes, your details stay and
 you can choose another available slot.
 
 </details>

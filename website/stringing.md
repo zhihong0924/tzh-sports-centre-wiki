@@ -1,7 +1,7 @@
 # Stringing · quick guide
 
 **Administrator**
-[Open Stringing](https://tzhsports.vercel.app/admin/stringing) · [This week](../changelog/2026-10-19.md)
+[Open Stringing](https://tzhsports.vercel.app/admin/stringing)
 
 Open the step you need. Screenshots use fictional customers. Catalogue autofill, quantity pricing and pickup slots are awaiting deployment.
 
@@ -12,9 +12,11 @@ For a complete example, follow [one customer visit from request through collecti
 
 **Incoming rackets.** Open **Requests**, find the customer and racket, then choose **Receive racket**. Check the actual received date, string fee and grommet fee. A matching catalogue string supplies a suggested price. Check the racket to determine the quantity. Choose **Grommet type** and enter **Grommet quantity** to fill the fee. Standard costs RM1 per four and high-quality costs RM1 per two. Partial packs round up. You can enter the actual fee directly. Confirm with **Receive racket**. The job leaves Requests and appears under Received in Customers. Payment is still outstanding.
 
+![Receipt with catalogue price and calculated grommet fee](../images/stringing/receive-racket-quantity.jpg)
+
 **Same-day pickup today** is visible on every tab. Switch On while open to allow
 later-today customer pickup; switch Off at any time. It ends at closing, never
-carries into tomorrow, and switching Off preserves accepted requests.
+carries into tomorrow, and switching Off preserves accepted requests. Publish a slot after the customer’s drop-off time for them to select it.
 
 ![Visible mobile same-day policy](../images/stringing/same-day-policy-mobile.jpg)
 
@@ -56,6 +58,8 @@ to be selected. Correct the search and choose a result to enable Save.
 Open **Pickup schedule (optional)** to enter a date only, or choose **Show pickup slots** and select a 30-minute slot. Leave the date blank to save as **Unscheduled**. Select **Save**.
 
 ![Staff fee fields and date-only pickup](../images/stringing/staff-price-and-pickup-edit.jpg)
+
+![Saved date-only pickup on a phone](../images/stringing/staff-date-only-saved.jpg)
 
 </details>
 

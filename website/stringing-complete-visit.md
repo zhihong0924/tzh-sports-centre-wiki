@@ -4,7 +4,7 @@
 
 [Customer Stringing](https://tzhsports.vercel.app/stringing) · [Admin Stringing](https://tzhsports.vercel.app/admin/stringing) · [Admin quick guide](stringing.md)
 
-Follow one fictional visit from request to collection, feedback and the next restring reminder.
+Follow a fictional visit from request to collection, feedback and the next restring reminder. The pickup grid and updated fee controls are awaiting deployment.
 
 <details>
 <summary><strong>1 · Customer submits a request</strong></summary>
@@ -17,16 +17,16 @@ Choose **Submit request → Confirm request**. Wait for **Request accepted**.
 The job appears in **My requests** as **Requested**, with fees **To be confirmed**.
 Submitting does not record payment.
 
-![Review the racket, times and advice request](../images/stringing/flow-02-confirm-request.png)
+![Review the requested string and pickup slot](../images/stringing/flow-confirm-with-slot.jpg)
 
 </details>
 
 <details>
 <summary><strong>2 · Admin agrees the setup and receives the racket</strong></summary>
 
-Open **Requests** and choose **Receive racket** beside the incoming racket (awaiting deployment). Confirm the actual receipt date and agreed fees. In this example, the string fee is **RM35** and grommets are **RM5**. Choose **Receive racket** to save. Use **Customers → Stage → Received** for the next step. If the specification needs advice, open the job and agree the string and tension before starting work.
+Open **Requests** and choose **Receive racket** beside the incoming racket (awaiting deployment). Confirm the actual receipt date and agreed fees. In this example, the catalogue fills **RM35** for the string. Choose **High-quality grommets** and enter **9** to fill **RM5** for grommets. Choose **Receive racket** to save. Use **Customers → Stage → Received** for the next step. If the specification needs advice, open the job and agree the string and tension before starting work.
 
-![Receive a racket and confirm fees](../images/stringing/admin-receive-racket.png)
+![Receive a racket and calculate the grommet fee](../images/stringing/receive-racket-quantity.jpg)
 
 </details>
 
