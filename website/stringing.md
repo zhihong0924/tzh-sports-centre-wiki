@@ -3,7 +3,7 @@
 **Administrator**
 [Open Stringing](https://tzhsports.vercel.app/admin/stringing)
 
-Open the step you need. Screenshots use fictional customers. Catalogue autofill, quantity pricing and pickup slots are awaiting deployment.
+Open the step you need. Screenshots use fictional customers.
 
 For a complete example, follow [one customer visit from request through collection, feedback and follow-up](stringing-complete-visit.md).
 
@@ -306,7 +306,7 @@ details. Staff still confirms the final fee and any grommet charges after inspec
 <details>
 <summary><strong>Check Codex reminder sent status</strong></summary>
 
-**Local preview; awaiting deployment and supervised WhatsApp setup.**
+**Scheduled sending requires supervised WhatsApp setup.**
 Codex uses the existing **Mark as sent** status in **Message**. It skips messages
 already marked sent. If a send was not recorded, a later run can retry; check
 WhatsApp when unsure because this may produce a duplicate. There is no separate

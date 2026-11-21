@@ -3,8 +3,6 @@
 **Signed-in customer**
 [Open Stringing](https://tzhsports.vercel.app/stringing) · [Admin guide](stringing.md)
 
-The pickup-slot grid is awaiting deployment.
-
 See [a complete customer visit](stringing-complete-visit.md) for the request, completed service, invoice and feedback screens.
 
 Open **🏸 Services → Stringing** from the navbar. On smaller screens, open the

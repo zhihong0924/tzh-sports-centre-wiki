@@ -4,13 +4,13 @@
 
 [Customer Stringing](https://tzhsports.vercel.app/stringing) · [Admin Stringing](https://tzhsports.vercel.app/admin/stringing) · [Admin quick guide](stringing.md)
 
-Follow a fictional visit from request to collection, feedback and the next restring reminder. The pickup grid and updated fee controls are awaiting deployment.
+Follow a fictional visit from request to collection, feedback and the next restring reminder.
 
 <details>
 <summary><strong>1 · Customer submits a request</strong></summary>
 
-Open **Request stringing**. Enter the racket model and choose a **Planned drop-off date**. Check the opening hours displayed below it. When the pickup grid is available, choose a published half-hour slot. See [Request and track stringing](customer-stringing.md) for the pickup steps and availability.
-Choose a listed string and select **18–34 lbs** or **Needs advice** for tension (awaiting deployment). Add other preferences
+Open **Request stringing**. Enter the racket model and choose a **Planned drop-off date**. Check the opening hours displayed below it. Choose a published half-hour pickup slot. See [Request and track stringing](customer-stringing.md) for the pickup steps and availability.
+Choose a listed string and select **18–34 lbs** or **Needs advice** for tension. Add other preferences
 in **Special instructions**. Fields marked **\*** are required.
 
 Choose **Submit request → Confirm request**. Wait for **Request accepted**.
@@ -24,7 +24,7 @@ Submitting does not record payment.
 <details>
 <summary><strong>2 · Admin agrees the setup and receives the racket</strong></summary>
 
-Open **Requests** and choose **Receive racket** beside the incoming racket (awaiting deployment). Confirm the actual receipt date and agreed fees. In this example, the catalogue fills **RM35** for the string. Choose **High-quality · 2 for RM1** and enter **9** to fill **RM5** for grommets. Choose **Receive racket** to save. Use **Customers → Stage → Received** for the next step. If the specification needs advice, open the job and agree the string and tension before starting work.
+Open **Requests** and choose **Receive racket** beside the incoming racket. Confirm the actual receipt date and agreed fees. In this example, the catalogue fills **RM35** for the string. Choose **High-quality · 2 for RM1** and enter **9** to fill **RM5** for grommets. Choose **Receive racket** to save. Use **Customers → Stage → Received** for the next step. If the specification needs advice, open the job and agree the string and tension before starting work.
 
 ![Receive a racket and calculate the grommet fee](../images/stringing/receive-racket-quantity.jpg)
 
