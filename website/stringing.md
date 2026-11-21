@@ -21,13 +21,13 @@ For a complete example, follow [one customer visit from request through collecti
 
 **Admin → Stringing → Pickup availability.** The page shows today's date and current week number. Choose a **WW** card. **Not set** means the week has no upcoming published slots. A **Set** card shows how many slots are published.
 
-Under **Bulk availability**, choose how many weeks and which days to update. Pick a start and end time within their shared operating hours, then choose **Stage openings** or **Stage closures**.
+Under **Open a range**, choose the weeks and days, then pick a start and end time. The grid previews the openings immediately.
 
-![Staged openings across two numbered weeks](../images/stringing/pickup-availability-grid.jpg)
+![A time range selected and ready to save](../images/stringing/pickup-availability-grid.jpg)
 
-Under **Individual slots**, select a cell to stage an opening or closure. On a phone, swipe sideways to reach later days. **Closed · booked** keeps the existing appointment.
+Under **Individual slots**, select a cell to open or close it. On a phone, swipe sideways to reach later days. **Closed · booked** keeps the existing appointment.
 
-Select **Save changes** to apply all staged changes. Use **Discard changes** to clear the draft.
+Select **Save changes** to apply the range and any cell edits. Use **Discard changes** to clear the draft.
 
 ![An unsaved cell edit and the Save changes button](../images/stringing/pickup-availability-cell-mobile.jpg)
 
