@@ -21,13 +21,15 @@ For a complete example, follow [one customer visit from request through collecti
 
 **Admin → Stringing → Pickup availability.** The page shows today's date and current week number. Choose a **WW** card. **Not set** means the week has no upcoming published slots. A **Set** card shows how many slots are published.
 
-Under **Bulk availability**, choose how many weeks to update, starting with the selected week. Set the weekdays and hours, then select **Publish slots**. Use **Close slots** to withdraw matching slots. Times that have passed are skipped.
+Under **Bulk availability**, choose how many weeks and which days to update. Pick a start and end time within their shared operating hours, then choose **Stage openings** or **Stage closures**.
 
-![Publishing availability across two numbered weeks](../images/stringing/pickup-availability-grid.jpg)
+![Staged openings across two numbered weeks](../images/stringing/pickup-availability-grid.jpg)
 
-Under **Individual slots**, select a cell to open or close that one slot. On a phone, swipe the table sideways to reach later days. **Closed · booked** means the slot is closed to new requests and the existing appointment stays booked.
+Under **Individual slots**, select a cell to stage an opening or closure. On a phone, swipe sideways to reach later days. **Closed · booked** keeps the existing appointment.
 
-![A closed slot with its booking preserved](../images/stringing/pickup-availability-cell-mobile.jpg)
+Select **Save changes** to apply all staged changes. Use **Discard changes** to clear the draft.
+
+![An unsaved cell edit and the Save changes button](../images/stringing/pickup-availability-cell-mobile.jpg)
 
 To free a slot early, choose **Ready for pickup → Confirm change** on the completed racket. An upcoming slot reopens for another stringing request. The original customer's pickup time stays on their job.
 
