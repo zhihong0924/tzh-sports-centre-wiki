@@ -19,7 +19,7 @@ For a complete example, follow [one customer visit from request through collecti
 <details>
 <summary><strong>Publish pickup availability</strong></summary>
 
-**Admin → Stringing → Pickup availability.** Set the start date, number of days, weekdays and hours. Use **7** days for one week or **14** for two, then select **Publish slots**. Check the grid and use **Next week** to see later dates. Staff and members can choose from the same 30-minute slots. Enter the range and select **Close slots** to stop new reservations in it. Existing pickups stay on the timetable. For same-day stringing, publish a slot that starts after the customer’s drop-off.
+**Admin → Stringing → Pickup availability.** Set the start date, number of days, weekdays and hours. Use **7** days for one week or **14** for two, then select **Publish slots**. Check the grid and use **Next week** to see later dates. Staff and members can choose from the same 30-minute slots. Enter the range and select **Close slots** to stop new reservations in it. Existing pickups stay on the timetable. For same-day stringing, publish a slot on the drop-off date. The customer should bring the racket by the start of their slot.
 
 ![Publishing two weeks of pickup slots](../images/stringing/pickup-availability-grid.jpg)
 

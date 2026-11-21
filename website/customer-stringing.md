@@ -44,11 +44,11 @@ If a photo is unavailable, the name and price remain selectable.
 
 ![Required specifications and grommet price](../images/stringing/customer-required-specification.png)
 
-Under **Timing**, select a **Planned drop-off**. Use **Choose another time** if you need a different drop-off. Choose one of the available **Pickup slots**, using **Next week** to see more dates. On a phone, swipe the table sideways to see later days.
+Under **Timing**, choose a **Planned drop-off date**. The opening hours for that date appear below it. Choose one of the available **Pickup slots**, using **Next week** to see more dates. On a phone, swipe the table sideways to see later days.
 
 ![Pick a 30-minute slot on a phone](../images/stringing/member-pickup-grid.jpg)
 
-Select **Submit request → Confirm request**. Once accepted, your slot reserves time to string your racket. When it’s ready, you can still collect at your planned time. Keep the reference and bring your racket at the planned drop-off time. No payment is required to submit.
+Select **Submit request → Confirm request**. Once accepted, your slot reserves time to string your racket. When it’s ready, you can still collect at your planned time. Keep the reference and bring your racket on the selected date during opening hours. No payment is required to submit.
 
 ![Review the selected slot before confirming](../images/stringing/flow-confirm-with-slot.jpg)
 
@@ -74,7 +74,7 @@ String model and tension have separate labels. A chosen string stays visible whe
 <details>
 <summary><strong>3 · Choose pickup</strong></summary>
 
-Choose any available pickup slot after your planned drop-off. Both times can be on the same day. If the slot is taken while you are filling out the form, choose another available time.
+Choose an available pickup slot for the drop-off date or a later date. For same-day pickup, bring the racket by the start of the slot. If the slot is taken while you are filling out the form, choose another available time.
 
 </details>
 
