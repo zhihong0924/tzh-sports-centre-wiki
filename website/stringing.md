@@ -8,24 +8,18 @@ Open the step you need. Screenshots use fictional customers. Catalogue autofill,
 For a complete example, follow [one customer visit from request through collection, feedback and follow-up](stringing-complete-visit.md).
 
 <details>
-<summary><strong>Customer requests and same-day pickup</strong></summary>
+<summary><strong>Receive customer requests</strong></summary>
 
 **Incoming rackets.** Open **Requests**, find the customer and racket, then choose **Receive racket**. Check the actual received date, string fee and grommet fee. A matching catalogue string supplies a suggested price. Check the racket to determine the quantity. Choose **Grommet type** and enter **Grommet quantity** to fill the fee. Standard costs RM1 per four and high-quality costs RM1 per two. Partial packs round up. You can enter the actual fee directly. Confirm with **Receive racket**. The job leaves Requests and appears under Received in Customers. Payment is still outstanding.
 
 ![Receipt with catalogue price and calculated grommet fee](../images/stringing/receive-racket-quantity.jpg)
-
-**Same-day pickup today** is visible on every tab. Switch On while open to allow
-later-today customer pickup; switch Off at any time. It ends at closing, never
-carries into tomorrow, and switching Off preserves accepted requests. Publish a slot after the customer’s drop-off time for them to select it.
-
-![Visible mobile same-day policy](../images/stringing/same-day-policy-mobile.jpg)
 
 </details>
 
 <details>
 <summary><strong>Publish pickup availability</strong></summary>
 
-**Admin → Stringing → Pickup availability.** Set the start date, number of days, weekdays and hours. Use **7** days for one week or **14** for two, then select **Publish slots**. Check the grid and use **Next week** to see later dates. Staff and members can choose from the same 30-minute slots. Enter the range and select **Close slots** to stop new reservations in it. Existing pickups stay on the timetable.
+**Admin → Stringing → Pickup availability.** Set the start date, number of days, weekdays and hours. Use **7** days for one week or **14** for two, then select **Publish slots**. Check the grid and use **Next week** to see later dates. Staff and members can choose from the same 30-minute slots. Enter the range and select **Close slots** to stop new reservations in it. Existing pickups stay on the timetable. For same-day stringing, publish a slot that starts after the customer’s drop-off.
 
 ![Publishing two weeks of pickup slots](../images/stringing/pickup-availability-grid.jpg)
 
@@ -244,21 +238,6 @@ For example, **Stage → Requested** shows only requested jobs; **Reset filters*
 restores all visits. **Total spent** remains the customer’s lifetime paid total.
 
 ![Only jobs matching the selected stage](../images/stringing/customer-stage-filter.png)
-
-**Same-day pickup** is a compact On/Off switch in the toolbar. Tap the info icon
-for the daily reset details. **Requests** beside it opens requested jobs.
-
-![Compact same-day control and separate actions](../images/stringing/same-day-toolbar.png)
-
-![Same-day control on mobile](../images/stringing/same-day-toolbar-mobile.png)
-
-The Same-day pickup setting, Requests and Add stringing controls use matching heights. On phones, the setting sits above the two action buttons.
-
-The Off switch has a contrasting track and border in light and dark themes.
-
-![Same-day switch in light theme](../images/stringing/same-day-toolbar-light.png)
-
-![Same-day switch in dark theme](../images/stringing/same-day-toolbar-dark.png)
 
 <details>
 <summary>Open stringing work from Admin actions</summary>

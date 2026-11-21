@@ -74,9 +74,7 @@ String model and tension have separate labels. A chosen string stays visible whe
 <details>
 <summary><strong>3 · Choose pickup</strong></summary>
 
-Normally choose a pickup date after the drop-off date. **Same-day pickup available
-today** permits later-today pickup when both dates are today, the centre is open, and a slot is available after drop-off. Staff can switch it off; if availability changes, your details stay and
-you can choose another available slot.
+Choose any available pickup slot after your planned drop-off. Both times can be on the same day. If the slot is taken while you are filling out the form, choose another available time.
 
 </details>
 
