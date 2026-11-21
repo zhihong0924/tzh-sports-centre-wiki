@@ -19,9 +19,15 @@ For a complete example, follow [one customer visit from request through collecti
 <details>
 <summary><strong>Publish pickup availability</strong></summary>
 
-**Admin → Stringing → Pickup availability.** Set the start date, number of days, weekdays and hours. Use **7** days for one week or **14** for two, then select **Publish slots**. Check the grid and use **Next week** to see later dates. Staff and members can choose from the same 30-minute slots. Enter the range and select **Close slots** to stop new reservations in it. Existing pickups stay on the timetable. For same-day stringing, publish a slot on the drop-off date. The customer should bring the racket by the start of their slot.
+**Admin → Stringing → Pickup availability.** The page shows today's date and current week number. Choose a **WW** card. **Not set** means the week has no upcoming published slots. A **Set** card shows how many slots are published.
 
-![Publishing two weeks of pickup slots](../images/stringing/pickup-availability-grid.jpg)
+Under **Bulk availability**, choose how many weeks to update, starting with the selected week. Set the weekdays and hours, then select **Publish slots**. Use **Close slots** to withdraw matching slots. Times that have passed are skipped.
+
+![Publishing availability across two numbered weeks](../images/stringing/pickup-availability-grid.jpg)
+
+Under **Individual slots**, select a cell to open or close that one slot. On a phone, swipe the table sideways to reach later days. **Closed · booked** means the slot is closed to new requests and the existing appointment stays booked.
+
+![A closed slot with its booking preserved](../images/stringing/pickup-availability-cell-mobile.jpg)
 
 To free a slot early, choose **Ready for pickup → Confirm change** on the completed racket. An upcoming slot reopens for another stringing request. The original customer's pickup time stays on their job.
 
