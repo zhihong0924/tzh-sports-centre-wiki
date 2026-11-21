@@ -19,9 +19,9 @@ For a complete example, follow [one customer visit from request through collecti
 <details>
 <summary><strong>Publish pickup availability</strong></summary>
 
-**Admin → Stringing → Pickup availability.** The page shows today's date and current week number. Choose a **WW** card. **Not set** means the week has no upcoming published slots. A **Set** card shows how many slots are published. **Editable through** shows the last date of the rolling 90-day window. The final week ends on that date.
+**Admin → Stringing → Pickup availability.** The page shows today's date and current week number. Choose a **WW** card. **Not set** means the week has no upcoming published slots. A **Set** card shows how many slots are published. **Editable through** shows the last Sunday inside the rolling 60-day window. The next week appears when its Sunday is inside the window.
 
-![The final week ends on the last editable date](../images/stringing/pickup-availability-cutoff.jpg)
+![The calendar shows the last fully covered week](../images/stringing/pickup-availability-cutoff.jpg)
 
 Under **Open a range**, choose the weeks and days, then pick a start and end time. The grid previews the openings immediately.
 

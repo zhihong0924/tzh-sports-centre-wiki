@@ -44,7 +44,7 @@ If a photo is unavailable, the name and price remain selectable.
 
 ![Required specifications and grommet price](../images/stringing/customer-required-specification.png)
 
-Under **Timing**, choose a **Planned drop-off date**. The opening hours for that date appear below it. Choose one of the available **Pickup slots**, using **Next week** to see more dates. You can choose a published slot up to 90 days ahead. On a phone, swipe the table sideways to see later days.
+Under **Timing**, choose a **Planned drop-off date**. The opening hours for that date appear below it. Choose one of the available **Pickup slots**, using **Next week** to see more dates. You can choose a published slot up to 60 days ahead. On a phone, swipe the table sideways to see later days.
 
 ![Pick a 30-minute slot on a phone](../images/stringing/member-pickup-grid.jpg)
 
